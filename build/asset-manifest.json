@@ -1,26 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.161f99fc.css",
-    "main.js": "/static/js/main.5a0cbffc.js",
+    "main.css": "/static/css/main.991d1ce8.css",
+    "main.js": "/static/js/main.6bd352d5.js",
+    "static/media/Support icon.gif": "/static/media/Support icon.5bc5801d883802f2c3db.gif",
+    "static/media/game icon.gif": "/static/media/game icon.ed6f5072d3ce4bcb85ed.gif",
+    "static/media/Active User icon (2).gif": "/static/media/Active User icon (2).69d0fcace6f63edb1078.gif",
     "static/media/hero section images (1).svg": "/static/media/hero section images (1).3be92720958682c5566a2a3cff34b606.svg",
     "static/media/Light them logo.svg": "/static/media/Light them logo.ade7982e6769c4d5cbf2268d4abc2527.svg",
     "static/media/Rich143 logo.svg": "/static/media/Rich143 logo.5db74fc4965c2321615bc8c744d9a489.svg",
-    "static/media/Support icon.png": "/static/media/Support icon.879dd9955126bed93299.png",
     "static/media/begameble aware.org.svg": "/static/media/begameble aware.org.7be6a99f71535b259543bf41264ed2d2.svg",
     "static/media/Gambling therapy.svg": "/static/media/Gambling therapy.491284740874a671e4e2849bf23aa2ce.svg",
     "static/media/Games icon.png": "/static/media/Games icon.bfef8e0c6affe4df491f.png",
-    "static/media/Active User icon (2).png": "/static/media/Active User icon (2).1c5d3ee86ddc2ac9f4c4.png",
     "static/media/money-bag_13932790 (1) 1.png": "/static/media/money-bag_13932790 (1) 1.60cf0f86d40622d0b463.png",
     "index.html": "/index.html",
     "static/media/18.svg.svg": "/static/media/18.svg.0c0b343f7d155b6f6927a16147f5eea0.svg",
     "static/media/Star-Icon.svg": "/static/media/Star-Icon.9abb91168b1d7314caa68a55827f91e9.svg",
     "static/media/grid-svgrepo-com (2).svg": "/static/media/grid-svgrepo-com (2).795e940a644f44732878.svg",
     "static/media/infinit.svg": "/static/media/infinit.d28f5e82505a903099db4a9af321c37a.svg",
-    "main.161f99fc.css.map": "/static/css/main.161f99fc.css.map",
-    "main.5a0cbffc.js.map": "/static/js/main.5a0cbffc.js.map"
+    "main.991d1ce8.css.map": "/static/css/main.991d1ce8.css.map",
+    "main.6bd352d5.js.map": "/static/js/main.6bd352d5.js.map"
   },
   "entrypoints": [
-    "static/css/main.161f99fc.css",
-    "static/js/main.5a0cbffc.js"
+    "static/css/main.991d1ce8.css",
+    "static/js/main.6bd352d5.js"
   ]
 }
