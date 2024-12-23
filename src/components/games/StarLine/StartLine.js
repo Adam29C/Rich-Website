@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import gameIcon from "../../../RichImages/Games icon.png";
+import gameIcon from "../../../RichImages/game icon.gif";
 
 import { GET_ALL_STARTLINE_GAMES } from "../../service/admin.service";
 import { downloadAPK } from "../../Helpers/DownloadAPK";

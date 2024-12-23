@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { GET_ALL_GAMERATES } from "../../service/admin.service";
-import doller from "../../../RichImages/money-bag_13932790 (1) 1.png";
+import doller from "../../../RichImages/money-bag_13932790 (2).gif";
 
 const GameRateSection = () => {
   const [getData, setgetData] = useState([]);

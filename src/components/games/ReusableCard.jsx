@@ -6,7 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Table from "react-bootstrap/Table";
 import star from "../../images/Star-Icon.svg";
 import { downloadAPK } from "../Helpers/DownloadAPK";
-import gameIcon from "../../RichImages/Games icon.png"
+import gameIcon from "../../RichImages/game icon.gif"
 
 const Section4 = ({ GameData, title, showPana }) => {
   const [ModalData, setModalData] = useState([]);
@@ -53,7 +53,7 @@ const Section4 = ({ GameData, title, showPana }) => {
       <div className="available-component">
         <div className="heding-sec heading-sec-custom cust-m text-center">
           <div className="d-flex text-center justify-content-center align-items-center">
-            {" "}
+         
             <img className="game-icons-img" src={gameIcon} alt="#" />
             <h5 className="mb-0 ms-2 me-2 rich-game-title">{title}</h5>
             <img className="game-icons-img" src={gameIcon} alt="#" />
