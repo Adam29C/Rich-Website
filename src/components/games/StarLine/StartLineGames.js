@@ -28,7 +28,7 @@ import KalyanNight from "../../Charts/starLinePanaChart/11Am";
 import TimeBazar from "../../Charts/starLinePanaChart/9PM";
 import MainBazar from "../../Charts/starLinePanaChart/2PM";
 
-import AllStarline from "../../Charts/starLinePanaChart/AllStarline"
+import AllStarline from "../../Charts/starLinePanaChart/AllStarline";
 import { GetAllCharts } from "../../Helpers/GetCharts";
 const Pana_Chart = () => {
   const navigate = useNavigate();
@@ -52,17 +52,14 @@ const Pana_Chart = () => {
   };
 
   const getResponseData = async () => {
-
     if (location.state.title != "allratanstarline") {
       // const req = nameRejext(location.state.title);
-    // const req = location.state.id;
-    const req = location.state;
-
+      // const req = location.state.id;
+      const req = location.state;
 
       const res = await GetAllCharts(GET_ALL_STARLINE_GAME_PANA_CHART, req);
       setgetData(res);
     }
-
   };
   useEffect(() => {
     getResponseData();
@@ -79,14 +76,19 @@ const Pana_Chart = () => {
             <div className="">
               <h2 className="chart-header-font">
                 <strong style={{ color: "rgb(51, 51, 51)" }}>
-                  Ratan Starline &nbsp;
-                  {location.state.title === 'allratanstarline' ? "" : location.state.title}&nbsp; Chart
+                  Starline &nbsp;
+                  {location.state.title === "allratanstarline"
+                    ? ""
+                    : location.state.title}
+                  &nbsp; Chart
                 </strong>
               </h2>
               <p>
-                {location.state.title === 'allratanstarline' ? "" : location.state.title}&nbsp; Pana Chart Satta Matka Record Old
-                History Historical Data Bracket Results Chart Online Live Book
-                Digits Numbers
+                {location.state.title === "allratanstarline"
+                  ? ""
+                  : location.state.title}
+                &nbsp; Pana Chart Satta Matka Record Old History Historical Data
+                Bracket Results Chart Online Live Book Digits Numbers
               </p>
             </div>
 
@@ -140,7 +142,8 @@ const Pana_Chart = () => {
                 <TimeBazar chartData={getData.data} />
               ) : nameRejext(location.state.title) === nameRejext("2:00PM") ? (
                 <MainBazar chartData={getData.data} />
-              ) : nameRejext(location.state.title) === nameRejext("allratanstarline") ? (
+              ) : nameRejext(location.state.title) ===
+                nameRejext("allratanstarline") ? (
                 <AllStarline chartData={getData.data} />
               ) : (
                 ""

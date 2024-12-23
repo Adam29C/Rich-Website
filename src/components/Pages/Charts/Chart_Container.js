@@ -28,28 +28,28 @@ const Charts_Container = ({ title, data, link, responsive_Class }) => {
           <div className="charts-games-main">
             <h3 className="charts-games-title"> {title}</h3>
             <div>
-              {title === "Ratan Starline" || title === "Ratan Jackpot" ? (
+              {title === "Starline" || title === "Jackpot" ? (
                 <>
                   <div className="charts-games">
                   
                     <h4 className="">
                       <Link
                         to={
-                          title === "Ratan Starline"
+                          title === "Starline"
                             ? "/starline/allratanstarline"
                             : "/andarbahar/allratanjackpot"
                         }
                         className="text-decoration-none primary-color"
                         state={{
                           title:
-                            title === "Ratan Starline"
+                            title === "Starline"
                               ? "allratanstarline"
                               : "allratanjackpot",
                         }}
                       >
-                        {title === "Ratan Starline"
-                          ? "ALL RATAN STARLINE CHART"
-                          : "ALL RATAN JACKPOT CHART"}
+                        {title === "Starline"
+                          ? "ALL STARLINE CHART"
+                          : "ALL JACKPOT CHART"}
                       </Link>
                     </h4>
                   </div>

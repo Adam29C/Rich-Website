@@ -12,7 +12,7 @@
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
-  font-family: "Libre Baskerville", serif, ;
+  font-family: "Libre Baskerville", serif;
 }
 
 :root {
@@ -120,6 +120,12 @@ table,
 td,
 th {
   border: 1px solid rgb(206, 202, 202);
+}
+
+th {
+  background-color: none !important;
+  color: #0000 !important;
+  border-bottom: 1px solid rgb(218, 215, 215) !important;
 }
 
 .pt-110 {
@@ -297,7 +303,7 @@ button.navbar-toggler.navbar-toggler-btn:focus {
 }
 
 .btn-scroll {
-  width: 138px;
+  width: 152px;
   height: 40px;
 }
 
@@ -536,6 +542,11 @@ button.navbar-toggler.navbar-toggler-btn:focus {
 }
 .chart-header {
   padding: 50px 130px;
+}
+
+.cc,
+.ch {
+  color: #000000 !important;
 }
 
 .accordion-container .accordion-section {

@@ -51,8 +51,7 @@ const Andar_Bahar_Chart = (props) => {
     if (location.state.title != "allratanjackpot") {
       // const req = nameRejext(location.state.title);
       // const req = location.state.id;
-    const req = location.state;
-
+      const req = location.state;
 
       const res = await GetAllCharts(GET_JACKPOT_JODI_CHART, req);
       setgetData(res);
@@ -73,7 +72,7 @@ const Andar_Bahar_Chart = (props) => {
             <div className="">
               <h2 className="chart-header-font">
                 <strong className="color-dark-gray ">
-                  Ratan Jackpot &nbsp;
+                  Jackpot &nbsp;
                   {location.state.title === "allratanjackpot"
                     ? ""
                     : location.state.title}
@@ -114,7 +113,7 @@ const Andar_Bahar_Chart = (props) => {
       <div className="container ">
         <div className="row justify-content-center">
           <div className="p-0 text-center d-flex justify-content-center   col-xl-12 col-q-12 col-md-12 col-sm-12 ">
-            <div className="table-responsive  text-center col-xl-8 col-lg-12 col-md-12 col-sm-12 ">
+            <div className="table-responsive  text-center col-xl-10 col-lg-12 col-md-12 col-sm-12">    
               {nameRejext(location.state.title) === nameRejext("7:30PM") ? (
                 <ShreeDay chartData={getData.data} />
               ) : nameRejext(location.state.title) === nameRejext("8:30PM") ? (

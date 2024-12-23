@@ -42,7 +42,7 @@ const AboutGames = () => {
           can become online matka play king and earn huge amount. The kalyan matka
           game which is the online matka play market was the first online matka
           market introduced by Kalyanji Bhagat in 1962 and the online matka Waroli
-          market was introduced back in 70’s by Ratan Khatri.
+          market was introduced back in 70’s by Rich143.
         </p>
         <button className="dROOdw "     
         onClick={handleClick}
@@ -64,7 +64,7 @@ const AboutGames = () => {
     </div>
     <div className="about-game-main dFgvOd">
       <div className="jcyUcB">
-        <h1 className="h1-fw-600 mt-30px">This is how you play matka on Khatri555:</h1>
+        <h1 className="h1-fw-600 mt-30px">This is how you play matka on Rich143:</h1>
         <ul className="iKDfcs">
           <li className="hTaGYD f-size">
             <span >1.</span>Step 1 is to pick (3) numbers from 0–9. For example
@@ -90,7 +90,7 @@ const AboutGames = () => {
         </ul>
       </div>
       <div className="jcyUcB">
-        <h1 className="h1-fw-600">How to add money in Khatri555?</h1>
+        <h1 className="h1-fw-600">How to add money in Rich143?</h1>
         <ul className="iKDfcs">
           <li className="hTaGYD f-size">
             <span>1{/* */}.</span>Minimum Deposit is 100 /- Rs
@@ -129,7 +129,7 @@ const AboutGames = () => {
         >
           The game you played and got lucky enough to win it then accordingly your
           points will be increased.If you wish to encash the points, just apply
-          for withdrawal request on our Khatri555 Mobile App.
+          for withdrawal request on our Rich143 Mobile App.
         </li>
         <li className='f-size'
         >
@@ -148,7 +148,7 @@ const AboutGames = () => {
           Satta is a broad word to describe “betting” in India or Hindi. The Matka
           game is sometimes referred to as Indian Satta Matka because of its early
           popularity. If you are interested in betting games, you can check out
-          the numbers game at Khatri555.com
+          the numbers game at Rich143.com
         </p>
       </div>
       <div className="jcyUcB">
@@ -317,7 +317,7 @@ const AboutGames = () => {
           Nowadays, Matka betting, or Satta King, is a popular lottery-style game.
           It involves the selection of random numbers in the hopes of hitting the
           right number combination. The winner becomes the Satta King and they
-          earn the bulk of the prize pool. The legendary Ratan Khatri is popularly
+          earn the bulk of the prize pool. The legendary Rich143 is popularly
           known as the Matka King. After his arrest in 1995, he had to discontinue
           his games and now crooks are running the game he loved so much by fixing
           the numbers. A big fall from grace, but his name remains legendary among
@@ -329,7 +329,7 @@ const AboutGames = () => {
         <p className='f-size'
         >
           Big-time enthusiasts still play this game and they remember the days of
-          Ratan having celebrities pull draws for him. The game has since lost
+          Rich143 having celebrities pull draws for him. The game has since lost
           most of its following. Indians have chosen the faster-paced action of
           online cricket betting or live dealer casinos on their mobile devices.
           IPL betting draws people like nothing else in India and fans wait

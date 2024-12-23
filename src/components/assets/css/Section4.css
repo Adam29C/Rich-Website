@@ -37,7 +37,7 @@ button:not(:disabled) {
 
 th {
   background-color: none !important;
-  color: var(--color-black) !important;
+  color: #0000 !important;
   border-bottom: 1px solid rgb(218, 215, 215) !important;
 }
 

@@ -38,12 +38,12 @@ const Charts = () => {
           <Jodi_Chart title="Jodi Chart" data={getChart} link="jodi" />
           <Pana_Chart title="Pana Chart" data={getChart} link="pana" />
           <Shree_Starline
-            title="Ratan Starline"
+            title="Starline"
             data={getStarline}
             link="starline"
           />
           <Shree_Jackpot
-            title="Ratan Jackpot"
+            title="Jackpot"
             data={getJackpot}
             link="jackpot"
           />

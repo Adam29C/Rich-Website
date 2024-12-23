@@ -30,7 +30,7 @@ const TermsCondition = () => {
             <li>
               <span className="span-tag-color">●</span>
               <p  className='f-size'>
-                If Users Entered Wrong Bank Details Khatri555 Is Not
+                If Users Entered Wrong Bank Details Rich143 Is Not
                 Responsible.
               </p>
             </li>

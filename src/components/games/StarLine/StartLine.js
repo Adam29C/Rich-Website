@@ -55,7 +55,7 @@ const StartLine = () => {
         <div className="heding-sec heading-sec-custom cust-m text-center">
          <div className="d-flex text-center justify-content-center align-items-center"> 
          <img className="game-icons-img" src={gameIcon} alt="#" />
-          <h5 className="mb-0 ms-2 me-2 rich-game-title">RATAN STARLINE GAMES</h5>
+          <h5 className="mb-0 ms-2 me-2 rich-game-title">STARLINE GAMES</h5>
           <img className="game-icons-img" src={gameIcon} alt="#" />
           </div>
           <p className="rich-game-title-text">
@@ -84,10 +84,10 @@ const StartLine = () => {
                                 "Close for today"
                                 ? "red"
                                 : showData(data?.gameDetails)?.message ==
-                                  "Betting is running for close"
+                                  "Running for close"
                                 ? "red"
                                 : showData(data?.gameDetails)?.message ==
-                                  "Betting is running for open"
+                                  "Running for open"
                                 ? "#4BB543"
                                 : "#4BB543",
                           }}
