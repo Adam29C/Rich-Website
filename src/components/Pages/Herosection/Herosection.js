@@ -3,9 +3,9 @@ import "../../assets/css/Herosection.css";
 import { GET_CONTACT } from "../../service/admin.service";
 import { downloadAPK } from "../../Helpers/DownloadAPK";
 import heroimage from "../../../RichImages/hero section images (1).svg";
-import activeuser from "../../../RichImages/Active User icon (2).png";
-import gameicon from "../../../RichImages/Games icon.png";
-import supporticon from "../../../RichImages/Support icon.png";
+import activeuser from "../../../RichImages/Active User icon (2).gif";
+import gameicon from "../../../RichImages/game icon.gif";
+import supporticon from "../../../RichImages/Support icon.gif";
 
 
 const Section2 = () => {

@@ -5,18 +5,20 @@
 @import url("./components/assets/css/Wraper.css");
 @import url("./components/assets/css/responsive.css");
 
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+
 * {
   box-sizing: border-box;
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
-  font-family: "Urbanist", "Roboto" "sans-serif";
+  font-family: "Libre Baskerville", serif, ;
 }
 
 :root {
-  --rich-color:#1C3E35;
+  --rich-color: #1c3e35;
   --color-black: #0000;
-  --color-white: #FFFFFF;
+  --color-white: #ffffff;
   --light-blue: #c8e9ed;
   --btn-color: #237f8a;
   --other-color: #4bb543;
@@ -33,9 +35,8 @@
 .f-size {
   font-size: 18px;
   text-align: justify;
- 
 }
-.gry-col{
+.gry-col {
   color: var(--light-black);
 }
 a:hover {
@@ -49,8 +50,8 @@ body {
   overflow-x: hidden;
 }
 
-.rich-text-color{
-  background: linear-gradient(97.51deg, #1C3E35 -39.91%, #4AA48C 117.67%);
+.rich-text-color {
+  background: linear-gradient(97.51deg, #1c3e35 -39.91%, #4aa48c 117.67%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -97,8 +98,6 @@ body {
   color: rgb(51, 51, 51);
 }
 
-
-
 .card {
   width: 100%;
 
@@ -111,7 +110,7 @@ body {
 }
 
 .c_1 {
-  font-family: "Urbanist", sans-serif;
+  font-family: "Libre Baskerville", serif, "Urbanist", sans-serif;
   font-optical-sizing: auto;
   font-weight: 900;
   font-style: normal;
@@ -120,14 +119,13 @@ body {
 table,
 td,
 th {
-
   border: 1px solid rgb(206, 202, 202);
 }
 
 .pt-110 {
-  font-family: "Urbanist", sans-serif;
+  font-family: "Libre Baskerville", serif, "Urbanist", sans-serif;
   font-optical-sizing: auto;
- 
+
   font-style: normal;
 }
 
@@ -153,7 +151,7 @@ th {
 }
 .footer-btn-scroll {
   border: none;
-  background: linear-gradient(90deg, #1C3E35 0%, #4AA48C 100%);
+  background: linear-gradient(90deg, #1c3e35 0%, #4aa48c 100%);
   padding: 10px;
   color: white;
   display: flex;
@@ -205,17 +203,14 @@ th {
   border-top: 1px solid transparent;
   font-size: clamp(0.8rem, 0.723171rem + 0.439024vw, 1.25rem);
   text-align: center;
-
 }
 
 .footer-last-content p {
-
   padding-top: 20px;
   color: black;
 }
 
 .footer-last-content p a {
-
   text-decoration: none;
   color: black;
 }
@@ -224,8 +219,8 @@ th {
 }
 
 .back-btn {
-  font-family: "Urbanist", sans-serif;
-  background: linear-gradient(97.51deg, #1C3E35 -39.91%, #4AA48C 117.67%);
+  font-family: "Libre Baskerville", serif, "Urbanist", sans-serif;
+  background: linear-gradient(97.51deg, #1c3e35 -39.91%, #4aa48c 117.67%);
   border: none;
   color: var(--color-white);
   width: 150px;
@@ -234,15 +229,14 @@ th {
   transition: background-color 0.3s ease;
 }
 
-.back-btn:hover{
-  background: linear-gradient(97.51deg, #1C3E35 -39.91%, #4AA48C 117.67%);
+.back-btn:hover {
+  background: linear-gradient(97.51deg, #1c3e35 -39.91%, #4aa48c 117.67%);
   border: none;
   color: var(--color-white);
 }
 
-
 .btn-scroll {
-  font-family: "Urbanist", sans-serif;
+  font-family: "Libre Baskerville", serif, "Urbanist", sans-serif;
   cursor: pointer;
   background-color: transparent;
   padding: 3px 7px;
@@ -290,7 +284,6 @@ textarea {
   margin: 0;
 }
 
-
 /* Custom CSS */
 button.navbar-toggler.navbar-toggler-btn {
   border: none !important;
@@ -308,12 +301,10 @@ button.navbar-toggler.navbar-toggler-btn:focus {
   height: 40px;
 }
 
-
 .terms-condition-main {
   display: flex;
   flex-direction: column;
   padding-bottom: 0px;
- 
 }
 
 .terms-condition-contain {
@@ -391,8 +382,6 @@ button.navbar-toggler.navbar-toggler-btn:focus {
   text-decoration: none;
 }
 
-
-
 .hero-section-container {
   max-width: 100%;
   margin-left: auto;
@@ -415,7 +404,6 @@ button.navbar-toggler.navbar-toggler-btn:focus {
 .span-tag-color {
   color: rgb(222, 223, 223);
 }
-
 
 .main-btn-a {
   color: var(--color-black);
@@ -428,12 +416,9 @@ button.navbar-toggler.navbar-toggler-btn:focus {
   font-weight: 500;
 }
 
-
-
 .a-tag-css {
   text-decoration: none;
 }
-
 
 .hero-section-container {
   max-width: 100%;
@@ -457,7 +442,6 @@ button.navbar-toggler.navbar-toggler-btn:focus {
 .span-tag-color {
   color: rgb(222, 223, 223);
 }
-
 
 .Card_Size {
   width: 24%;
@@ -487,7 +471,6 @@ button.navbar-toggler.navbar-toggler-btn:focus {
   outline: none;
   padding: 0.5rem 1.5rem;
 }
-
 
 .custom-toggler .navbar-toggler-icon {
   background-image: url("./images/grid-svgrepo-com\ \(2\).svg");
@@ -544,9 +527,8 @@ button.navbar-toggler.navbar-toggler-btn:focus {
   font-weight: 400;
   line-height: 34px;
   color: #000000;
-
 }
-.copyright-text{
+.copyright-text {
   font-size: 20px;
   font-weight: 400;
   line-height: 34px;
@@ -652,7 +634,7 @@ button.navbar-toggler.navbar-toggler-btn:focus {
 }
 
 .btn-scroll {
-  background: linear-gradient(97.51deg, #1C3E35 -39.91%, #4AA48C 117.67%);
+  background: linear-gradient(97.51deg, #1c3e35 -39.91%, #4aa48c 117.67%);
   border: none;
   cursor: pointer;
   color: var(--color-white);
@@ -666,8 +648,6 @@ button.navbar-toggler.navbar-toggler-btn:focus {
 .text-alignment {
   text-align: left;
 }
-
-
 
 /* --------------------------------------  RESPONSIVE  */
 @media (min-width: 320px) and (max-width: 375px) {
@@ -890,7 +870,7 @@ button.navbar-toggler.navbar-toggler-btn:focus {
   } */
 
   .banner-left {
-    margin: 22px  0 3rem 0;
+    margin: 22px 0 3rem 0;
   }
 
   .table-responsive {
@@ -1097,7 +1077,6 @@ button.navbar-toggler.navbar-toggler-btn:focus {
 }
 
 @media (min-width: 768px) and (max-width: 768px) {
-
   .navbar-expand-lg .navbar-collapse {
     flex-basis: auto;
   }
@@ -1107,7 +1086,6 @@ button.navbar-toggler.navbar-toggler-btn:focus {
   .responsive_Nav {
     display: flex;
   }
- 
 
   .banner-left {
     margin: 0;
@@ -1140,7 +1118,8 @@ button.navbar-toggler.navbar-toggler-btn:focus {
 }
 
 @media screen and (min-width: 1200px) {
-  .nav-link:focus, .nav-link:hover {
+  .nav-link:focus,
+  .nav-link:hover {
     color: #fff !important;
   }
   .responsive_Nav {
@@ -1162,13 +1141,10 @@ button.navbar-toggler.navbar-toggler-btn:focus {
   }
 }
 
-
-
-
 @media (min-width: 1024px) {
-.navigation-links{
-  margin-top: 20px;
-}
+  .navigation-links {
+    margin-top: 20px;
+  }
   .chart-header {
     padding: 50px 50px;
   }
@@ -1214,7 +1190,6 @@ button.navbar-toggler.navbar-toggler-btn:focus {
     align-items: center;
     justify-content: space-between;
   }
-
 }
 
 @media (min-width: 1024px) and (max-width: 1440px) {
@@ -1308,23 +1283,22 @@ button.navbar-toggler.navbar-toggler-btn:focus {
   }
 }
 
-@media (max-width:1024px){
-  .game-rate-card-cust{
+@media (max-width: 1024px) {
+  .game-rate-card-cust {
     padding: 15px;
-    }
-    .game-rate-card-cust h1{
-      font-size: 20px;
-      line-height: 30px;
-      font-weight: 400;
   }
-  
-  .game-rate-card-cust h2{
-      font-size: 21px;
-      line-height: 23px;
-      font-weight: 400;
+  .game-rate-card-cust h1 {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+  }
+
+  .game-rate-card-cust h2 {
+    font-size: 21px;
+    line-height: 23px;
+    font-weight: 400;
   }
 }
-
 
 /* navbar css start */
 
@@ -1334,9 +1308,7 @@ button.navbar-toggler.navbar-toggler-btn:focus {
   justify-content: space-between;
 }
 
-
-
-.header-container{
+.header-container {
   height: 100px;
   width: 100%;
   max-width: 1440px;
@@ -1351,20 +1323,17 @@ button.navbar-toggler.navbar-toggler-btn:focus {
   width: 10rem;
 }
 
-
-
-.downloadBtn{
+.downloadBtn {
   font-size: 20px;
   font-weight: 400;
 }
 
-
-.game-icons-img{
+.game-icons-img {
   height: 50px;
   width: 50px;
 }
 
-.footer-terms-text{
+.footer-terms-text {
   margin-top: 20px;
   font-size: 20px;
   font-weight: 400;
@@ -1372,61 +1341,61 @@ button.navbar-toggler.navbar-toggler-btn:focus {
   text-align: center;
 }
 
-.footer-terms-text a{
+.footer-terms-text a {
   text-decoration: none;
   color: #000000;
 }
 
-.footer-right-sec{
+.footer-right-sec {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-.footer-left-sec{
+.footer-left-sec {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center
+  justify-content: center;
 }
 
-.charts-games{
-  border: 3px solid #1C3E35;
+.charts-games {
+  border: 3px solid #1c3e35;
   margin-top: 10px;
- padding: 5px;
+  padding: 5px;
   border-radius: 12px;
   text-align: center;
 }
 
-.charts-games h4{
-  color: #1C3E35;
+.charts-games h4 {
+  color: #1c3e35;
   font-weight: 700;
   font-size: 24px;
   line-height: 30px;
   text-align: center;
 }
 
-.charts-games-title{
-color: #000000;
-font-weight: 700;
-font-size: 35px;
-line-height: 50px;
-text-align: center;
-margin-bottom: 15px;
+.charts-games-title {
+  color: #000000;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 50px;
+  text-align: center;
+  margin-bottom: 15px;
 }
 
-.timetable{
+.timetable {
   margin-top: 40px;
 }
 
-.chart-header{
+.chart-header {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-.cust-m{
- margin: 20px 0px 20px 0px;
+.cust-m {
+  margin: 20px 0px 20px 0px;
 }
