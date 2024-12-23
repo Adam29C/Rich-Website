@@ -85,7 +85,7 @@ const StartLine = () => {
                                 ? "red"
                                 : showData(data?.gameDetails)?.message ==
                                   "Running for close"
-                                ? "red"
+                                ? "#4BB543"
                                 : showData(data?.gameDetails)?.message ==
                                   "Running for open"
                                 ? "#4BB543"

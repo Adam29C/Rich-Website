@@ -65,7 +65,7 @@ const Section2 = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="images-main-herosection">
+                  <div className="images-main-herosection col-md-12">
                     <div className="multi-image-main">
                       <img
                         className="herosection-images"

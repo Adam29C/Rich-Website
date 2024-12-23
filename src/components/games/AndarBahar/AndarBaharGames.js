@@ -52,9 +52,7 @@ const StartLine = () => {
         <div className="heding-sec heading-sec-custom cust-m text-center">
           <div className="d-flex text-center justify-content-center align-items-center">
             <img className="game-icons-img" src={gameIcon} alt="#" />
-            <h5 className="mb-0 ms-2 me-2 rich-game-title">
-            JACKPOT GAMES
-            </h5>
+            <h5 className="mb-0 ms-2 me-2 rich-game-title">JACKPOT GAMES</h5>
             <img className="game-icons-img" src={gameIcon} alt="#" />
           </div>
           <p className="rich-game-title-text">
@@ -91,6 +89,20 @@ const StartLine = () => {
                                 ? "default-message"
                                 : "default-message"
                             }`}
+                            style={{
+                              color:
+                                showData(data?.gameDetails) != undefined &&
+                                showData(data?.gameDetails)?.message ==
+                                  "Close for today"
+                                  ? "red"
+                                  : showData(data?.gameDetails)?.message ==
+                                    "Running for close"
+                                  ? "#4BB543"
+                                  : showData(data?.gameDetails)?.message ==
+                                    "Running for open"
+                                  ? "#4BB543"
+                                  : "#4BB543",
+                            }}
                           >
                             {getmsg}
                           </h6>

@@ -96,6 +96,20 @@ const Section4 = ({ GameData, title, showPana }) => {
                                 ? "default-message"
                                 : "default-message"
                             }`}
+                            style={{
+                              color:
+                                showData(data?.gameDetails) != undefined &&
+                                showData(data?.gameDetails)?.message ==
+                                  "Close for today"
+                                  ? "red"
+                                  : showData(data?.gameDetails)?.message ==
+                                    "Running for close"
+                                  ? "#4BB543"
+                                  : showData(data?.gameDetails)?.message ==
+                                    "Running for open"
+                                  ? "#4BB543"
+                                  : "#4BB543",
+                            }}
                           >
                             {showData(data?.gameDetails)?.message}
                           </h6>
