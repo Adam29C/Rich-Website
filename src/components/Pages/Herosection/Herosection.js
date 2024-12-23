@@ -51,12 +51,15 @@ const Section2 = () => {
                           isIPhoneXR ? "d-flex flex-column" : ""
                         }`}
                       >
+                    
                         <h1>
-                          Play, <span className="rich-text-color">Win</span>,
-                          Repeat
+                          Play <span className="rich-text-color">Big</span>,
+       
+                        Win <span className="rich-text-color">Big</span>,
                         </h1>
                         <h1>
-                          Only On{" "}
+                          Only On &nbsp;
+                          
                           <span className="rich-text-color">Rich143</span>
                         </h1>
                       </div>
