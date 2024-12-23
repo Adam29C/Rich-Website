@@ -43,6 +43,11 @@ a:hover {
   color: var(--rich-color);
 }
 
+
+th, td ,th ,thead , tbody {
+  border: 1px solid var(--rich-color) !important
+}
+
 html,
 body {
   margin: 0;
@@ -125,7 +130,6 @@ th {
 th {
   background-color: none !important;
   color: #0000 !important;
-  border-bottom: 1px solid rgb(218, 215, 215) !important;
 }
 
 .pt-110 {

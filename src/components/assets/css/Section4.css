@@ -38,7 +38,6 @@ button:not(:disabled) {
 th {
   background-color: none !important;
   color: #0000 !important;
-  border-bottom: 1px solid rgb(218, 215, 215) !important;
 }
 
 table {
