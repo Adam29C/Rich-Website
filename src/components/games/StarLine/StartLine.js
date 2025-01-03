@@ -75,7 +75,7 @@ const StartLine = () => {
                         </h4>
                         <h3 className="second-card-text">{data.providerResult}</h3>
 
-                        <h6
+                        {/* <h6
                           className="mb-1"
                           style={{
                             color:
@@ -93,9 +93,47 @@ const StartLine = () => {
                           }}
                         >
                           {showData(data?.gameDetails)?.message}
-                        </h6>
+                        </h6> */}
+                        <div class="result__time d-flex justify-content-between">
+                            <span>
+                              Open Bids
+                              <br />
+                              <strong>
+                                {showData(data?.gameDetails) != undefined &&
+                                  showData(data?.gameDetails)?.OBT}
+                              </strong>
+                            </span>
+                            <span>
+                              Close Bids
+                              <br />
+                              <strong>
+                                {showData(data?.gameDetails) != undefined &&
+                                  showData(data?.gameDetails)?.CBT}
+                              </strong>
+                            </span>
+                          </div>
                       </div>
                     </div>
+                    <div className="d-flex flex-column justify-content-center align-items-center">
+                    <h6
+                          className="mb-2"
+                          style={{
+                            color:
+                              showData(data?.gameDetails) != undefined &&
+                              showData(data?.gameDetails)?.message ==
+                                "Close for today"
+                                ? "red"
+                                : showData(data?.gameDetails)?.message ==
+                                  "Running for close"
+                                ? "#4BB543"
+                                : showData(data?.gameDetails)?.message ==
+                                  "Running for open"
+                                ? "#4BB543"
+                                : "#4BB543",
+                          }}
+                        >
+                          {showData(data?.gameDetails)?.message}
+                        </h6>
                     {showData(data?.gameDetails)?.message ===
                       "Close for today" ? (
                         <div
@@ -162,6 +200,7 @@ const StartLine = () => {
                       )}
                   
                   </div>
+                  </div>
                   <div className="bottom-sec d-flex align-items-center justify-content-center">
                     <Link
                       to={`/starline/${data?.providerName
@@ -173,23 +212,6 @@ const StartLine = () => {
                     >
                       <span>Pana Chart</span>
                     </Link>
-                  </div>
-                  
-                  <div class="result__time d-flex justify-content-between">
-                    <span>
-                      Open Bids :
-                      <strong>
-                        {showData(data?.gameDetails) != undefined &&
-                          showData(data?.gameDetails)?.OBT}
-                      </strong>
-                    </span>
-                    <span>
-                      Close Bids :{" "}
-                      <strong>
-                        {showData(data?.gameDetails) != undefined &&
-                          showData(data?.gameDetails)?.CBT}
-                      </strong>
-                    </span>
                   </div>
                 </div>
               </div>

@@ -1,14 +1,11 @@
-
 img,
 svg {
   vertical-align: middle;
 }
 
-
 .d-flex {
   display: flex !important;
 }
-
 
 [type="button"]:not(:disabled),
 [type="reset"]:not(:disabled),
@@ -17,14 +14,16 @@ button:not(:disabled) {
   cursor: pointer;
 }
 
-.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+.btn-check:checked + .btn,
+.btn.active,
+.btn.show,
+.btn:first-child:active,
+:not(.btn-check) + .btn:active {
   color: var(--bg-light);
- background-color: var(--color-primary);
- 
+  background-color: var(--color-primary);
+
   border-color: var(--color-primary);
 }
-
-
 
 .modal-header .btn-close {
   padding: calc(var(--bs-modal-header-padding-y) * 0.5)
@@ -41,13 +40,12 @@ th {
 }
 
 table {
-  border: var(--color-primary) ;
+  border: var(--color-primary);
 }
 
 .text-center {
   text-align: center !important;
 }
-
 
 .custom-card {
   border: 1px solid var(--color-primary);
@@ -56,10 +54,10 @@ table {
 }
 
 .second-card {
-  border: 5px solid #2d6354;
-  border-radius: 1rem;
-border-radius: 12px;
-
+  background: #FFFFFF;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  padding-bottom: 10px;
 }
 
 .card-section {
@@ -90,7 +88,6 @@ border-radius: 12px;
     flex: 0 0 auto;
   }
 
-
   .second-card-top-sec {
     width: 95%;
   }
@@ -99,12 +96,9 @@ border-radius: 12px;
     font-size: 20px;
   }
 
-
   .second-card .chat-btn {
     margin-top: 10px;
-
   }
-
 
   .result__time span {
     font-size: 13px;
@@ -127,7 +121,7 @@ border-radius: 12px;
     margin-bottom: 15px;
   }
   .charts-games h4 {
-    color: #1C3E35;
+    color: #1c3e35;
     font-weight: 700;
     font-size: 20px !important;
     line-height: 30px;
@@ -145,16 +139,12 @@ border-radius: 12px;
     font-size: 13px;
   }
 
-
   .second-card .chat-btn {
     margin-top: 10px;
     min-width: 100px;
     padding: 0 0px !important;
     font-size: 14px;
-
   }
- 
-
 
   .result__time span {
     font-size: 13px;
@@ -176,10 +166,8 @@ border-radius: 12px;
   }
 }
 
-
 .accordion-container .accordion-section {
-
-  border: 1px solid #D4D2E3;
+  border: 1px solid #d4d2e3;
   color: var(--color-primary);
   border-radius: 8px;
   margin-bottom: 10px;
@@ -201,7 +189,7 @@ border-radius: 12px;
   background-color: #fff;
   border: 2px solid #2a5e50;
   border-radius: 12px;
- color: #2a5e50;
+  color: #2a5e50;
   font-weight: 500;
   min-width: 142px;
   padding: 0 30px;
@@ -211,9 +199,8 @@ border-radius: 12px;
 }
 
 .chat-btn:hover {
-  background: linear-gradient(97.51deg, #1C3E35 -39.91%, #4AA48C 117.67%);
+  background: linear-gradient(97.51deg, #1c3e35 -39.91%, #4aa48c 117.67%);
   color: #fff;
-
 }
 
 /* Footer Image Styles */
@@ -238,6 +225,13 @@ border-radius: 12px;
   animation: zoom-in-zoom-out 2.5s ease-out infinite;
 }
 
+.open-bid-title {
+  color: var(--color-primary);
+}
+.open-bid {
+  color: #000;
+}
+
 @keyframes zoom-in-zoom-out {
   0% {
     transform: scale(1, 1);
@@ -250,56 +244,56 @@ border-radius: 12px;
   }
 }
 
-.result__time{
-  background-color: #000000;;
-  padding: 10px;
-  margin-top: 10px;
-  color: #ffff;
-  border-radius: 0 0 7px 7px
+.result__time {
+gap: 15px;
+  margin-top: 8px;
+
 }
 
-.result__time span{
+.result__time span {
   font-family: 14px;
   font-weight: 400;
-  line-height: 17.36px;
+  line-height: 23px;
   text-align: center;
+  color: #696969;
 }
 
-.second-card-title{
-  color: #11305C;
+.result__time span strong{
+  color: black;
+}
+.second-card-title {
+  color: #11305c;
   font-weight: 700;
   font-size: 20px;
   line-height: 24.8px;
 }
 
-.second-card-text{
-  color: #E8910C;
+.second-card-text {
+  color: #e8910c;
   font-weight: 400;
   font-size: 20px;
   line-height: 24.8px;
 }
 
-.card-text{
+.card-text {
   text-align: left;
   padding: 10px 0px 0px 20px;
 }
 
-
-.acc-bg-color{
-  background-color: #A8D3C8;
+.acc-bg-color {
+  background-color: #a8d3c8;
   border: none !important;
 }
 
-.faq-title{
-font-weight: 700;
-font-size: 20px;
-line-height: 30px;
+.faq-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
 }
 
-.description-text{
-color: #000000;
-font-weight: 400;
-font-size: 17px;
-line-height: 30px;
+.description-text {
+  color: #000000;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 30px;
 }
-

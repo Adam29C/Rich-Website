@@ -43,9 +43,12 @@ a:hover {
   color: var(--rich-color);
 }
 
-
-th, td ,th ,thead , tbody {
-  border: 1px solid var(--rich-color) !important
+th,
+td,
+th,
+thead,
+tbody {
+  border: 1px solid var(--rich-color) !important;
 }
 
 html,
@@ -906,7 +909,7 @@ button.navbar-toggler.navbar-toggler-btn:focus {
 
 @media (min-width: 320px) and (max-width: 430px) {
   .header-container {
-    /* background-image: url("./images/mobile-header-image-375.svg"); */
+    background-image: url("./images/header-background-mobile.svg");
   }
   .gCDmxv {
     padding: 0px 12px;
@@ -915,7 +918,7 @@ button.navbar-toggler.navbar-toggler-btn:focus {
 
 @media (min-width: 425px) and (max-width: 425px) {
   .header-container {
-    /* background-image: url("./images/Mobile-Header-Wave.svg"); */
+    background-image: url("./images/header-background-mobile.svg");
   }
 
   /* .footer-para-test {
@@ -1327,7 +1330,10 @@ button.navbar-toggler.navbar-toggler-btn:focus {
   height: 100px;
   width: 100%;
   max-width: 1440px;
-  background-color: var(--rich-color);
+  /* background-color: var(--rich-color);  */
+  background-color: red;
+  background: url("./images/header-background.svg") no-repeat center center;
+  margin-top: 0 ;
 }
 .header-content-main {
   padding-left: 20px;

@@ -79,7 +79,7 @@ const StartLine = () => {
                             {data.providerResult}
                           </h3>
 
-                          <h6
+                          {/* <h6
                             className={`mb-1 ${
                               getmsg == "Close for today"
                                 ? "close-for-today"
@@ -105,9 +105,55 @@ const StartLine = () => {
                             }}
                           >
                             {getmsg}
-                          </h6>
+                          </h6> */}
+                          <div class="result__time d-flex justify-content-between">
+                            <span>
+                              Open Bids
+                              <br />
+                              <strong>
+                                {showData(data?.gameDetails) != undefined &&
+                                  showData(data?.gameDetails)?.OBT}
+                              </strong>
+                            </span>
+                            <span>
+                              Close Bids
+                              <br />
+                              <strong>
+                                {showData(data?.gameDetails) != undefined &&
+                                  showData(data?.gameDetails)?.CBT}
+                              </strong>
+                            </span>
+                          </div>
                         </div>
                       </div>
+                      <div className="d-flex flex-column justify-content-center align-items-center">
+                      <h6
+                            className={`mb-2 ${
+                              getmsg == "Close for today"
+                                ? "close-for-today"
+                                : getmsg == "Running for close"
+                                ? "betting-closed"
+                                : getmsg == "Running for open"
+                                ? "default-message"
+                                : "default-message"
+                            }`}
+                            style={{
+                              color:
+                                showData(data?.gameDetails) != undefined &&
+                                showData(data?.gameDetails)?.message ==
+                                  "Close for today"
+                                  ? "red"
+                                  : showData(data?.gameDetails)?.message ==
+                                    "Running for close"
+                                  ? "#4BB543"
+                                  : showData(data?.gameDetails)?.message ==
+                                    "Running for open"
+                                  ? "#4BB543"
+                                  : "#4BB543",
+                            }}
+                          >
+                            {getmsg}
+                          </h6>
                       {showData(data?.gameDetails)?.message ===
                       "Close for today" ? (
                         <div className="play-icon">
@@ -167,34 +213,20 @@ const StartLine = () => {
                         </>
                       )}
                     </div>
-                    <div className="bottom-sec d-flex align-items-center justify-content-center">
+                    </div>
+                    <div className="bottom-sec d-flex align-items-center justify-content-center ">
                       <Link
                         to={`/andarbahar/${data.providerName
                           .toLowerCase()
                           .replace(/\s+/g, "")}`}
                         state={{ title: data.providerName, id: data._id }}
-                        className="chat-btn a-tag-css"
+                        className="chat-btn a-tag-css w-75"
                       >
                         <span>Jodi Chart</span>
                       </Link>
                     </div>
 
-                    <div class="result__time d-flex justify-content-between">
-                      <span>
-                        Open Bids :
-                        <strong>
-                          {showData(data?.gameDetails) != undefined &&
-                            showData(data?.gameDetails)?.OBT}
-                        </strong>
-                      </span>
-                      <span>
-                        Close Bids :{" "}
-                        <strong>
-                          {showData(data?.gameDetails) != undefined &&
-                            showData(data?.gameDetails)?.CBT}
-                        </strong>
-                      </span>
-                    </div>
+              
                   </div>
                 </div>
               );

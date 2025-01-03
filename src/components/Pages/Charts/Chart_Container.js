@@ -5,8 +5,6 @@ import { Link } from "react-router-dom";
 import { GET_ALL_GAMESLIST } from "../../service/admin.service";
 import infinity from "../../../images/infinit.svg";
 const Charts_Container = ({ title, data, link, responsive_Class }) => {
- 
-
   const Details = (route, name) => {
     if (route === "jodi") {
       return `/jodi-chart/${name
@@ -31,7 +29,6 @@ const Charts_Container = ({ title, data, link, responsive_Class }) => {
               {title === "Starline" || title === "Jackpot" ? (
                 <>
                   <div className="charts-games">
-                  
                     <h4 className="">
                       <Link
                         to={
@@ -62,18 +59,16 @@ const Charts_Container = ({ title, data, link, responsive_Class }) => {
                 data?.map((data1, index) => (
                   <>
                     <div className="charts-games">
-                  
                       <h4 className="">
                         <Link
                           to={Details(link, data1.providerName)}
-                          state={{ title: data1.providerName , id :data1._id  }}
+                          state={{ title: data1.providerName, id: data1._id }}
                           className="text-decoration-none primary-color"
                         >
                           {data1.providerName.toUpperCase()}
                         </Link>
                       </h4>
                     </div>
-               
                   </>
                 ))}
             </div>

@@ -137,6 +137,10 @@
 }
 
 @media (min-width: 320px) and (max-width: 425px) {
+  .header-container {
+    background-image: url("../../../images/header-background-mobile.svg") !important;
+    margin-top: -13px !important;
+  }
   .banner-text-section h1 {
     font-weight: 700;
     font-size: 26px;
