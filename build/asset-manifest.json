@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.f713002a.css",
-    "main.js": "/static/js/main.78bcbfc4.js",
+    "main.css": "/static/css/main.46b4c921.css",
+    "main.js": "/static/js/main.78f53f1b.js",
     "static/media/Support icon.gif": "/static/media/Support icon.5bc5801d883802f2c3db.gif",
     "static/media/game icon.gif": "/static/media/game icon.ed6f5072d3ce4bcb85ed.gif",
     "static/media/Active User icon (2).gif": "/static/media/Active User icon (2).69d0fcace6f63edb1078.gif",
@@ -15,12 +15,14 @@
     "static/media/18.svg.svg": "/static/media/18.svg.0c0b343f7d155b6f6927a16147f5eea0.svg",
     "static/media/Star-Icon.svg": "/static/media/Star-Icon.9abb91168b1d7314caa68a55827f91e9.svg",
     "static/media/grid-svgrepo-com (2).svg": "/static/media/grid-svgrepo-com (2).795e940a644f44732878.svg",
+    "static/media/header-background.svg": "/static/media/header-background.11a2cc8d97a06c2a61ba.svg",
+    "static/media/header-background-mobile.svg": "/static/media/header-background-mobile.183ec2c3fe00c3182f2d.svg",
     "static/media/infinit.svg": "/static/media/infinit.d28f5e82505a903099db4a9af321c37a.svg",
-    "main.f713002a.css.map": "/static/css/main.f713002a.css.map",
-    "main.78bcbfc4.js.map": "/static/js/main.78bcbfc4.js.map"
+    "main.46b4c921.css.map": "/static/css/main.46b4c921.css.map",
+    "main.78f53f1b.js.map": "/static/js/main.78f53f1b.js.map"
   },
   "entrypoints": [
-    "static/css/main.f713002a.css",
-    "static/js/main.78bcbfc4.js"
+    "static/css/main.46b4c921.css",
+    "static/js/main.78f53f1b.js"
   ]
 }
