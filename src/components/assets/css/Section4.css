@@ -112,6 +112,19 @@ table {
 }
 
 @media (max-width: 450px) {
+  .footer-img-sec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 40px;
+    padding-bottom: 10px;
+}
+  .footer-img-3{
+    height: 40px;
+      width: 40px;
+margin: 10px 0px 10px 0px;
+  }
   .charts-games-title {
     color: #000000;
     font-weight: 700;

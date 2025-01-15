@@ -937,12 +937,12 @@ export const TimeBazar = [
 
 export const MadhurDay = [
   [
-    { id: 1, value: "**" },
-    { id: 2, value: "**" },
-    { id: 3, value: "**" },
-    { id: 4, value: "**" },
-    { id: 5, value: "**" },
-    { id: 6, value: "**" },
+    { id: 1, value: 51 },
+    { id: 2, value: 34 },
+    { id: 3, value: 56 },
+    { id: 4, value: 12 },
+    { id: 5, value: 84 },
+    { id: 6, value: 65 },
     { id: 7, value: "92" },
   ],
   [
@@ -2561,7 +2561,6 @@ export const RajdhaniDay = [
     { id: 4, value: "23" },
     { id: 5, value: "43" },
     { id: 6, value: "11" },
-    { id: 7, value: "**" },
   ],
   [
     { id: 8, value: "74" },
@@ -2570,7 +2569,6 @@ export const RajdhaniDay = [
     { id: 11, value: "86" },
     { id: 12, value: "01" },
     { id: 13, value: "13" },
-    { id: 14, value: "**" },
   ],
   [
     { id: 15, value: "22" },
@@ -2579,16 +2577,15 @@ export const RajdhaniDay = [
     { id: 18, value: "22" },
     { id: 19, value: "04" },
     { id: 20, value: "27" },
-    { id: 21, value: "**" },
   ],
   [
     { id: 22, value: "75" },
     { id: 23, value: "73" },
     { id: 24, value: "19" },
-    { id: 25, value: "**" },
     { id: 26, value: "91" },
+    { id: 3, value: "64" },
+
     { id: 27, value: "78" },
-    { id: 28, value: "**" },
   ],
   [
     { id: 29, value: "40" },
@@ -2597,7 +2594,6 @@ export const RajdhaniDay = [
     { id: 32, value: "69" },
     { id: 33, value: "84" },
     { id: 34, value: "89" },
-    { id: 35, value: "**" },
   ],
   [
     { id: 36, value: "37" },
@@ -2606,7 +2602,6 @@ export const RajdhaniDay = [
     { id: 39, value: "15" },
     { id: 40, value: "57" },
     { id: 41, value: "72" },
-    { id: 42, value: "**" },
   ],
   [
     { id: 43, value: "86" },
@@ -2615,7 +2610,6 @@ export const RajdhaniDay = [
     { id: 46, value: "05" },
     { id: 47, value: "13" },
     { id: 48, value: "01" },
-    { id: 49, value: "**" },
   ],
   [
     { id: 50, value: "45" },
@@ -2624,7 +2618,6 @@ export const RajdhaniDay = [
     { id: 53, value: "00" },
     { id: 54, value: "21" },
     { id: 55, value: "89" },
-    { id: 56, value: "**" },
   ],
   [
     { id: 57, value: "92" },
@@ -2633,16 +2626,15 @@ export const RajdhaniDay = [
     { id: 60, value: "87" },
     { id: 61, value: "12" },
     { id: 62, value: "60" },
-    { id: 63, value: "**" },
   ],
   [
     { id: 64, value: "15" },
     { id: 65, value: "41" },
-    { id: 66, value: "**" },
+    { id: 26, value: "91" },
+
     { id: 67, value: "53" },
     { id: 68, value: "10" },
     { id: 69, value: "96" },
-    { id: 70, value: "**" },
   ],
   [
     { id: 71, value: "32" },
@@ -2651,7 +2643,6 @@ export const RajdhaniDay = [
     { id: 74, value: "05" },
     { id: 75, value: "23" },
     { id: 76, value: "45" },
-    { id: 77, value: "**" },
   ],
   [
     { id: 78, value: "12" },
@@ -2660,7 +2651,6 @@ export const RajdhaniDay = [
     { id: 81, value: "87" },
     { id: 82, value: "34" },
     { id: 83, value: "03" },
-    { id: 84, value: "**" },
   ],
   [
     { id: 85, value: "27" },
@@ -2669,7 +2659,6 @@ export const RajdhaniDay = [
     { id: 88, value: "84" },
     { id: 89, value: "81" },
     { id: 90, value: "14" },
-    { id: 91, value: "**" },
   ],
   [
     { id: 92, value: "39" },
@@ -2678,7 +2667,6 @@ export const RajdhaniDay = [
     { id: 95, value: "05" },
     { id: 96, value: "40" },
     { id: 97, value: "47" },
-    { id: 98, value: "**" },
   ],
   [
     { id: 99, value: "83" },
@@ -2687,7 +2675,6 @@ export const RajdhaniDay = [
     { id: 102, value: "71" },
     { id: 103, value: "16" },
     { id: 104, value: "33" },
-    { id: 105, value: "**" },
   ],
   [
     { id: 106, value: "65" },
@@ -2696,7 +2683,6 @@ export const RajdhaniDay = [
     { id: 109, value: "52" },
     { id: 110, value: "01" },
     { id: 111, value: "99" },
-    { id: 112, value: "**" },
   ],
   [
     { id: 113, value: "45" },
@@ -2705,7 +2691,6 @@ export const RajdhaniDay = [
     { id: 116, value: "34" },
     { id: 117, value: "97" },
     { id: 118, value: "48" },
-    { id: 119, value: "**" },
   ],
   [
     { id: 120, value: "80" },
@@ -2714,7 +2699,6 @@ export const RajdhaniDay = [
     { id: 123, value: "58" },
     { id: 124, value: "17" },
     { id: 125, value: "00" },
-    { id: 126, value: "**" },
   ],
   [
     { id: 127, value: "33" },
@@ -2723,7 +2707,6 @@ export const RajdhaniDay = [
     { id: 130, value: "34" },
     { id: 131, value: "01" },
     { id: 132, value: "80" },
-    { id: 133, value: "**" },
   ],
   [
     { id: 134, value: "97" },
@@ -2732,7 +2715,6 @@ export const RajdhaniDay = [
     { id: 137, value: "80" },
     { id: 138, value: "22" },
     { id: 139, value: "83" },
-    { id: 140, value: "**" },
   ],
   [
     { id: 141, value: "41" },
@@ -2741,7 +2723,6 @@ export const RajdhaniDay = [
     { id: 144, value: "08" },
     { id: 145, value: "15" },
     { id: 146, value: "18" },
-    { id: 147, value: "**" },
   ],
   [
     { id: 148, value: "35" },
@@ -2750,7 +2731,6 @@ export const RajdhaniDay = [
     { id: 151, value: "28" },
     { id: 152, value: "04" },
     { id: 153, value: "70" },
-    { id: 154, value: "**" },
   ],
   [
     { id: 155, value: "99" },
@@ -2759,7 +2739,6 @@ export const RajdhaniDay = [
     { id: 158, value: "04" },
     { id: 159, value: "42" },
     { id: 160, value: "96" },
-    { id: 161, value: "**" },
   ],
   [
     { id: 162, value: "16" },
@@ -2768,7 +2747,6 @@ export const RajdhaniDay = [
     { id: 165, value: "37" },
     { id: 166, value: "02" },
     { id: 167, value: "99" },
-    { id: 168, value: "**" },
   ],
   [
     { id: 169, value: "42" },
@@ -2777,7 +2755,6 @@ export const RajdhaniDay = [
     { id: 172, value: "88" },
     { id: 173, value: "61" },
     { id: 174, value: "16" },
-    { id: 175, value: "**" },
   ],
   [
     { id: 176, value: "13" },
@@ -2786,7 +2763,6 @@ export const RajdhaniDay = [
     { id: 179, value: "31" },
     { id: 180, value: "31" },
     { id: 181, value: "67" },
-    { id: 182, value: "**" },
   ],
   [
     { id: 183, value: "08" },
@@ -2795,7 +2771,6 @@ export const RajdhaniDay = [
     { id: 186, value: "97" },
     { id: 187, value: "19" },
     { id: 188, value: "08" },
-    { id: 189, value: "**" },
   ],
   [
     { id: 190, value: "90" },
@@ -2804,7 +2779,6 @@ export const RajdhaniDay = [
     { id: 193, value: "48" },
     { id: 194, value: "25" },
     { id: 195, value: "92" },
-    { id: 196, value: "**" },
   ],
   [
     { id: 197, value: "35" },
@@ -2813,7 +2787,6 @@ export const RajdhaniDay = [
     { id: 200, value: "35" },
     { id: 201, value: "59" },
     { id: 202, value: "15" },
-    { id: 203, value: "**" },
   ],
   [
     { id: 204, value: "87" },
@@ -2822,7 +2795,6 @@ export const RajdhaniDay = [
     { id: 207, value: "78" },
     { id: 208, value: "63" },
     { id: 209, value: "31" },
-    { id: 210, value: "**" },
   ],
   [
     { id: 211, value: "28" },
@@ -2831,7 +2803,6 @@ export const RajdhaniDay = [
     { id: 214, value: "59" },
     { id: 215, value: "94" },
     { id: 216, value: "00" },
-    { id: 217, value: "**" },
   ],
   [
     { id: 218, value: "48" },
@@ -2840,16 +2811,15 @@ export const RajdhaniDay = [
     { id: 221, value: "86" },
     { id: 222, value: "73" },
     { id: 223, value: "84" },
-    { id: 224, value: "**" },
   ],
   [
     { id: 225, value: "02" },
-    { id: 226, value: "**" },
     { id: 227, value: "30" },
+    { id: 57, value: "92" },
+
     { id: 228, value: "09" },
     { id: 229, value: "49" },
     { id: 230, value: "55" },
-    { id: 231, value: "**" },
   ],
   [
     { id: 232, value: "72" },
@@ -2858,7 +2828,6 @@ export const RajdhaniDay = [
     { id: 235, value: "94" },
     { id: 236, value: "81" },
     { id: 237, value: "45" },
-    { id: 238, value: "**" },
   ],
   [
     { id: 239, value: "34" },
@@ -2867,7 +2836,6 @@ export const RajdhaniDay = [
     { id: 242, value: "82" },
     { id: 243, value: "57" },
     { id: 244, value: "22" },
-    { id: 245, value: "**" },
   ],
   [
     { id: 246, value: "41" },
@@ -2876,7 +2844,6 @@ export const RajdhaniDay = [
     { id: 249, value: "35" },
     { id: 250, value: "23" },
     { id: 251, value: "93" },
-    { id: 252, value: "**" },
   ],
   [
     { id: 253, value: "07" },
@@ -2885,7 +2852,6 @@ export const RajdhaniDay = [
     { id: 256, value: "70" },
     { id: 257, value: "15" },
     { id: 258, value: "29" },
-    { id: 259, value: "**" },
   ],
   [
     { id: 260, value: "07" },
@@ -2894,7 +2860,6 @@ export const RajdhaniDay = [
     { id: 263, value: "40" },
     { id: 264, value: "17" },
     { id: 265, value: "01" },
-    { id: 266, value: "**" },
   ],
   [
     { id: 267, value: "97" },
@@ -2903,7 +2868,6 @@ export const RajdhaniDay = [
     { id: 270, value: "34" },
     { id: 271, value: "50" },
     { id: 272, value: "14" },
-    { id: 273, value: "**" },
   ],
   [
     { id: 274, value: "79" },
@@ -2912,7 +2876,6 @@ export const RajdhaniDay = [
     { id: 277, value: "36" },
     { id: 278, value: "17" },
     { id: 279, value: "72" },
-    { id: 280, value: "**" },
   ],
   [
     { id: 281, value: "36" },
@@ -2921,7 +2884,6 @@ export const RajdhaniDay = [
     { id: 284, value: "59" },
     { id: 285, value: "90" },
     { id: 286, value: "91" },
-    { id: 287, value: "**" },
   ],
   [
     { id: 288, value: "54" },
@@ -2930,7 +2892,6 @@ export const RajdhaniDay = [
     { id: 291, value: "07" },
     { id: 292, value: "18" },
     { id: 293, value: "10" },
-    { id: 294, value: "**" },
   ],
   [
     { id: 295, value: "04" },
@@ -2939,7 +2900,6 @@ export const RajdhaniDay = [
     { id: 298, value: "31" },
     { id: 299, value: "23" },
     { id: 300, value: "24" },
-    { id: 301, value: "**" },
   ],
   [
     { id: 302, value: "07" },
@@ -2948,27 +2908,16 @@ export const RajdhaniDay = [
     { id: 305, value: "46" },
     { id: 306, value: "22" },
     { id: 307, value: "01" },
-    { id: 308, value: "**" },
   ],
   [
     { id: 309, value: "12" },
     { id: 310, value: "68" },
     { id: 311, value: "08" },
     { id: 312, value: "64" },
-    { id: 313, value: "**" },
-    { id: 314, value: "**" },
-    { id: 315, value: "**" },
-  ],
-  [
-    { id: 316, value: "**" },
-    { id: 317, value: "**" },
-    { id: 318, value: "**" },
-    { id: 319, value: "**" },
-    { id: 320, value: "**" },
-    { id: 321, value: "**" },
-    { id: 322, value: "**" },
-  ],
+    { id: 227, value: "30" },
+    { id: 227, value: "30" },
 
+  ],
   [
     { id: 330, value: "06" },
     { id: 331, value: "63" },
@@ -2976,7 +2925,6 @@ export const RajdhaniDay = [
     { id: 333, value: "86" },
     { id: 334, value: "93" },
     { id: 335, value: "36" },
-    { id: 336, value: "**" },
   ],
   [
     { id: 337, value: "09" },
@@ -2985,7 +2933,6 @@ export const RajdhaniDay = [
     { id: 340, value: "24" },
     { id: 341, value: "97" },
     { id: 342, value: "80" },
-    { id: 343, value: "**" },
   ],
   [
     { id: 344, value: "33" },
@@ -2994,7 +2941,6 @@ export const RajdhaniDay = [
     { id: 347, value: "15" },
     { id: 348, value: "91" },
     { id: 349, value: "59" },
-    { id: 350, value: "**" },
   ],
   [
     { id: 351, value: "46" },
@@ -3003,7 +2949,6 @@ export const RajdhaniDay = [
     { id: 354, value: "07" },
     { id: 355, value: "48" },
     { id: 356, value: "79" },
-    { id: 357, value: "**" },
   ],
   [
     { id: 358, value: "97" },
@@ -3012,7 +2957,6 @@ export const RajdhaniDay = [
     { id: 361, value: "66" },
     { id: 362, value: "27" },
     { id: 363, value: "03" },
-    { id: 364, value: "**" },
   ],
   [
     { id: 365, value: "14" },
@@ -3021,7 +2965,6 @@ export const RajdhaniDay = [
     { id: 368, value: "92" },
     { id: 369, value: "75" },
     { id: 370, value: "11" },
-    { id: 371, value: "**" },
   ],
   [
     { id: 372, value: "23" },
@@ -3030,7 +2973,6 @@ export const RajdhaniDay = [
     { id: 375, value: "05" },
     { id: 376, value: "21" },
     { id: 377, value: "99" },
-    { id: 378, value: "**" },
   ],
   [
     { id: 379, value: "26" },
@@ -3039,7 +2981,6 @@ export const RajdhaniDay = [
     { id: 382, value: "50" },
     { id: 383, value: "99" },
     { id: 384, value: "50" },
-    { id: 385, value: "**" },
   ],
   [
     { id: 386, value: "16" },
@@ -3048,16 +2989,14 @@ export const RajdhaniDay = [
     { id: 389, value: "83" },
     { id: 390, value: "40" },
     { id: 391, value: "91" },
-    { id: 392, value: "**" },
   ],
   [
     { id: 393, value: "63" },
     { id: 394, value: "45" },
     { id: 395, value: "62" },
     { id: 396, value: "95" },
-    { id: 398, value: "**" },
+    { id: 309, value: "12" },
     { id: 397, value: "21" },
-    { id: 398, value: "**" },
   ],
   [
     { id: 399, value: "33" },
@@ -3066,7 +3005,6 @@ export const RajdhaniDay = [
     { id: 402, value: "60" },
     { id: 403, value: "02" },
     { id: 404, value: "62" },
-    { id: 405, value: "**" },
   ],
   [
     { id: 406, value: "96" },
@@ -3075,7 +3013,6 @@ export const RajdhaniDay = [
     { id: 409, value: "81" },
     { id: 410, value: "02" },
     { id: 411, value: "31" },
-    { id: 412, value: "**" },
   ],
   [
     { id: 413, value: "44" },
@@ -3084,7 +3021,6 @@ export const RajdhaniDay = [
     { id: 416, value: "64" },
     { id: 417, value: "31" },
     { id: 418, value: "70" },
-    { id: 419, value: "**" },
   ],
   [
     { id: 420, value: "08" },
@@ -3093,7 +3029,6 @@ export const RajdhaniDay = [
     { id: 423, value: "03" },
     { id: 424, value: "93" },
     { id: 425, value: "00" },
-    { id: 426, value: "**" },
   ],
   [
     { id: 427, value: "93" },
@@ -3102,7 +3037,6 @@ export const RajdhaniDay = [
     { id: 430, value: "13" },
     { id: 431, value: "96" },
     { id: 432, value: "28" },
-    { id: 433, value: "**" },
   ],
   [
     { id: 434, value: "34" },
@@ -3111,7 +3045,6 @@ export const RajdhaniDay = [
     { id: 437, value: "28" },
     { id: 438, value: "41" },
     { id: 439, value: "84" },
-    { id: 440, value: "**" },
   ],
   [
     { id: 441, value: "71" },
@@ -3120,7 +3053,6 @@ export const RajdhaniDay = [
     { id: 444, value: "42" },
     { id: 445, value: "76" },
     { id: 446, value: "89" },
-    { id: 447, value: "**" },
   ],
   [
     { id: 448, value: "95" },
@@ -3129,16 +3061,15 @@ export const RajdhaniDay = [
     { id: 451, value: "80" },
     { id: 452, value: "05" },
     { id: 453, value: "83" },
-    { id: 454, value: "**" },
   ],
   [
-    { id: 460, value: "**" },
     { id: 455, value: "45" },
     { id: 456, value: "58" },
     { id: 457, value: "13" },
     { id: 458, value: "10" },
     { id: 459, value: "07" },
-    { id: 460, value: "**" },
+    { id: 309, value: "12" },
+
   ],
   [
     { id: 461, value: "41" },
@@ -3147,7 +3078,6 @@ export const RajdhaniDay = [
     { id: 464, value: "41" },
     { id: 465, value: "03" },
     { id: 466, value: "38" },
-    { id: 467, value: "**" },
   ],
   [
     { id: 468, value: "33" },
@@ -3156,7 +3086,6 @@ export const RajdhaniDay = [
     { id: 471, value: "63" },
     { id: 472, value: "08" },
     { id: 473, value: "29" },
-    { id: 474, value: "**" },
   ],
   [
     { id: 475, value: "19" },
@@ -3165,7 +3094,6 @@ export const RajdhaniDay = [
     { id: 478, value: "56" },
     { id: 479, value: "75" },
     { id: 480, value: "79" },
-    { id: 481, value: "**" },
   ],
   [
     { id: 482, value: "68" },
@@ -3174,7 +3102,6 @@ export const RajdhaniDay = [
     { id: 485, value: "14" },
     { id: 486, value: "81" },
     { id: 487, value: "26" },
-    { id: 488, value: "**" },
   ],
   [
     { id: 489, value: "30" },
@@ -3183,7 +3110,6 @@ export const RajdhaniDay = [
     { id: 492, value: "12" },
     { id: 493, value: "40" },
     { id: 494, value: "82" },
-    { id: 495, value: "**" },
   ],
   [
     { id: 496, value: "70" },
@@ -3192,7 +3118,6 @@ export const RajdhaniDay = [
     { id: 499, value: "41" },
     { id: 500, value: "74" },
     { id: 501, value: "29" },
-    { id: 501, value: "**" },
   ],
 ];
 
@@ -3206,7 +3131,6 @@ export const MilanDay = [
     { id: 4, value: "05" },
     { id: 5, value: "52" },
     { id: 6, value: "61" },
-    { id: 7, value: "**" },
   ],
   [
     { id: 8, value: "95" },
@@ -3215,7 +3139,6 @@ export const MilanDay = [
     { id: 11, value: "09" },
     { id: 12, value: "53" },
     { id: 13, value: "06" },
-    { id: 14, value: "**" },
   ],
   [
     { id: 15, value: "26" },
@@ -3224,16 +3147,14 @@ export const MilanDay = [
     { id: 18, value: "12" },
     { id: 19, value: "73" },
     { id: 20, value: "48" },
-    { id: 21, value: "**" },
   ],
   [
     { id: 22, value: "77" },
     { id: 23, value: "44" },
     { id: 24, value: "09" },
-    { id: 25, value: "**" },
+    { id: 17, value: "70" },
     { id: 26, value: "09" },
     { id: 27, value: "03" },
-    { id: 28, value: "**" },
   ],
   [
     { id: 29, value: "88" },
@@ -3242,7 +3163,6 @@ export const MilanDay = [
     { id: 32, value: "44" },
     { id: 33, value: "07" },
     { id: 34, value: "49" },
-    { id: 35, value: "**" },
   ],
   [
     { id: 36, value: "74" },
@@ -3251,7 +3171,6 @@ export const MilanDay = [
     { id: 39, value: "57" },
     { id: 40, value: "97" },
     { id: 41, value: "62" },
-    { id: 42, value: "**" },
   ],
   [
     { id: 43, value: "62" },
@@ -3260,7 +3179,6 @@ export const MilanDay = [
     { id: 46, value: "64" },
     { id: 47, value: "14" },
     { id: 48, value: "94" },
-    { id: 49, value: "**" },
   ],
   [
     { id: 50, value: "72" },
@@ -3269,7 +3187,6 @@ export const MilanDay = [
     { id: 53, value: "49" },
     { id: 54, value: "15" },
     { id: 55, value: "77" },
-    { id: 56, value: "**" },
   ],
   [
     { id: 57, value: "00" },
@@ -3278,16 +3195,14 @@ export const MilanDay = [
     { id: 60, value: "27" },
     { id: 61, value: "66" },
     { id: 62, value: "29" },
-    { id: 63, value: "**" },
   ],
   [
     { id: 64, value: "53" },
     { id: 65, value: "45" },
-    { id: 66, value: "**" },
+    { id: 75, value: "51" },
     { id: 67, value: "21" },
     { id: 68, value: "63" },
     { id: 69, value: "35" },
-    { id: 70, value: "**" },
   ],
   [
     { id: 71, value: "27" },
@@ -3296,7 +3211,6 @@ export const MilanDay = [
     { id: 74, value: "57" },
     { id: 75, value: "51" },
     { id: 76, value: "33" },
-    { id: 77, value: "**" },
   ],
   [
     { id: 78, value: "40" },
@@ -3305,7 +3219,6 @@ export const MilanDay = [
     { id: 81, value: "75" },
     { id: 82, value: "44" },
     { id: 83, value: "42" },
-    { id: 84, value: "**" },
   ],
   [
     { id: 85, value: "42" },
@@ -3314,7 +3227,6 @@ export const MilanDay = [
     { id: 88, value: "63" },
     { id: 89, value: "76" },
     { id: 90, value: "41" },
-    { id: 91, value: "**" },
   ],
   [
     { id: 92, value: "41" },
@@ -3323,7 +3235,6 @@ export const MilanDay = [
     { id: 95, value: "96" },
     { id: 96, value: "20" },
     { id: 97, value: "59" },
-    { id: 98, value: "**" },
   ],
   [
     { id: 99, value: "11" },
@@ -3332,7 +3243,6 @@ export const MilanDay = [
     { id: 102, value: "79" },
     { id: 103, value: "07" },
     { id: 104, value: "41" },
-    { id: 105, value: "**" },
   ],
   [
     { id: 106, value: "10" },
@@ -3341,7 +3251,6 @@ export const MilanDay = [
     { id: 109, value: "15" },
     { id: 110, value: "74" },
     { id: 111, value: "83" },
-    { id: 112, value: "**" },
   ],
   [
     { id: 113, value: "10" },
@@ -3350,7 +3259,6 @@ export const MilanDay = [
     { id: 116, value: "64" },
     { id: 117, value: "07" },
     { id: 118, value: "90" },
-    { id: 119, value: "**" },
   ],
   [
     { id: 120, value: "72" },
@@ -3359,7 +3267,6 @@ export const MilanDay = [
     { id: 123, value: "28" },
     { id: 124, value: "31" },
     { id: 125, value: "93" },
-    { id: 126, value: "**" },
   ],
   [
     { id: 127, value: "19" },
@@ -3368,7 +3275,6 @@ export const MilanDay = [
     { id: 130, value: "65" },
     { id: 131, value: "83" },
     { id: 132, value: "98" },
-    { id: 133, value: "**" },
   ],
   [
     { id: 134, value: "41" },
@@ -3377,7 +3283,6 @@ export const MilanDay = [
     { id: 137, value: "41" },
     { id: 138, value: "23" },
     { id: 139, value: "74" },
-    { id: 140, value: "**" },
   ],
   [
     { id: 141, value: "41" },
@@ -3386,7 +3291,6 @@ export const MilanDay = [
     { id: 144, value: "41" },
     { id: 145, value: "23" },
     { id: 146, value: "74" },
-    { id: 147, value: "**" },
   ],
   [
     { id: 148, value: "58" },
@@ -3395,7 +3299,6 @@ export const MilanDay = [
     { id: 151, value: "80" },
     { id: 152, value: "82" },
     { id: 153, value: "58" },
-    { id: 154, value: "**" },
   ],
   [
     { id: 155, value: "99" },
@@ -3404,7 +3307,6 @@ export const MilanDay = [
     { id: 158, value: "76" },
     { id: 159, value: "83" },
     { id: 160, value: "42" },
-    { id: 161, value: "**" },
   ],
   [
     { id: 162, value: "89" },
@@ -3413,7 +3315,6 @@ export const MilanDay = [
     { id: 165, value: "08" },
     { id: 166, value: "10" },
     { id: 167, value: "49" },
-    { id: 168, value: "**" },
   ],
   [
     { id: 169, value: "82" },
@@ -3422,7 +3323,6 @@ export const MilanDay = [
     { id: 172, value: "70" },
     { id: 173, value: "02" },
     { id: 174, value: "81" },
-    { id: 175, value: "**" },
   ],
   [
     { id: 176, value: "19" },
@@ -3431,7 +3331,6 @@ export const MilanDay = [
     { id: 179, value: "77" },
     { id: 180, value: "76" },
     { id: 181, value: "88" },
-    { id: 182, value: "**" },
   ],
   [
     { id: 183, value: "57" },
@@ -3440,7 +3339,6 @@ export const MilanDay = [
     { id: 186, value: "18" },
     { id: 187, value: "12" },
     { id: 188, value: "73" },
-    { id: 189, value: "**" },
   ],
   [
     { id: 190, value: "99" },
@@ -3449,7 +3347,6 @@ export const MilanDay = [
     { id: 193, value: "54" },
     { id: 194, value: "50" },
     { id: 195, value: "86" },
-    { id: 196, value: "**" },
   ],
   [
     { id: 197, value: "71" },
@@ -3458,7 +3355,6 @@ export const MilanDay = [
     { id: 200, value: "32" },
     { id: 201, value: "43" },
     { id: 202, value: "12" },
-    { id: 203, value: "**" },
   ],
   [
     { id: 204, value: "74" },
@@ -3467,7 +3363,6 @@ export const MilanDay = [
     { id: 207, value: "39" },
     { id: 208, value: "98" },
     { id: 209, value: "33" },
-    { id: 210, value: "**" },
   ],
   [
     { id: 211, value: "81" },
@@ -3476,7 +3371,6 @@ export const MilanDay = [
     { id: 214, value: "96" },
     { id: 215, value: "07" },
     { id: 216, value: "02" },
-    { id: 217, value: "**" },
   ],
   [
     { id: 218, value: "70" },
@@ -3485,7 +3379,6 @@ export const MilanDay = [
     { id: 221, value: "07" },
     { id: 222, value: "84" },
     { id: 223, value: "38" },
-    { id: 224, value: "**" },
   ],
   [
     { id: 225, value: "89" },
@@ -3494,25 +3387,22 @@ export const MilanDay = [
     { id: 228, value: "83" },
     { id: 229, value: "36" },
     { id: 230, value: "66" },
-    { id: 231, value: "**" },
   ],
   [
     { id: 232, value: "57" },
-    { id: 233, value: "**" },
     { id: 234, value: "11" },
     { id: 235, value: "46" },
+    { id: 75, value: "51" },
     { id: 236, value: "55" },
     { id: 237, value: "92" },
-    { id: 238, value: "**" },
   ],
   [
-    { id: 239, value: "**" },
     { id: 240, value: "71" },
+    { id: 75, value: "51" },
     { id: 241, value: "70" },
     { id: 242, value: "87" },
     { id: 243, value: "98" },
     { id: 244, value: "15" },
-    { id: 245, value: "**" },
   ],
   [
     { id: 246, value: "88" },
@@ -3521,7 +3411,6 @@ export const MilanDay = [
     { id: 249, value: "31" },
     { id: 250, value: "51" },
     { id: 251, value: "05" },
-    { id: 252, value: "**" },
   ],
   [
     { id: 253, value: "52" },
@@ -3530,7 +3419,6 @@ export const MilanDay = [
     { id: 256, value: "31" },
     { id: 257, value: "39" },
     { id: 258, value: "94" },
-    { id: 259, value: "**" },
   ],
   [
     { id: 260, value: "87" },
@@ -3539,7 +3427,6 @@ export const MilanDay = [
     { id: 263, value: "69" },
     { id: 264, value: "15" },
     { id: 265, value: "49" },
-    { id: 266, value: "**" },
   ],
   [
     { id: 267, value: "50" },
@@ -3548,7 +3435,6 @@ export const MilanDay = [
     { id: 270, value: "62" },
     { id: 271, value: "78" },
     { id: 272, value: "43" },
-    { id: 273, value: "**" },
   ],
   [
     { id: 274, value: "02" },
@@ -3557,7 +3443,6 @@ export const MilanDay = [
     { id: 277, value: "95" },
     { id: 278, value: "38" },
     { id: 279, value: "72" },
-    { id: 280, value: "**" },
   ],
   [
     { id: 281, value: "30" },
@@ -3566,7 +3451,6 @@ export const MilanDay = [
     { id: 284, value: "18" },
     { id: 285, value: "01" },
     { id: 286, value: "54" },
-    { id: 287, value: "**" },
   ],
   [
     { id: 288, value: "72" },
@@ -3575,7 +3459,6 @@ export const MilanDay = [
     { id: 291, value: "09" },
     { id: 292, value: "96" },
     { id: 293, value: "04" },
-    { id: 294, value: "**" },
   ],
   [
     { id: 295, value: "82" },
@@ -3584,7 +3467,6 @@ export const MilanDay = [
     { id: 298, value: "63" },
     { id: 299, value: "11" },
     { id: 300, value: "86" },
-    { id: 301, value: "**" },
   ],
   [
     { id: 302, value: "68" },
@@ -3593,7 +3475,6 @@ export const MilanDay = [
     { id: 305, value: "80" },
     { id: 306, value: "78" },
     { id: 307, value: "32" },
-    { id: 308, value: "**" },
   ],
   [
     { id: 309, value: "82" },
@@ -3602,25 +3483,14 @@ export const MilanDay = [
     { id: 312, value: "14" },
     { id: 313, value: "92" },
     { id: 314, value: "04" },
-    { id: 315, value: "**" },
   ],
   [
     { id: 316, value: "16" },
     { id: 317, value: "33" },
+    { id: 340, value: "46" },
     { id: 318, value: "09" },
+    { id: 75, value: "51" },
     { id: 319, value: "42" },
-    { id: 320, value: "**" },
-    { id: 321, value: "**" },
-    { id: 322, value: "**" },
-  ],
-  [
-    { id: 330, value: "**" },
-    { id: 331, value: "**" },
-    { id: 332, value: "**" },
-    { id: 333, value: "**" },
-    { id: 334, value: "**" },
-    { id: 335, value: "**" },
-    { id: 336, value: "**" },
   ],
   [
     { id: 337, value: "39" },
@@ -3629,7 +3499,6 @@ export const MilanDay = [
     { id: 340, value: "46" },
     { id: 341, value: "06" },
     { id: 342, value: "89" },
-    { id: 343, value: "**" },
   ],
   [
     { id: 344, value: "10" },
@@ -3638,7 +3507,6 @@ export const MilanDay = [
     { id: 347, value: "52" },
     { id: 348, value: "51" },
     { id: 349, value: "62" },
-    { id: 350, value: "**" },
   ],
   [
     { id: 351, value: "23" },
@@ -3647,7 +3515,6 @@ export const MilanDay = [
     { id: 354, value: "99" },
     { id: 355, value: "70" },
     { id: 356, value: "39" },
-    { id: 357, value: "**" },
   ],
   [
     { id: 358, value: "35" },
@@ -3656,7 +3523,6 @@ export const MilanDay = [
     { id: 361, value: "74" },
     { id: 362, value: "54" },
     { id: 363, value: "81" },
-    { id: 364, value: "**" },
   ],
   [
     { id: 365, value: "53" },
@@ -3665,7 +3531,6 @@ export const MilanDay = [
     { id: 368, value: "58" },
     { id: 369, value: "58" },
     { id: 370, value: "44" },
-    { id: 371, value: "**" },
   ],
   [
     { id: 372, value: "11" },
@@ -3674,7 +3539,6 @@ export const MilanDay = [
     { id: 375, value: "91" },
     { id: 376, value: "58" },
     { id: 377, value: "81" },
-    { id: 378, value: "**" },
   ],
   [
     { id: 379, value: "15" },
@@ -3683,7 +3547,6 @@ export const MilanDay = [
     { id: 382, value: "96" },
     { id: 383, value: "16" },
     { id: 384, value: "55" },
-    { id: 385, value: "**" },
   ],
   [
     { id: 386, value: "76" },
@@ -3692,7 +3555,6 @@ export const MilanDay = [
     { id: 389, value: "76" },
     { id: 390, value: "93" },
     { id: 391, value: "98" },
-    { id: 392, value: "**" },
   ],
   [
     { id: 393, value: "19" },
@@ -3701,16 +3563,14 @@ export const MilanDay = [
     { id: 396, value: "17" },
     { id: 397, value: "02" },
     { id: 398, value: "96" },
-    { id: 399, value: "**" },
   ],
   [
     { id: 400, value: "39" },
     { id: 401, value: "87" },
+    { id: 408, value: "64" },
     { id: 402, value: "52" },
     { id: 403, value: "65" },
-    { id: 404, value: "**" },
     { id: 405, value: "02" },
-    { id: 406, value: "**" },
   ],
   [
     { id: 407, value: "17" },
@@ -3719,7 +3579,6 @@ export const MilanDay = [
     { id: 410, value: "26" },
     { id: 411, value: "91" },
     { id: 412, value: "98" },
-    { id: 413, value: "**" },
   ],
   [
     { id: 414, value: "98" },
@@ -3728,7 +3587,6 @@ export const MilanDay = [
     { id: 417, value: "13" },
     { id: 418, value: "17" },
     { id: 419, value: "01" },
-    { id: 420, value: "**" },
   ],
   [
     { id: 421, value: "06" },
@@ -3737,7 +3595,6 @@ export const MilanDay = [
     { id: 424, value: "43" },
     { id: 425, value: "55" },
     { id: 426, value: "78" },
-    { id: 427, value: "**" },
   ],
   [
     { id: 428, value: "63" },
@@ -3746,7 +3603,6 @@ export const MilanDay = [
     { id: 431, value: "41" },
     { id: 432, value: "71" },
     { id: 433, value: "40" },
-    { id: 434, value: "**" },
   ],
   [
     { id: 435, value: "97" },
@@ -3755,7 +3611,6 @@ export const MilanDay = [
     { id: 438, value: "26" },
     { id: 439, value: "27" },
     { id: 440, value: "76" },
-    { id: 441, value: "**" },
   ],
   [
     { id: 442, value: "76" },
@@ -3764,7 +3619,6 @@ export const MilanDay = [
     { id: 445, value: "99" },
     { id: 446, value: "71" },
     { id: 447, value: "71" },
-    { id: 448, value: "**" },
   ],
   [
     { id: 449, value: "83" },
@@ -3773,7 +3627,6 @@ export const MilanDay = [
     { id: 452, value: "08" },
     { id: 453, value: "54" },
     { id: 454, value: "65" },
-    { id: 455, value: "**" },
   ],
   [
     { id: 456, value: "77" },
@@ -3782,16 +3635,16 @@ export const MilanDay = [
     { id: 459, value: "98" },
     { id: 460, value: "70" },
     { id: 461, value: "01" },
-    { id: 462, value: "**" },
   ],
   [
-    { id: 463, value: "**" },
     { id: 464, value: "94" },
     { id: 465, value: "83" },
     { id: 466, value: "04" },
+
+    { id: 408, value: "64" },
+
     { id: 467, value: "49" },
     { id: 468, value: "79" },
-    { id: 469, value: "**" },
   ],
   [
     { id: 1, value: "10" },
@@ -3800,7 +3653,6 @@ export const MilanDay = [
     { id: 4, value: "03" },
     { id: 5, value: "18" },
     { id: 6, value: "63" },
-    { id: 7, value: "**" },
   ],
   [
     { id: 8, value: "25" },
@@ -3809,7 +3661,6 @@ export const MilanDay = [
     { id: 11, value: "37" },
     { id: 12, value: "21" },
     { id: 13, value: "26" },
-    { id: 14, value: "**" },
   ],
   [
     { id: 15, value: "70" },
@@ -3818,7 +3669,6 @@ export const MilanDay = [
     { id: 18, value: "88" },
     { id: 19, value: "86" },
     { id: 20, value: "04" },
-    { id: 21, value: "**" },
   ],
   [
     { id: 22, value: "27" },
@@ -3827,7 +3677,6 @@ export const MilanDay = [
     { id: 25, value: "06" },
     { id: 26, value: "31" },
     { id: 27, value: "80" },
-    { id: 28, value: "**" },
   ],
   [
     { id: 29, value: "33" },
@@ -3836,7 +3685,6 @@ export const MilanDay = [
     { id: 32, value: "89" },
     { id: 33, value: "56" },
     { id: 34, value: "66" },
-    { id: 35, value: "**" },
   ],
   [
     { id: 36, value: "64" },
@@ -3845,7 +3693,6 @@ export const MilanDay = [
     { id: 39, value: "29" },
     { id: 40, value: "94" },
     { id: 41, value: "77" },
-    { id: 42, value: "**" },
   ],
   [
     { id: 43, value: "82" },
@@ -3854,7 +3701,6 @@ export const MilanDay = [
     { id: 46, value: "65" },
     { id: 47, value: "08" },
     { id: 48, value: "37" },
-    { id: 49, value: "**" },
   ],
   [
     { id: 50, value: "65" },
@@ -3863,7 +3709,6 @@ export const MilanDay = [
     { id: 53, value: "43" },
     { id: 54, value: "35" },
     { id: 55, value: "38" },
-    { id: 56, value: "**" },
   ],
   [
     { id: 57, value: "59" },
@@ -3872,7 +3717,6 @@ export const MilanDay = [
     { id: 60, value: "16" },
     { id: 61, value: "10" },
     { id: 62, value: "98" },
-    { id: 63, value: "**" },
   ],
   [
     { id: 64, value: "01" },
@@ -3881,7 +3725,6 @@ export const MilanDay = [
     { id: 67, value: "25" },
     { id: 68, value: "12" },
     { id: 69, value: "94" },
-    { id: 70, value: "**" },
   ],
   [
     { id: 71, value: "86" },
@@ -3890,7 +3733,6 @@ export const MilanDay = [
     { id: 74, value: "39" },
     { id: 75, value: "60" },
     { id: 76, value: "78" },
-    { id: 77, value: "**" },
   ],
   [
     { id: 78, value: "00" },
@@ -3899,7 +3741,6 @@ export const MilanDay = [
     { id: 81, value: "47" },
     { id: 82, value: "10" },
     { id: 83, value: "31" },
-    { id: 84, value: "**" },
   ],
   [
     { id: 85, value: "40" },
@@ -3908,7 +3749,6 @@ export const MilanDay = [
     { id: 88, value: "16" },
     { id: 89, value: "88" },
     { id: 90, value: "49" },
-    { id: 91, value: "**" },
   ],
   [
     { id: 92, value: "71" },
@@ -3917,7 +3757,6 @@ export const MilanDay = [
     { id: 95, value: "54" },
     { id: 96, value: "08" },
     { id: 97, value: "91" },
-    { id: 98, value: "**" },
   ],
   [
     { id: 99, value: "50" },
@@ -3926,7 +3765,6 @@ export const MilanDay = [
     { id: 102, value: "38" },
     { id: 103, value: "67" },
     { id: 104, value: "83" },
-    { id: 105, value: "**" },
   ],
   [
     { id: 106, value: "26" },
@@ -3935,7 +3773,6 @@ export const MilanDay = [
     { id: 109, value: "78" },
     { id: 110, value: "87" },
     { id: 111, value: "58" },
-    { id: 112, value: "**" },
   ],
   [
     { id: 113, value: "17" },
@@ -3944,7 +3781,6 @@ export const MilanDay = [
     { id: 116, value: "89" },
     { id: 117, value: "20" },
     { id: 118, value: "28" },
-    { id: 119, value: "**" },
   ],
   [
     { id: 120, value: "23" },
@@ -3953,7 +3789,6 @@ export const MilanDay = [
     { id: 123, value: "68" },
     { id: 124, value: "09" },
     { id: 125, value: "63" },
-    { id: 126, value: "**" },
   ],
   [
     { id: 127, value: "26" },
@@ -3962,7 +3797,6 @@ export const MilanDay = [
     { id: 130, value: "11" },
     { id: 131, value: "79" },
     { id: 132, value: "40" },
-    { id: 476, value: "**" },
   ],
 ];
 
@@ -3976,7 +3810,6 @@ export const Kalyan = [
     { id: 4, value: "70" },
     { id: 5, value: "26" },
     { id: 6, value: "93" },
-    { id: 7, value: "**" },
   ],
   [
     { id: 8, value: "56" },
@@ -3985,7 +3818,6 @@ export const Kalyan = [
     { id: 11, value: "22" },
     { id: 12, value: "01" },
     { id: 13, value: "18" },
-    { id: 14, value: "**" },
   ],
 
   [
@@ -3995,16 +3827,15 @@ export const Kalyan = [
     { id: 18, value: "69" },
     { id: 19, value: "96" },
     { id: 20, value: "82" },
-    { id: 21, value: "**" },
   ],
   [
     { id: 22, value: "94" },
     { id: 23, value: "56" },
+    { id: 5, value: "26" },
+
     { id: 24, value: "80" },
-    { id: 25, value: "**" },
     { id: 26, value: "89" },
     { id: 27, value: "15" },
-    { id: 28, value: "**" },
   ],
   [
     { id: 29, value: "48" },
@@ -4013,7 +3844,6 @@ export const Kalyan = [
     { id: 32, value: "30" },
     { id: 33, value: "47" },
     { id: 34, value: "12" },
-    { id: 35, value: "**" },
   ],
   [
     { id: 36, value: "44" },
@@ -4022,7 +3852,6 @@ export const Kalyan = [
     { id: 39, value: "22" },
     { id: 40, value: "22" },
     { id: 41, value: "92" },
-    { id: 42, value: "**" },
   ],
   [
     { id: 43, value: "80" },
@@ -4031,7 +3860,6 @@ export const Kalyan = [
     { id: 46, value: "68" },
     { id: 47, value: "67" },
     { id: 48, value: "73" },
-    { id: 49, value: "**" },
   ],
   [
     { id: 50, value: "43" },
@@ -4040,7 +3868,6 @@ export const Kalyan = [
     { id: 53, value: "12" },
     { id: 54, value: "26" },
     { id: 55, value: "56" },
-    { id: 56, value: "**" },
   ],
   [
     { id: 57, value: "51" },
@@ -4049,16 +3876,15 @@ export const Kalyan = [
     { id: 60, value: "60" },
     { id: 61, value: "37" },
     { id: 62, value: "16" },
-    { id: 63, value: "**" },
   ],
   [
     { id: 64, value: "14" },
     { id: 65, value: "34" },
-    { id: 66, value: "**" },
+    { id: 23, value: "56" },
+
     { id: 67, value: "93" },
     { id: 68, value: "61" },
     { id: 69, value: "64" },
-    { id: 70, value: "**" },
   ],
   [
     { id: 71, value: "96" },
@@ -4067,7 +3893,6 @@ export const Kalyan = [
     { id: 74, value: "38" },
     { id: 75, value: "89" },
     { id: 76, value: "83" },
-    { id: 77, value: "**" },
   ],
   [
     { id: 78, value: "76" },
@@ -4076,7 +3901,6 @@ export const Kalyan = [
     { id: 81, value: "97" },
     { id: 82, value: "01" },
     { id: 83, value: "58" },
-    { id: 84, value: "**" },
   ],
   [
     { id: 85, value: "36" },
@@ -4085,7 +3909,6 @@ export const Kalyan = [
     { id: 88, value: "95" },
     { id: 89, value: "68" },
     { id: 90, value: "07" },
-    { id: 91, value: "**" },
   ],
   [
     { id: 92, value: "60" },
@@ -4094,7 +3917,6 @@ export const Kalyan = [
     { id: 95, value: "72" },
     { id: 96, value: "26" },
     { id: 97, value: "98" },
-    { id: 98, value: "**" },
   ],
   [
     { id: 99, value: "70" },
@@ -4103,7 +3925,6 @@ export const Kalyan = [
     { id: 102, value: "17" },
     { id: 103, value: "58" },
     { id: 104, value: "35" },
-    { id: 105, value: "**" },
   ],
   [
     { id: 106, value: "12" },
@@ -4112,7 +3933,6 @@ export const Kalyan = [
     { id: 109, value: "27" },
     { id: 110, value: "52" },
     { id: 111, value: "04" },
-    { id: 112, value: "**" },
   ],
   [
     { id: 113, value: "71" },
@@ -4121,7 +3941,6 @@ export const Kalyan = [
     { id: 116, value: "83" },
     { id: 117, value: "38" },
     { id: 118, value: "00" },
-    { id: 119, value: "**" },
   ],
   [
     { id: 120, value: "88" },
@@ -4130,7 +3949,6 @@ export const Kalyan = [
     { id: 123, value: "79" },
     { id: 124, value: "71" },
     { id: 125, value: "62" },
-    { id: 126, value: "**" },
   ],
   [
     { id: 127, value: "38" },
@@ -4139,7 +3957,6 @@ export const Kalyan = [
     { id: 130, value: "63" },
     { id: 131, value: "22" },
     { id: 132, value: "51" },
-    { id: 133, value: "**" },
   ],
   [
     { id: 134, value: "71" },
@@ -4148,7 +3965,6 @@ export const Kalyan = [
     { id: 137, value: "42" },
     { id: 138, value: "06" },
     { id: 139, value: "45" },
-    { id: 140, value: "**" },
   ],
   [
     { id: 141, value: "05" },
@@ -4157,7 +3973,6 @@ export const Kalyan = [
     { id: 144, value: "56" },
     { id: 145, value: "56" },
     { id: 146, value: "06" },
-    { id: 147, value: "**" },
   ],
   [
     { id: 148, value: "54" },
@@ -4166,7 +3981,6 @@ export const Kalyan = [
     { id: 151, value: "86" },
     { id: 152, value: "37" },
     { id: 153, value: "32" },
-    { id: 154, value: "**" },
   ],
   [
     { id: 155, value: "58" },
@@ -4175,7 +3989,6 @@ export const Kalyan = [
     { id: 158, value: "24" },
     { id: 159, value: "00" },
     { id: 160, value: "29" },
-    { id: 161, value: "**" },
   ],
   [
     { id: 162, value: "92" },
@@ -4184,7 +3997,6 @@ export const Kalyan = [
     { id: 165, value: "19" },
     { id: 166, value: "01" },
     { id: 167, value: "52" },
-    { id: 168, value: "**" },
   ],
   [
     { id: 169, value: "30" },
@@ -4193,7 +4005,6 @@ export const Kalyan = [
     { id: 172, value: "61" },
     { id: 173, value: "33" },
     { id: 174, value: "73" },
-    { id: 175, value: "**" },
   ],
   [
     { id: 176, value: "55" },
@@ -4202,7 +4013,6 @@ export const Kalyan = [
     { id: 179, value: "20" },
     { id: 180, value: "26" },
     { id: 181, value: "31" },
-    { id: 182, value: "**" },
   ],
 
   [
@@ -4212,7 +4022,6 @@ export const Kalyan = [
     { id: 186, value: "51" },
     { id: 187, value: "95" },
     { id: 188, value: "80" },
-    { id: 189, value: "**" },
   ],
   [
     { id: 190, value: "27" },
@@ -4221,7 +4030,6 @@ export const Kalyan = [
     { id: 193, value: "94" },
     { id: 194, value: "61" },
     { id: 195, value: "46" },
-    { id: 196, value: "**" },
   ],
   [
     { id: 197, value: "92" },
@@ -4230,7 +4038,6 @@ export const Kalyan = [
     { id: 200, value: "43" },
     { id: 201, value: "31" },
     { id: 202, value: "03" },
-    { id: 203, value: "**" },
   ],
   [
     { id: 204, value: "63" },
@@ -4239,7 +4046,6 @@ export const Kalyan = [
     { id: 207, value: "74" },
     { id: 208, value: "86" },
     { id: 209, value: "40" },
-    { id: 210, value: "**" },
   ],
   [
     { id: 211, value: "41" },
@@ -4248,7 +4054,6 @@ export const Kalyan = [
     { id: 214, value: "30" },
     { id: 215, value: "18" },
     { id: 216, value: "26" },
-    { id: 217, value: "**" },
   ],
   [
     { id: 218, value: "96" },
@@ -4257,16 +4062,15 @@ export const Kalyan = [
     { id: 221, value: "59" },
     { id: 222, value: "78" },
     { id: 223, value: "57" },
-    { id: 224, value: "**" },
   ],
   [
     { id: 225, value: "95" },
-    { id: 226, value: "**" },
     { id: 227, value: "98" },
     { id: 228, value: "74" },
     { id: 229, value: "64" },
+    { id: 214, value: "30" },
+
     { id: 230, value: "84" },
-    { id: 231, value: "**" },
   ],
   [
     { id: 232, value: "13" },
@@ -4275,7 +4079,6 @@ export const Kalyan = [
     { id: 235, value: "01" },
     { id: 236, value: "76" },
     { id: 237, value: "67" },
-    { id: 238, value: "**" },
   ],
   [
     { id: 239, value: "62" },
@@ -4284,7 +4087,6 @@ export const Kalyan = [
     { id: 242, value: "12" },
     { id: 243, value: "99" },
     { id: 244, value: "60" },
-    { id: 245, value: "**" },
   ],
   [
     { id: 246, value: "18" },
@@ -4293,7 +4095,6 @@ export const Kalyan = [
     { id: 249, value: "19" },
     { id: 250, value: "18" },
     { id: 251, value: "51" },
-    { id: 252, value: "**" },
   ],
   [
     { id: 253, value: "95" },
@@ -4302,7 +4103,6 @@ export const Kalyan = [
     { id: 256, value: "37" },
     { id: 257, value: "81" },
     { id: 258, value: "12" },
-    { id: 259, value: "**" },
   ],
   [
     { id: 260, value: "57" },
@@ -4311,7 +4111,6 @@ export const Kalyan = [
     { id: 263, value: "70" },
     { id: 264, value: "95" },
     { id: 265, value: "54" },
-    { id: 266, value: "**" },
   ],
   [
     { id: 267, value: "78" },
@@ -4320,7 +4119,6 @@ export const Kalyan = [
     { id: 270, value: "06" },
     { id: 271, value: "28" },
     { id: 272, value: "39" },
-    { id: 273, value: "**" },
   ],
   [
     { id: 274, value: "68" },
@@ -4329,7 +4127,6 @@ export const Kalyan = [
     { id: 277, value: "45" },
     { id: 278, value: "52" },
     { id: 279, value: "01" },
-    { id: 280, value: "**" },
   ],
   [
     { id: 281, value: "75" },
@@ -4338,7 +4135,6 @@ export const Kalyan = [
     { id: 284, value: "26" },
     { id: 285, value: "90" },
     { id: 286, value: "89" },
-    { id: 287, value: "**" },
   ],
   [
     { id: 288, value: "67" },
@@ -4347,7 +4143,6 @@ export const Kalyan = [
     { id: 291, value: "44" },
     { id: 292, value: "35" },
     { id: 293, value: "72" },
-    { id: 294, value: "**" },
   ],
   [
     { id: 295, value: "67" },
@@ -4356,7 +4151,6 @@ export const Kalyan = [
     { id: 298, value: "73" },
     { id: 299, value: "77" },
     { id: 300, value: "93" },
-    { id: 301, value: "**" },
   ],
   [
     { id: 302, value: "04" },
@@ -4365,26 +4159,17 @@ export const Kalyan = [
     { id: 305, value: "51" },
     { id: 306, value: "41" },
     { id: 307, value: "00" },
-    { id: 308, value: "**" },
   ],
   [
     { id: 309, value: "74" },
     { id: 310, value: "28" },
     { id: 311, value: "31" },
+    { id: 229, value: "64" },
+    { id: 229, value: "64" },
+
     { id: 312, value: "40" },
-    { id: 313, value: "**" },
-    { id: 313, value: "**" },
-    { id: 313, value: "**" },
   ],
-  [
-    { id: 314, value: "**" },
-    { id: 315, value: "**" },
-    { id: 316, value: "**" },
-    { id: 317, value: "**" },
-    { id: 318, value: "**" },
-    { id: 319, value: "**" },
-    { id: 319, value: "**" },
-  ],
+  [],
   [
     { id: 320, value: "53" },
     { id: 321, value: "53" },
@@ -4392,7 +4177,6 @@ export const Kalyan = [
     { id: 323, value: "98" },
     { id: 324, value: "48" },
     { id: 325, value: "70" },
-    { id: 326, value: "**" },
   ],
   [
     { id: 327, value: "76" },
@@ -4401,7 +4185,6 @@ export const Kalyan = [
     { id: 330, value: "06" },
     { id: 331, value: "33" },
     { id: 332, value: "31" },
-    { id: 333, value: "**" },
   ],
   [
     { id: 334, value: "90" },
@@ -4410,7 +4193,6 @@ export const Kalyan = [
     { id: 337, value: "56" },
     { id: 338, value: "13" },
     { id: 339, value: "72" },
-    { id: 340, value: "**" },
   ],
   [
     { id: 341, value: "69" },
@@ -4419,7 +4201,6 @@ export const Kalyan = [
     { id: 344, value: "38" },
     { id: 345, value: "48" },
     { id: 346, value: "65" },
-    { id: 347, value: "**" },
   ],
   [
     { id: 348, value: "22" },
@@ -4428,7 +4209,6 @@ export const Kalyan = [
     { id: 351, value: "44" },
     { id: 352, value: "14" },
     { id: 353, value: "16" },
-    { id: 354, value: "**" },
   ],
   [
     { id: 355, value: "48" },
@@ -4437,7 +4217,6 @@ export const Kalyan = [
     { id: 358, value: "53" },
     { id: 359, value: "54" },
     { id: 360, value: "97" },
-    { id: 361, value: "**" },
   ],
   [
     { id: 362, value: "41" },
@@ -4446,7 +4225,6 @@ export const Kalyan = [
     { id: 365, value: "63" },
     { id: 366, value: "25" },
     { id: 367, value: "15" },
-    { id: 368, value: "**" },
   ],
   [
     { id: 369, value: "73" },
@@ -4455,7 +4233,6 @@ export const Kalyan = [
     { id: 372, value: "63" },
     { id: 373, value: "38" },
     { id: 374, value: "12" },
-    { id: 375, value: "**" },
   ],
   [
     { id: 376, value: "75" },
@@ -4464,16 +4241,15 @@ export const Kalyan = [
     { id: 379, value: "05" },
     { id: 380, value: "25" },
     { id: 381, value: "37" },
-    { id: 382, value: "**" },
   ],
   [
     { id: 383, value: "30" },
     { id: 384, value: "37" },
+    { id: 229, value: "64" },
+
     { id: 385, value: "51" },
     { id: 386, value: "14" },
-    { id: 387, value: "**" },
     { id: 388, value: "20" },
-    { id: 389, value: "**" },
   ],
   [
     { id: 390, value: "91" },
@@ -4482,7 +4258,6 @@ export const Kalyan = [
     { id: 393, value: "45" },
     { id: 394, value: "04" },
     { id: 395, value: "48" },
-    { id: 396, value: "**" },
   ],
   [
     { id: 397, value: "16" },
@@ -4491,7 +4266,6 @@ export const Kalyan = [
     { id: 400, value: "72" },
     { id: 401, value: "87" },
     { id: 402, value: "98" },
-    { id: 403, value: "**" },
   ],
   [
     { id: 404, value: "01" },
@@ -4500,7 +4274,6 @@ export const Kalyan = [
     { id: 407, value: "07" },
     { id: 408, value: "52" },
     { id: 409, value: "25" },
-    { id: 410, value: "**" },
   ],
   [
     { id: 411, value: "44" },
@@ -4509,7 +4282,6 @@ export const Kalyan = [
     { id: 414, value: "40" },
     { id: 415, value: "03" },
     { id: 416, value: "89" },
-    { id: 417, value: "**" },
   ],
   [
     { id: 418, value: "32" },
@@ -4518,7 +4290,6 @@ export const Kalyan = [
     { id: 421, value: "56" },
     { id: 422, value: "47" },
     { id: 423, value: "96" },
-    { id: 424, value: "**" },
   ],
   [
     { id: 425, value: "93" },
@@ -4527,7 +4298,6 @@ export const Kalyan = [
     { id: 428, value: "72" },
     { id: 429, value: "03" },
     { id: 430, value: "03" },
-    { id: 431, value: "**" },
   ],
   [
     { id: 432, value: "39" },
@@ -4536,7 +4306,6 @@ export const Kalyan = [
     { id: 435, value: "08" },
     { id: 436, value: "28" },
     { id: 437, value: "96" },
-    { id: 438, value: "**" },
   ],
   [
     { id: 439, value: "59" },
@@ -4545,16 +4314,14 @@ export const Kalyan = [
     { id: 442, value: "33" },
     { id: 443, value: "66" },
     { id: 444, value: "40" },
-    { id: 445, value: "**" },
   ],
   [
-    { id: 446, value: "**" },
     { id: 447, value: "97" },
     { id: 448, value: "55" },
     { id: 449, value: "39" },
     { id: 450, value: "08" },
+    { id: 229, value: "64" },
     { id: 451, value: "91" },
-    { id: 452, value: "**" },
   ],
   [
     { id: 453, value: "96" },
@@ -4563,7 +4330,6 @@ export const Kalyan = [
     { id: 456, value: "41" },
     { id: 457, value: "49" },
     { id: 458, value: "36" },
-    { id: 459, value: "**" },
   ],
   [
     { id: 460, value: "45" },
@@ -4572,7 +4338,6 @@ export const Kalyan = [
     { id: 463, value: "47" },
     { id: 464, value: "66" },
     { id: 465, value: "15" },
-    { id: 466, value: "**" },
   ],
   [
     { id: 467, value: "77" },
@@ -4581,7 +4346,6 @@ export const Kalyan = [
     { id: 470, value: "64" },
     { id: 471, value: "13" },
     { id: 472, value: "84" },
-    { id: 473, value: "**" },
   ],
   [
     { id: 474, value: "26" },
@@ -4590,7 +4354,6 @@ export const Kalyan = [
     { id: 477, value: "88" },
     { id: 478, value: "04" },
     { id: 479, value: "55" },
-    { id: 480, value: "**" },
   ],
   [
     { id: 481, value: "95" },
@@ -4599,7 +4362,6 @@ export const Kalyan = [
     { id: 484, value: "99" },
     { id: 485, value: "70" },
     { id: 486, value: "82" },
-    { id: 487, value: "**" },
   ],
   [
     { id: 488, value: "55" },
@@ -4608,7 +4370,6 @@ export const Kalyan = [
     { id: 491, value: "31" },
     { id: 492, value: "39" },
     { id: 493, value: "89" },
-    { id: 493, value: "**" },
   ],
 ];
 export const KalyanNight = [
@@ -4618,8 +4379,6 @@ export const KalyanNight = [
     { id: 3, value: "97" },
     { id: 4, value: "43" },
     { id: 5, value: "21" },
-    { id: 6, value: "**" },
-    { id: 7, value: "**" },
   ],
   [
     { id: 1, value: "36" },
@@ -4627,8 +4386,6 @@ export const KalyanNight = [
     { id: 3, value: "70" },
     { id: 4, value: "74" },
     { id: 5, value: "51" },
-    { id: 6, value: "**" },
-    { id: 7, value: "**" },
   ],
   [
     { id: 8, value: "04" },
@@ -4636,17 +4393,14 @@ export const KalyanNight = [
     { id: 10, value: "60" },
     { id: 11, value: "60" },
     { id: 12, value: "78" },
-    { id: 13, value: "**" },
-    { id: 14, value: "**" },
   ],
   [
     { id: 15, value: "36" },
+    { id: 11, value: "60" },
+
     { id: 16, value: "69" },
     { id: 17, value: "39" },
-    { id: 14, value: "**" },
     { id: 18, value: "42" },
-    { id: 20, value: "**" },
-    { id: 21, value: "**" },
   ],
   [
     { id: 19, value: "67" },
@@ -4654,8 +4408,6 @@ export const KalyanNight = [
     { id: 23, value: "32" },
     { id: 24, value: "94" },
     { id: 25, value: "11" },
-    { id: 27, value: "**" },
-    { id: 28, value: "**" },
   ],
   [
     { id: 26, value: "57" },
@@ -4663,8 +4415,6 @@ export const KalyanNight = [
     { id: 30, value: "61" },
     { id: 31, value: "98" },
     { id: 32, value: "50" },
-    { id: 34, value: "**" },
-    { id: 35, value: "**" },
   ],
   [
     { id: 43, value: "84" },
@@ -4672,8 +4422,6 @@ export const KalyanNight = [
     { id: 45, value: "34" },
     { id: 46, value: "64" },
     { id: 47, value: "37" },
-    { id: 48, value: "**" },
-    { id: 49, value: "**" },
   ],
   [
     { id: 50, value: "15" },
@@ -4681,17 +4429,14 @@ export const KalyanNight = [
     { id: 52, value: "59" },
     { id: 53, value: "55" },
     { id: 54, value: "97" },
-    { id: 55, value: "**" },
-    { id: 56, value: "**" },
   ],
   [
     { id: 57, value: "58" },
     { id: 58, value: "06" },
-    { id: 62, value: "**" },
     { id: 59, value: "30" },
+    { id: 11, value: "60" },
+
     { id: 60, value: "99" },
-    { id: 61, value: "**" },
-    { id: 63, value: "**" },
   ],
   [
     { id: 64, value: "29" },
@@ -4699,8 +4444,6 @@ export const KalyanNight = [
     { id: 66, value: "38" },
     { id: 67, value: "99" },
     { id: 68, value: "29" },
-    { id: 69, value: "**" },
-    { id: 70, value: "**" },
   ],
   [
     { id: 71, value: "96" },
@@ -4708,8 +4451,6 @@ export const KalyanNight = [
     { id: 73, value: "65" },
     { id: 74, value: "21" },
     { id: 75, value: "65" },
-    { id: 76, value: "**" },
-    { id: 77, value: "**" },
   ],
   [
     { id: 78, value: "03" },
@@ -4717,8 +4458,6 @@ export const KalyanNight = [
     { id: 80, value: "71" },
     { id: 81, value: "94" },
     { id: 82, value: "38" },
-    { id: 83, value: "**" },
-    { id: 84, value: "**" },
   ],
   [
     { id: 85, value: "98" },
@@ -4726,8 +4465,6 @@ export const KalyanNight = [
     { id: 87, value: "75" },
     { id: 88, value: "33" },
     { id: 89, value: "04" },
-    { id: 90, value: "**" },
-    { id: 91, value: "**" },
   ],
   [
     { id: 92, value: "00" },
@@ -4735,8 +4472,6 @@ export const KalyanNight = [
     { id: 94, value: "41" },
     { id: 95, value: "47" },
     { id: 96, value: "13" },
-    { id: 90, value: "**" },
-    { id: 91, value: "**" },
   ],
   [
     { id: 99, value: "41" },
@@ -4744,8 +4479,6 @@ export const KalyanNight = [
     { id: 100, value: "21" },
     { id: 101, value: "40" },
     { id: 102, value: "42" },
-    { id: 104, value: "**" },
-    { id: 105, value: "**" },
   ],
   [
     { id: 103, value: "76" },
@@ -4753,8 +4486,6 @@ export const KalyanNight = [
     { id: 107, value: "04" },
     { id: 108, value: "09" },
     { id: 109, value: "74" },
-    { id: 111, value: "**" },
-    { id: 112, value: "**" },
   ],
   [
     { id: 110, value: "85" },
@@ -4762,8 +4493,6 @@ export const KalyanNight = [
     { id: 114, value: "74" },
     { id: 115, value: "19" },
     { id: 116, value: "18" },
-    { id: 118, value: "**" },
-    { id: 119, value: "**" },
   ],
   [
     { id: 117, value: "15" },
@@ -4771,8 +4500,6 @@ export const KalyanNight = [
     { id: 121, value: "77" },
     { id: 122, value: "92" },
     { id: 123, value: "93" },
-    { id: 125, value: "**" },
-    { id: 126, value: "**" },
   ],
   [
     { id: 124, value: "98" },
@@ -4780,8 +4507,6 @@ export const KalyanNight = [
     { id: 128, value: "26" },
     { id: 129, value: "09" },
     { id: 130, value: "04" },
-    { id: 132, value: "**" },
-    { id: 133, value: "**" },
   ],
   [
     { id: 131, value: "79" },
@@ -4789,8 +4514,6 @@ export const KalyanNight = [
     { id: 135, value: "44" },
     { id: 136, value: "06" },
     { id: 137, value: "28" },
-    { id: 139, value: "**" },
-    { id: 140, value: "**" },
   ],
   [
     { id: 138, value: "63" },
@@ -4798,8 +4521,6 @@ export const KalyanNight = [
     { id: 142, value: "76" },
     { id: 143, value: "85" },
     { id: 144, value: "78" },
-    { id: 139, value: "**" },
-    { id: 140, value: "**" },
   ],
   [
     { id: 141, value: "39" },
@@ -4807,8 +4528,6 @@ export const KalyanNight = [
     { id: 143, value: "34" },
     { id: 144, value: "31" },
     { id: 145, value: "26" },
-    { id: 146, value: "**" },
-    { id: 147, value: "**" },
   ],
   [
     { id: 148, value: "68" },
@@ -4816,8 +4535,6 @@ export const KalyanNight = [
     { id: 150, value: "80" },
     { id: 151, value: "22" },
     { id: 152, value: "31" },
-    { id: 153, value: "**" },
-    { id: 154, value: "**" },
   ],
   [
     { id: 155, value: "21" },
@@ -4825,8 +4542,6 @@ export const KalyanNight = [
     { id: 157, value: "92" },
     { id: 158, value: "04" },
     { id: 159, value: "56" },
-    { id: 160, value: "**" },
-    { id: 161, value: "**" },
   ],
   [
     { id: 162, value: "56" },
@@ -4834,8 +4549,6 @@ export const KalyanNight = [
     { id: 164, value: "37" },
     { id: 165, value: "25" },
     { id: 166, value: "69" },
-    { id: 167, value: "**" },
-    { id: 168, value: "**" },
   ],
   [
     { id: 169, value: "58" },
@@ -4843,8 +4556,6 @@ export const KalyanNight = [
     { id: 171, value: "60" },
     { id: 172, value: "96" },
     { id: 173, value: "21" },
-    { id: 174, value: "**" },
-    { id: 175, value: "**" },
   ],
   [
     { id: 176, value: "90" },
@@ -4852,8 +4563,6 @@ export const KalyanNight = [
     { id: 178, value: "85" },
     { id: 179, value: "15" },
     { id: 180, value: "86" },
-    { id: 181, value: "**" },
-    { id: 182, value: "**" },
   ],
   [
     { id: 183, value: "98" },
@@ -4861,8 +4570,6 @@ export const KalyanNight = [
     { id: 185, value: "16" },
     { id: 186, value: "82" },
     { id: 187, value: "70" },
-    { id: 181, value: "**" },
-    { id: 182, value: "**" },
   ],
   [
     { id: 183, value: "59" },
@@ -4870,8 +4577,6 @@ export const KalyanNight = [
     { id: 185, value: "17" },
     { id: 186, value: "15" },
     { id: 187, value: "66" },
-    { id: 188, value: "**" },
-    { id: 189, value: "**" },
   ],
   [
     { id: 190, value: "19" },
@@ -4879,8 +4584,6 @@ export const KalyanNight = [
     { id: 192, value: "40" },
     { id: 193, value: "97" },
     { id: 194, value: "89" },
-    { id: 195, value: "**" },
-    { id: 196, value: "**" },
   ],
   [
     { id: 197, value: "17" },
@@ -4888,17 +4591,14 @@ export const KalyanNight = [
     { id: 199, value: "24" },
     { id: 200, value: "14" },
     { id: 201, value: "96" },
-    { id: 195, value: "**" },
-    { id: 196, value: "**" },
   ],
   [
     { id: 202, value: "22" },
-    { id: 203, value: "**" },
     { id: 204, value: "89" },
+    { id: 11, value: "60" },
+
     { id: 205, value: "55" },
     { id: 206, value: "89" },
-    { id: 195, value: "**" },
-    { id: 196, value: "**" },
   ],
   [
     { id: 207, value: "28" },
@@ -4906,8 +4606,6 @@ export const KalyanNight = [
     { id: 209, value: "28" },
     { id: 210, value: "32" },
     { id: 211, value: "50" },
-    { id: 212, value: "**" },
-    { id: 213, value: "**" },
   ],
   [
     { id: 214, value: "29" },
@@ -4915,8 +4613,6 @@ export const KalyanNight = [
     { id: 216, value: "84" },
     { id: 217, value: "86" },
     { id: 218, value: "81" },
-    { id: 219, value: "**" },
-    { id: 220, value: "**" },
   ],
   [
     { id: 221, value: "97" },
@@ -4924,8 +4620,6 @@ export const KalyanNight = [
     { id: 223, value: "80" },
     { id: 224, value: "16" },
     { id: 225, value: "01" },
-    { id: 226, value: "**" },
-    { id: 227, value: "**" },
   ],
   [
     { id: 228, value: "87" },
@@ -4933,8 +4627,6 @@ export const KalyanNight = [
     { id: 230, value: "07" },
     { id: 231, value: "84" },
     { id: 232, value: "71" },
-    { id: 233, value: "**" },
-    { id: 234, value: "**" },
   ],
   [
     { id: 235, value: "18" },
@@ -4942,8 +4634,6 @@ export const KalyanNight = [
     { id: 237, value: "61" },
     { id: 238, value: "01" },
     { id: 239, value: "60" },
-    { id: 240, value: "**" },
-    { id: 241, value: "**" },
   ],
   [
     { id: 242, value: "35" },
@@ -4951,8 +4641,6 @@ export const KalyanNight = [
     { id: 244, value: "29" },
     { id: 245, value: "55" },
     { id: 246, value: "09" },
-    { id: 247, value: "**" },
-    { id: 248, value: "**" },
   ],
   [
     { id: 249, value: "23" },
@@ -4960,8 +4648,6 @@ export const KalyanNight = [
     { id: 251, value: "78" },
     { id: 252, value: "11" },
     { id: 253, value: "23" },
-    { id: 254, value: "**" },
-    { id: 255, value: "**" },
   ],
   [
     { id: 256, value: "31" },
@@ -4969,8 +4655,6 @@ export const KalyanNight = [
     { id: 258, value: "50" },
     { id: 259, value: "77" },
     { id: 260, value: "21" },
-    { id: 261, value: "**" },
-    { id: 262, value: "**" },
   ],
   [
     { id: 263, value: "66" },
@@ -4978,8 +4662,6 @@ export const KalyanNight = [
     { id: 265, value: "29" },
     { id: 266, value: "83" },
     { id: 267, value: "59" },
-    { id: 268, value: "**" },
-    { id: 269, value: "**" },
   ],
   [
     { id: 270, value: "02" },
@@ -4987,8 +4669,6 @@ export const KalyanNight = [
     { id: 272, value: "65" },
     { id: 273, value: "65" },
     { id: 274, value: "44" },
-    { id: 275, value: "**" },
-    { id: 276, value: "**" },
   ],
   [
     { id: 277, value: "54" },
@@ -4996,26 +4676,14 @@ export const KalyanNight = [
     { id: 279, value: "46" },
     { id: 280, value: "41" },
     { id: 281, value: "23" },
-    { id: 275, value: "**" },
-    { id: 276, value: "**" },
   ],
   [
     { id: 282, value: "63" },
     { id: 283, value: "10" },
     { id: 284, value: "69" },
+    { id: 11, value: "60" },
+
     { id: 285, value: "93" },
-    { id: 286, value: "**" },
-    { id: 287, value: "**" },
-    { id: 288, value: "**" },
-  ],
-  [
-    { id: 289, value: "**" },
-    { id: 289, value: "**" },
-    { id: 289, value: "**" },
-    { id: 289, value: "**" },
-    { id: 289, value: "**" },
-    { id: 289, value: "**" },
-    { id: 289, value: "**" },
   ],
   [
     { id: 290, value: "39" },
@@ -5023,8 +4691,6 @@ export const KalyanNight = [
     { id: 292, value: "66" },
     { id: 293, value: "94" },
     { id: 294, value: "58" },
-    { id: 295, value: "**" },
-    { id: 296, value: "**" },
   ],
   [
     { id: 297, value: "37" },
@@ -5032,8 +4698,6 @@ export const KalyanNight = [
     { id: 299, value: "67" },
     { id: 300, value: "76" },
     { id: 301, value: "95" },
-    { id: 302, value: "**" },
-    { id: 303, value: "**" },
   ],
   [
     { id: 304, value: "04" },
@@ -5041,8 +4705,6 @@ export const KalyanNight = [
     { id: 306, value: "37" },
     { id: 307, value: "59" },
     { id: 308, value: "03" },
-    { id: 309, value: "**" },
-    { id: 310, value: "**" },
   ],
   [
     { id: 311, value: "98" },
@@ -5050,8 +4712,6 @@ export const KalyanNight = [
     { id: 313, value: "82" },
     { id: 314, value: "87" },
     { id: 315, value: "82" },
-    { id: 316, value: "**" },
-    { id: 317, value: "**" },
   ],
   [
     { id: 318, value: "90" },
@@ -5059,8 +4719,6 @@ export const KalyanNight = [
     { id: 320, value: "86" },
     { id: 321, value: "53" },
     { id: 322, value: "45" },
-    { id: 323, value: "**" },
-    { id: 324, value: "**" },
   ],
   [
     { id: 325, value: "79" },
@@ -5068,8 +4726,6 @@ export const KalyanNight = [
     { id: 327, value: "60" },
     { id: 328, value: "53" },
     { id: 329, value: "59" },
-    { id: 330, value: "**" },
-    { id: 331, value: "**" },
   ],
   [
     { id: 332, value: "93" },
@@ -5077,8 +4733,6 @@ export const KalyanNight = [
     { id: 334, value: "98" },
     { id: 335, value: "76" },
     { id: 336, value: "42" },
-    { id: 337, value: "**" },
-    { id: 338, value: "**" },
   ],
   [
     { id: 339, value: "19" },
@@ -5086,8 +4740,6 @@ export const KalyanNight = [
     { id: 341, value: "47" },
     { id: 342, value: "75" },
     { id: 343, value: "36" },
-    { id: 344, value: "**" },
-    { id: 345, value: "**" },
   ],
   [
     { id: 346, value: "36" },
@@ -5095,17 +4747,13 @@ export const KalyanNight = [
     { id: 348, value: "79" },
     { id: 349, value: "97" },
     { id: 350, value: "51" },
-    { id: 344, value: "**" },
-    { id: 345, value: "**" },
   ],
   [
     { id: 347, value: "79" },
     { id: 348, value: "68" },
+    { id: 540, value: "52" },
     { id: 349, value: "35" },
     { id: 350, value: "32" },
-    { id: 351, value: "**" },
-    { id: 351, value: "**" },
-    { id: 352, value: "**" },
   ],
   [
     { id: 353, value: "70" },
@@ -5113,8 +4761,6 @@ export const KalyanNight = [
     { id: 355, value: "34" },
     { id: 356, value: "30" },
     { id: 357, value: "42" },
-    { id: 360, value: "**" },
-    { id: 361, value: "**" },
   ],
   [
     { id: 358, value: "95" },
@@ -5122,8 +4768,6 @@ export const KalyanNight = [
     { id: 362, value: "62" },
     { id: 363, value: "80" },
     { id: 364, value: "91" },
-    { id: 367, value: "**" },
-    { id: 368, value: "**" },
   ],
   [
     { id: 365, value: "28" },
@@ -5131,8 +4775,6 @@ export const KalyanNight = [
     { id: 369, value: "63" },
     { id: 370, value: "51" },
     { id: 371, value: "54" },
-    { id: 374, value: "**" },
-    { id: 375, value: "**" },
   ],
   [
     { id: 372, value: "28" },
@@ -5140,8 +4782,6 @@ export const KalyanNight = [
     { id: 376, value: "24" },
     { id: 377, value: "83" },
     { id: 378, value: "52" },
-    { id: 381, value: "**" },
-    { id: 382, value: "**" },
   ],
   [
     { id: 379, value: "90" },
@@ -5149,8 +4789,6 @@ export const KalyanNight = [
     { id: 383, value: "87" },
     { id: 384, value: "66" },
     { id: 385, value: "28" },
-    { id: 388, value: "**" },
-    { id: 389, value: "**" },
   ],
   [
     { id: 386, value: "44" },
@@ -5158,8 +4796,6 @@ export const KalyanNight = [
     { id: 390, value: "96" },
     { id: 391, value: "33" },
     { id: 392, value: "52" },
-    { id: 395, value: "**" },
-    { id: 396, value: "**" },
   ],
   [
     { id: 533, value: "77" },
@@ -5167,8 +4803,6 @@ export const KalyanNight = [
     { id: 535, value: "21" },
     { id: 536, value: "67" },
     { id: 537, value: "25" },
-    { id: 538, value: "**" },
-    { id: 539, value: "**" },
   ],
   [
     { id: 540, value: "74" },
@@ -5176,17 +4810,14 @@ export const KalyanNight = [
     { id: 542, value: "59" },
     { id: 543, value: "33" },
     { id: 544, value: "63" },
-    { id: 545, value: "**" },
-    { id: 546, value: "**" },
   ],
   [
-    { id: 552, value: "**" },
     { id: 547, value: "44" },
+    { id: 540, value: "52" },
+
     { id: 548, value: "31" },
     { id: 549, value: "32" },
     { id: 550, value: "29" },
-    { id: 552, value: "**" },
-    { id: 553, value: "**" },
   ],
   [
     { id: 533, value: "64" },
@@ -5194,8 +4825,6 @@ export const KalyanNight = [
     { id: 535, value: "15" },
     { id: 536, value: "03" },
     { id: 537, value: "45" },
-    { id: 538, value: "**" },
-    { id: 539, value: "**" },
   ],
   [
     { id: 540, value: "01" },
@@ -5203,8 +4832,6 @@ export const KalyanNight = [
     { id: 542, value: "07" },
     { id: 543, value: "65" },
     { id: 544, value: "16" },
-    { id: 545, value: "**" },
-    { id: 546, value: "**" },
   ],
   [
     { id: 547, value: "29" },
@@ -5212,8 +4839,6 @@ export const KalyanNight = [
     { id: 549, value: "96" },
     { id: 550, value: "71" },
     { id: 551, value: "75" },
-    { id: 552, value: "**" },
-    { id: 553, value: "**" },
   ],
   [
     { id: 554, value: "64" },
@@ -5221,8 +4846,6 @@ export const KalyanNight = [
     { id: 556, value: "42" },
     { id: 557, value: "66" },
     { id: 558, value: "61" },
-    { id: 559, value: "**" },
-    { id: 560, value: "**" },
   ],
   [
     { id: 561, value: "16" },
@@ -5230,8 +4853,6 @@ export const KalyanNight = [
     { id: 563, value: "26" },
     { id: 564, value: "32" },
     { id: 565, value: "50" },
-    { id: 566, value: "**" },
-    { id: 567, value: "**" },
   ],
   [
     { id: 568, value: "49" },
@@ -5239,8 +4860,6 @@ export const KalyanNight = [
     { id: 570, value: "46" },
     { id: 571, value: "42" },
     { id: 572, value: "55" },
-    { id: 573, value: "**" },
-    { id: 574, value: "**" },
   ],
   [
     { id: 575, value: "64" },
@@ -5248,8 +4867,6 @@ export const KalyanNight = [
     { id: 577, value: "05" },
     { id: 578, value: "24" },
     { id: 579, value: "20" },
-    { id: 580, value: "**" },
-    { id: 581, value: "**" },
   ],
   [
     { id: 582, value: "75" },
@@ -5257,8 +4874,6 @@ export const KalyanNight = [
     { id: 584, value: "95" },
     { id: 585, value: "77" },
     { id: 586, value: "60" },
-    { id: 587, value: "**" },
-    { id: 588, value: "**" },
   ],
   [
     { id: 589, value: "71" },
@@ -5266,8 +4881,6 @@ export const KalyanNight = [
     { id: 591, value: "07" },
     { id: 592, value: "59" },
     { id: 593, value: "68" },
-    { id: 594, value: "**" },
-    { id: 595, value: "**" },
   ],
   [
     { id: 596, value: "30" },
@@ -5275,8 +4888,6 @@ export const KalyanNight = [
     { id: 598, value: "34" },
     { id: 599, value: "60" },
     { id: 600, value: "02" },
-    { id: 601, value: "**" },
-    { id: 602, value: "**" },
   ],
   [
     { id: 603, value: "78" },
@@ -5284,8 +4895,6 @@ export const KalyanNight = [
     { id: 605, value: "70" },
     { id: 606, value: "60" },
     { id: 607, value: "23" },
-    { id: 608, value: "**" },
-    { id: 609, value: "**" },
   ],
   [
     { id: 610, value: "07" },
@@ -5293,8 +4902,6 @@ export const KalyanNight = [
     { id: 612, value: "36" },
     { id: 613, value: "61" },
     { id: 614, value: "68" },
-    { id: 615, value: "**" },
-    { id: 616, value: "**" },
   ],
   [
     { id: 617, value: "81" },
@@ -5302,8 +4909,6 @@ export const KalyanNight = [
     { id: 619, value: "84" },
     { id: 620, value: "91" },
     { id: 621, value: "18" },
-    { id: 622, value: "**" },
-    { id: 623, value: "**" },
   ],
   [
     { id: 624, value: "74" },
@@ -5311,8 +4916,6 @@ export const KalyanNight = [
     { id: 626, value: "79" },
     { id: 627, value: "47" },
     { id: 628, value: "05" },
-    { id: 629, value: "**" },
-    { id: 630, value: "**" },
   ],
   [
     { id: 631, value: "00" },
@@ -5320,8 +4923,6 @@ export const KalyanNight = [
     { id: 633, value: "12" },
     { id: 634, value: "31" },
     { id: 635, value: "12" },
-    { id: 636, value: "**" },
-    { id: 637, value: "**" },
   ],
   [
     { id: 638, value: "57" },
@@ -5329,18 +4930,14 @@ export const KalyanNight = [
     { id: 640, value: "15" },
     { id: 641, value: "97" },
     { id: 642, value: "77" },
-    { id: 643, value: "**" },
-    { id: 644, value: "**" },
   ],
   [
     { id: 533, value: "34" },
+    { id: 540, value: "52" },
+
     { id: 534, value: "85" },
     { id: 535, value: "61" },
-    { id: 536, value: "**" },
     { id: 537, value: "52" },
-
-    { id: 545, value: "**" },
-    { id: 546, value: "**" },
   ],
   [
     { id: 538, value: "81" },
@@ -5348,8 +4945,6 @@ export const KalyanNight = [
     { id: 540, value: "52" },
     { id: 541, value: "41" },
     { id: 542, value: "38" },
-    { id: 545, value: "**" },
-    { id: 546, value: "**" },
   ],
   [
     { id: 543, value: "21" },
@@ -5357,8 +4952,6 @@ export const KalyanNight = [
     { id: 547, value: "82" },
     { id: 548, value: "31" },
     { id: 549, value: "01" },
-    { id: 553, value: "**" },
-    { id: 553, value: "**" },
   ],
 ];
 // sridevinight
@@ -5646,7 +5239,6 @@ export const MilanNight = [
     { id: 4, value: "96" },
     { id: 5, value: "81" },
     { id: 6, value: "07" },
-    { id: 7, value: "**" },
   ],
   [
     { id: 8, value: "59" },
@@ -5655,7 +5247,6 @@ export const MilanNight = [
     { id: 11, value: "54" },
     { id: 12, value: "92" },
     { id: 13, value: "97" },
-    { id: 14, value: "**" },
   ],
   [
     { id: 15, value: "00" },
@@ -5664,16 +5255,15 @@ export const MilanNight = [
     { id: 18, value: "71" },
     { id: 19, value: "29" },
     { id: 20, value: "06" },
-    { id: 21, value: "**" },
   ],
   [
     { id: 22, value: "21" },
+    { id: 11, value: "54" },
+
     { id: 23, value: "48" },
     { id: 24, value: "91" },
-    { id: 25, value: "**" },
     { id: 26, value: "80" },
     { id: 27, value: "69" },
-    { id: 28, value: "**" },
   ],
   [
     { id: 29, value: "81" },
@@ -5682,7 +5272,6 @@ export const MilanNight = [
     { id: 32, value: "82" },
     { id: 33, value: "03" },
     { id: 34, value: "26" },
-    { id: 35, value: "**" },
   ],
   [
     { id: 36, value: "98" },
@@ -5691,7 +5280,6 @@ export const MilanNight = [
     { id: 39, value: "51" },
     { id: 40, value: "89" },
     { id: 41, value: "44" },
-    { id: 42, value: "**" },
   ],
   [
     { id: 43, value: "60" },
@@ -5700,7 +5288,6 @@ export const MilanNight = [
     { id: 46, value: "19" },
     { id: 47, value: "71" },
     { id: 48, value: "25" },
-    { id: 49, value: "**" },
   ],
   [
     { id: 50, value: "91" },
@@ -5709,7 +5296,6 @@ export const MilanNight = [
     { id: 53, value: "02" },
     { id: 54, value: "01" },
     { id: 55, value: "63" },
-    { id: 56, value: "**" },
   ],
   [
     { id: 57, value: "26" },
@@ -5718,16 +5304,15 @@ export const MilanNight = [
     { id: 60, value: "98" },
     { id: 61, value: "80" },
     { id: 62, value: "53" },
-    { id: 63, value: "**" },
   ],
   [
     { id: 64, value: "54" },
     { id: 65, value: "49" },
-    { id: 66, value: "**" },
     { id: 67, value: "61" },
+    { id: 11, value: "54" },
+
     { id: 68, value: "65" },
     { id: 69, value: "17" },
-    { id: 70, value: "**" },
   ],
   [
     { id: 71, value: "66" },
@@ -5736,7 +5321,6 @@ export const MilanNight = [
     { id: 74, value: "23" },
     { id: 75, value: "41" },
     { id: 76, value: "25" },
-    { id: 77, value: "**" },
   ],
   [
     { id: 78, value: "88" },
@@ -5745,7 +5329,6 @@ export const MilanNight = [
     { id: 81, value: "38" },
     { id: 82, value: "14" },
     { id: 83, value: "44" },
-    { id: 84, value: "**" },
   ],
   [
     { id: 85, value: "80" },
@@ -5754,7 +5337,6 @@ export const MilanNight = [
     { id: 88, value: "86" },
     { id: 89, value: "20" },
     { id: 90, value: "90" },
-    { id: 91, value: "**" },
   ],
   [
     { id: 92, value: "27" },
@@ -5763,7 +5345,6 @@ export const MilanNight = [
     { id: 95, value: "03" },
     { id: 96, value: "45" },
     { id: 97, value: "62" },
-    { id: 98, value: "**" },
   ],
   [
     { id: 99, value: "12" },
@@ -5772,7 +5353,6 @@ export const MilanNight = [
     { id: 102, value: "21" },
     { id: 103, value: "16" },
     { id: 104, value: "13" },
-    { id: 105, value: "**" },
   ],
   [
     { id: 106, value: "69" },
@@ -5781,7 +5361,6 @@ export const MilanNight = [
     { id: 109, value: "71" },
     { id: 110, value: "72" },
     { id: 111, value: "29" },
-    { id: 112, value: "**" },
   ],
   [
     { id: 113, value: "89" },
@@ -5790,7 +5369,6 @@ export const MilanNight = [
     { id: 116, value: "29" },
     { id: 117, value: "56" },
     { id: 118, value: "34" },
-    { id: 119, value: "**" },
   ],
   [
     { id: 120, value: "72" },
@@ -5799,7 +5377,6 @@ export const MilanNight = [
     { id: 123, value: "26" },
     { id: 124, value: "16" },
     { id: 125, value: "93" },
-    { id: 126, value: "**" },
   ],
   [
     { id: 127, value: "30" },
@@ -5808,7 +5385,6 @@ export const MilanNight = [
     { id: 130, value: "48" },
     { id: 131, value: "82" },
     { id: 132, value: "55" },
-    { id: 133, value: "**" },
   ],
   [
     { id: 134, value: "32" },
@@ -5817,7 +5393,6 @@ export const MilanNight = [
     { id: 137, value: "09" },
     { id: 138, value: "13" },
     { id: 139, value: "19" },
-    { id: 140, value: "**" },
   ],
   [
     { id: 141, value: "99" },
@@ -5826,7 +5401,6 @@ export const MilanNight = [
     { id: 144, value: "68" },
     { id: 145, value: "57" },
     { id: 146, value: "09" },
-    { id: 147, value: "**" },
   ],
   [
     { id: 148, value: "90" },
@@ -5835,7 +5409,6 @@ export const MilanNight = [
     { id: 151, value: "49" },
     { id: 152, value: "67" },
     { id: 153, value: "64" },
-    { id: 154, value: "**" },
   ],
   [
     { id: 155, value: "93" },
@@ -5844,7 +5417,6 @@ export const MilanNight = [
     { id: 158, value: "60" },
     { id: 159, value: "85" },
     { id: 160, value: "24" },
-    { id: 161, value: "**" },
   ],
   [
     { id: 162, value: "62" },
@@ -5853,7 +5425,6 @@ export const MilanNight = [
     { id: 165, value: "52" },
     { id: 166, value: "34" },
     { id: 167, value: "32" },
-    { id: 168, value: "**" },
   ],
   [
     { id: 169, value: "33" },
@@ -5862,7 +5433,6 @@ export const MilanNight = [
     { id: 172, value: "29" },
     { id: 173, value: "57" },
     { id: 174, value: "31" },
-    { id: 175, value: "**" },
   ],
   [
     { id: 176, value: "99" },
@@ -5871,7 +5441,6 @@ export const MilanNight = [
     { id: 179, value: "16" },
     { id: 180, value: "42" },
     { id: 181, value: "27" },
-    { id: 182, value: "**" },
   ],
   [
     { id: 183, value: "38" },
@@ -5880,7 +5449,6 @@ export const MilanNight = [
     { id: 186, value: "33" },
     { id: 187, value: "44" },
     { id: 188, value: "85" },
-    { id: 189, value: "**" },
   ],
   [
     { id: 190, value: "44" },
@@ -5889,7 +5457,6 @@ export const MilanNight = [
     { id: 193, value: "01" },
     { id: 194, value: "38" },
     { id: 195, value: "71" },
-    { id: 196, value: "**" },
   ],
   [
     { id: 197, value: "49" },
@@ -5898,7 +5465,6 @@ export const MilanNight = [
     { id: 200, value: "53" },
     { id: 201, value: "93" },
     { id: 202, value: "95" },
-    { id: 203, value: "**" },
   ],
   [
     { id: 204, value: "20" },
@@ -5907,7 +5473,6 @@ export const MilanNight = [
     { id: 207, value: "18" },
     { id: 208, value: "45" },
     { id: 209, value: "04" },
-    { id: 210, value: "**" },
   ],
   [
     { id: 211, value: "88" },
@@ -5916,7 +5481,6 @@ export const MilanNight = [
     { id: 214, value: "79" },
     { id: 215, value: "10" },
     { id: 216, value: "72" },
-    { id: 217, value: "**" },
   ],
   [
     { id: 218, value: "98" },
@@ -5925,25 +5489,23 @@ export const MilanNight = [
     { id: 221, value: "33" },
     { id: 222, value: "19" },
     { id: 223, value: "05" },
-    { id: 224, value: "**" },
   ],
   [
     { id: 225, value: "24" },
-    { id: 226, value: "**" },
     { id: 227, value: "43" },
     { id: 228, value: "11" },
+    { id: 11, value: "54" },
+
     { id: 229, value: "44" },
     { id: 230, value: "82" },
-    { id: 231, value: "**" },
   ],
   [
-    { id: 232, value: "**" },
+    { id: 11, value: "54" },
     { id: 233, value: "28" },
     { id: 234, value: "78" },
     { id: 235, value: "16" },
     { id: 236, value: "47" },
     { id: 237, value: "40" },
-    { id: 238, value: "**" },
   ],
   [
     { id: 239, value: "42" },
@@ -5952,7 +5514,6 @@ export const MilanNight = [
     { id: 242, value: "60" },
     { id: 243, value: "36" },
     { id: 244, value: "09" },
-    { id: 245, value: "**" },
   ],
   [
     { id: 246, value: "19" },
@@ -5961,7 +5522,6 @@ export const MilanNight = [
     { id: 249, value: "20" },
     { id: 250, value: "00" },
     { id: 251, value: "84" },
-    { id: 252, value: "**" },
   ],
   [
     { id: 253, value: "70" },
@@ -5970,7 +5530,6 @@ export const MilanNight = [
     { id: 256, value: "93" },
     { id: 257, value: "97" },
     { id: 258, value: "78" },
-    { id: 259, value: "**" },
   ],
   [
     { id: 260, value: "25" },
@@ -5979,7 +5538,6 @@ export const MilanNight = [
     { id: 263, value: "04" },
     { id: 264, value: "34" },
     { id: 265, value: "43" },
-    { id: 266, value: "**" },
   ],
   [
     { id: 267, value: "73" },
@@ -5988,7 +5546,6 @@ export const MilanNight = [
     { id: 270, value: "39" },
     { id: 271, value: "77" },
     { id: 272, value: "80" },
-    { id: 273, value: "**" },
   ],
   [
     { id: 274, value: "32" },
@@ -5997,7 +5554,6 @@ export const MilanNight = [
     { id: 277, value: "32" },
     { id: 278, value: "43" },
     { id: 279, value: "40" },
-    { id: 280, value: "**" },
   ],
   [
     { id: 281, value: "15" },
@@ -6006,7 +5562,6 @@ export const MilanNight = [
     { id: 284, value: "38" },
     { id: 285, value: "99" },
     { id: 286, value: "38" },
-    { id: 287, value: "**" },
   ],
   [
     { id: 288, value: "13" },
@@ -6015,7 +5570,6 @@ export const MilanNight = [
     { id: 291, value: "65" },
     { id: 292, value: "98" },
     { id: 293, value: "16" },
-    { id: 294, value: "**" },
   ],
   [
     { id: 295, value: "38" },
@@ -6024,7 +5578,6 @@ export const MilanNight = [
     { id: 298, value: "02" },
     { id: 299, value: "39" },
     { id: 300, value: "57" },
-    { id: 301, value: "**" },
   ],
   [
     { id: 302, value: "90" },
@@ -6033,26 +5586,17 @@ export const MilanNight = [
     { id: 305, value: "69" },
     { id: 306, value: "23" },
     { id: 307, value: "62" },
-    { id: 308, value: "**" },
   ],
   [
     { id: 309, value: "65" },
     { id: 310, value: "10" },
     { id: 311, value: "19" },
+    { id: 267, value: "73" },
+    { id: 267, value: "73" },
+
     { id: 312, value: "68" },
-    { id: 313, value: "**" },
-    { id: 314, value: "**" },
-    { id: 315, value: "**" },
   ],
-  [
-    { id: 316, value: "**" },
-    { id: 317, value: "**" },
-    { id: 318, value: "**" },
-    { id: 319, value: "**" },
-    { id: 320, value: "**" },
-    { id: 321, value: "**" },
-    { id: 322, value: "**" },
-  ],
+  [],
   [
     { id: 323, value: "82" },
     { id: 324, value: "34" },
@@ -6060,7 +5604,6 @@ export const MilanNight = [
     { id: 326, value: "77" },
     { id: 327, value: "45" },
     { id: 328, value: "15" },
-    { id: 329, value: "**" },
   ],
   [
     { id: 330, value: "14" },
@@ -6069,7 +5612,6 @@ export const MilanNight = [
     { id: 333, value: "64" },
     { id: 334, value: "08" },
     { id: 335, value: "23" },
-    { id: 336, value: "**" },
   ],
   [
     { id: 337, value: "90" },
@@ -6078,7 +5620,6 @@ export const MilanNight = [
     { id: 340, value: "68" },
     { id: 341, value: "57" },
     { id: 342, value: "71" },
-    { id: 343, value: "**" },
   ],
   [
     { id: 344, value: "94" },
@@ -6087,7 +5628,6 @@ export const MilanNight = [
     { id: 347, value: "79" },
     { id: 348, value: "50" },
     { id: 349, value: "76" },
-    { id: 350, value: "**" },
   ],
   [
     { id: 351, value: "77" },
@@ -6096,7 +5636,6 @@ export const MilanNight = [
     { id: 354, value: "54" },
     { id: 355, value: "21" },
     { id: 356, value: "63" },
-    { id: 357, value: "**" },
   ],
   [
     { id: 358, value: "42" },
@@ -6105,7 +5644,6 @@ export const MilanNight = [
     { id: 361, value: "79" },
     { id: 362, value: "67" },
     { id: 363, value: "15" },
-    { id: 364, value: "**" },
   ],
   [
     { id: 365, value: "50" },
@@ -6114,7 +5652,6 @@ export const MilanNight = [
     { id: 368, value: "96" },
     { id: 369, value: "69" },
     { id: 370, value: "79" },
-    { id: 371, value: "**" },
   ],
   [
     { id: 372, value: "61" },
@@ -6123,7 +5660,6 @@ export const MilanNight = [
     { id: 375, value: "68" },
     { id: 376, value: "02" },
     { id: 377, value: "27" },
-    { id: 378, value: "**" },
   ],
   [
     { id: 379, value: "77" },
@@ -6132,16 +5668,15 @@ export const MilanNight = [
     { id: 382, value: "01" },
     { id: 383, value: "77" },
     { id: 384, value: "18" },
-    { id: 385, value: "**" },
   ],
   [
     { id: 386, value: "91" },
     { id: 387, value: "61" },
     { id: 388, value: "28" },
+    { id: 267, value: "73" },
+
     { id: 389, value: "64" },
-    { id: 390, value: "**" },
     { id: 391, value: "44" },
-    { id: 392, value: "**" },
   ],
   [
     { id: 393, value: "12" },
@@ -6150,7 +5685,6 @@ export const MilanNight = [
     { id: 396, value: "99" },
     { id: 397, value: "05" },
     { id: 398, value: "04" },
-    { id: 399, value: "**" },
   ],
   [
     { id: 400, value: "70" },
@@ -6159,7 +5693,6 @@ export const MilanNight = [
     { id: 403, value: "81" },
     { id: 404, value: "41" },
     { id: 405, value: "58" },
-    { id: 406, value: "**" },
   ],
   [
     { id: 407, value: "40" },
@@ -6168,7 +5701,6 @@ export const MilanNight = [
     { id: 410, value: "52" },
     { id: 411, value: "05" },
     { id: 412, value: "62" },
-    { id: 413, value: "**" },
   ],
   [
     { id: 414, value: "97" },
@@ -6177,7 +5709,6 @@ export const MilanNight = [
     { id: 417, value: "08" },
     { id: 418, value: "67" },
     { id: 419, value: "36" },
-    { id: 420, value: "**" },
   ],
   [
     { id: 421, value: "01" },
@@ -6186,7 +5717,6 @@ export const MilanNight = [
     { id: 424, value: "94" },
     { id: 425, value: "27" },
     { id: 426, value: "92" },
-    { id: 427, value: "**" },
   ],
   [
     { id: 428, value: "17" },
@@ -6195,7 +5725,6 @@ export const MilanNight = [
     { id: 431, value: "47" },
     { id: 432, value: "95" },
     { id: 433, value: "24" },
-    { id: 434, value: "**" },
   ],
   [
     { id: 435, value: "13" },
@@ -6204,7 +5733,6 @@ export const MilanNight = [
     { id: 438, value: "78" },
     { id: 439, value: "53" },
     { id: 440, value: "19" },
-    { id: 441, value: "**" },
   ],
   [
     { id: 442, value: "44" },
@@ -6213,16 +5741,15 @@ export const MilanNight = [
     { id: 445, value: "16" },
     { id: 446, value: "34" },
     { id: 447, value: "66" },
-    { id: 448, value: "**" },
   ],
   [
-    { id: 449, value: "**" },
     { id: 450, value: "37" },
     { id: 451, value: "84" },
     { id: 452, value: "30" },
     { id: 453, value: "57" },
+    { id: 267, value: "73" },
+
     { id: 454, value: "46" },
-    { id: 455, value: "**" },
   ],
   [
     { id: 456, value: "67" },
@@ -6231,7 +5758,6 @@ export const MilanNight = [
     { id: 459, value: "04" },
     { id: 460, value: "32" },
     { id: 461, value: "88" },
-    { id: 462, value: "**" },
   ],
   [
     { id: 463, value: "82" },
@@ -6240,7 +5766,6 @@ export const MilanNight = [
     { id: 466, value: "33" },
     { id: 467, value: "95" },
     { id: 468, value: "23" },
-    { id: 469, value: "**" },
   ],
   [
     { id: 470, value: "25" },
@@ -6249,7 +5774,6 @@ export const MilanNight = [
     { id: 473, value: "28" },
     { id: 474, value: "88" },
     { id: 475, value: "26" },
-    { id: 476, value: "**" },
   ],
   [
     { id: 477, value: "62" },
@@ -6258,7 +5782,6 @@ export const MilanNight = [
     { id: 480, value: "76" },
     { id: 481, value: "54" },
     { id: 482, value: "68" },
-    { id: 483, value: "**" },
   ],
   [
     { id: 484, value: "48" },
@@ -6267,7 +5790,6 @@ export const MilanNight = [
     { id: 487, value: "40" },
     { id: 488, value: "72" },
     { id: 489, value: "08" },
-    { id: 490, value: "**" },
   ],
   [
     { id: 491, value: "88" },
@@ -6276,7 +5798,6 @@ export const MilanNight = [
     { id: 494, value: "41" },
     { id: 495, value: "40" },
     { id: 496, value: "90" },
-    { id: 497, value: "**" },
   ],
 ];
 
@@ -6289,8 +5810,6 @@ export const RajdhaniNight = [
     { id: 3, value: "38" },
     { id: 4, value: "23" },
     { id: 5, value: "17" },
-    { id: 6, value: "**" },
-    { id: 7, value: "**" },
   ],
   [
     { id: 8, value: "34" },
@@ -6298,8 +5817,6 @@ export const RajdhaniNight = [
     { id: 10, value: "60" },
     { id: 11, value: "06" },
     { id: 12, value: "56" },
-    { id: 13, value: "**" },
-    { id: 14, value: "**" },
   ],
   [
     { id: 15, value: "97" },
@@ -6307,17 +5824,14 @@ export const RajdhaniNight = [
     { id: 17, value: "98" },
     { id: 18, value: "18" },
     { id: 19, value: "75" },
-    { id: 20, value: "**" },
-    { id: 21, value: "**" },
   ],
   [
     { id: 22, value: "89" },
+    { id: 4, value: "23" },
+
     { id: 23, value: "76" },
     { id: 24, value: "21" },
-    { id: 25, value: "**" },
     { id: 26, value: "40" },
-    { id: 27, value: "**" },
-    { id: 28, value: "**" },
   ],
   [
     { id: 29, value: "24" },
@@ -6325,8 +5839,6 @@ export const RajdhaniNight = [
     { id: 31, value: "40" },
     { id: 32, value: "78" },
     { id: 33, value: "23" },
-    { id: 34, value: "**" },
-    { id: 35, value: "**" },
   ],
   [
     { id: 36, value: "76" },
@@ -6334,8 +5846,6 @@ export const RajdhaniNight = [
     { id: 38, value: "87" },
     { id: 39, value: "15" },
     { id: 40, value: "28" },
-    { id: 41, value: "**" },
-    { id: 42, value: "**" },
   ],
   [
     { id: 43, value: "53" },
@@ -6343,8 +5853,6 @@ export const RajdhaniNight = [
     { id: 45, value: "08" },
     { id: 46, value: "21" },
     { id: 47, value: "69" },
-    { id: 48, value: "**" },
-    { id: 49, value: "**" },
   ],
   [
     { id: 50, value: "70" },
@@ -6352,8 +5860,6 @@ export const RajdhaniNight = [
     { id: 52, value: "84" },
     { id: 53, value: "21" },
     { id: 54, value: "82" },
-    { id: 55, value: "**" },
-    { id: 56, value: "**" },
   ],
   [
     { id: 57, value: "18" },
@@ -6361,17 +5867,14 @@ export const RajdhaniNight = [
     { id: 59, value: "23" },
     { id: 60, value: "82" },
     { id: 61, value: "93" },
-    { id: 62, value: "**" },
-    { id: 63, value: "**" },
   ],
   [
     { id: 64, value: "23" },
+    { id: 4, value: "23" },
+
     { id: 65, value: "09" },
-    { id: 66, value: "**" },
     { id: 67, value: "78" },
     { id: 68, value: "53" },
-    { id: 69, value: "**" },
-    { id: 70, value: "**" },
   ],
   [
     { id: 71, value: "98" },
@@ -6379,8 +5882,6 @@ export const RajdhaniNight = [
     { id: 73, value: "37" },
     { id: 74, value: "56" },
     { id: 75, value: "70" },
-    { id: 76, value: "**" },
-    { id: 77, value: "**" },
   ],
   [
     { id: 78, value: "19" },
@@ -6388,8 +5889,6 @@ export const RajdhaniNight = [
     { id: 80, value: "85" },
     { id: 81, value: "03" },
     { id: 82, value: "42" },
-    { id: 83, value: "**" },
-    { id: 84, value: "**" },
   ],
   [
     { id: 85, value: "04" },
@@ -6397,8 +5896,6 @@ export const RajdhaniNight = [
     { id: 87, value: "87" },
     { id: 88, value: "03" },
     { id: 89, value: "05" },
-    { id: 90, value: "**" },
-    { id: 91, value: "**" },
   ],
   [
     { id: 92, value: "94" },
@@ -6406,8 +5903,6 @@ export const RajdhaniNight = [
     { id: 94, value: "09" },
     { id: 95, value: "94" },
     { id: 96, value: "59" },
-    { id: 97, value: "**" },
-    { id: 98, value: "**" },
   ],
   [
     { id: 99, value: "77" },
@@ -6415,8 +5910,6 @@ export const RajdhaniNight = [
     { id: 101, value: "72" },
     { id: 102, value: "92" },
     { id: 103, value: "65" },
-    { id: 104, value: "**" },
-    { id: 105, value: "**" },
   ],
   [
     { id: 106, value: "44" },
@@ -6424,8 +5917,6 @@ export const RajdhaniNight = [
     { id: 108, value: "95" },
     { id: 109, value: "68" },
     { id: 110, value: "51" },
-    { id: 111, value: "**" },
-    { id: 112, value: "**" },
   ],
   [
     { id: 113, value: "42" },
@@ -6433,8 +5924,6 @@ export const RajdhaniNight = [
     { id: 115, value: "12" },
     { id: 116, value: "83" },
     { id: 117, value: "63" },
-    { id: 118, value: "**" },
-    { id: 119, value: "**" },
   ],
   [
     { id: 120, value: "51" },
@@ -6442,8 +5931,6 @@ export const RajdhaniNight = [
     { id: 122, value: "83" },
     { id: 123, value: "25" },
     { id: 124, value: "25" },
-    { id: 125, value: "**" },
-    { id: 126, value: "**" },
   ],
   [
     { id: 127, value: "02" },
@@ -6451,8 +5938,6 @@ export const RajdhaniNight = [
     { id: 129, value: "73" },
     { id: 130, value: "46" },
     { id: 131, value: "14" },
-    { id: 132, value: "**" },
-    { id: 133, value: "**" },
   ],
   [
     { id: 134, value: "84" },
@@ -6460,8 +5945,6 @@ export const RajdhaniNight = [
     { id: 136, value: "19" },
     { id: 137, value: "86" },
     { id: 138, value: "24" },
-    { id: 139, value: "**" },
-    { id: 140, value: "**" },
   ],
   [
     { id: 141, value: "05" },
@@ -6469,8 +5952,6 @@ export const RajdhaniNight = [
     { id: 143, value: "13" },
     { id: 144, value: "17" },
     { id: 145, value: "20" },
-    { id: 146, value: "**" },
-    { id: 147, value: "**" },
   ],
   [
     { id: 148, value: "88" },
@@ -6478,8 +5959,6 @@ export const RajdhaniNight = [
     { id: 150, value: "39" },
     { id: 151, value: "00" },
     { id: 152, value: "65" },
-    { id: 153, value: "**" },
-    { id: 154, value: "**" },
   ],
   [
     { id: 155, value: "95" },
@@ -6487,8 +5966,6 @@ export const RajdhaniNight = [
     { id: 157, value: "24" },
     { id: 158, value: "18" },
     { id: 159, value: "13" },
-    { id: 160, value: "**" },
-    { id: 161, value: "**" },
   ],
   [
     { id: 162, value: "21" },
@@ -6496,8 +5973,6 @@ export const RajdhaniNight = [
     { id: 164, value: "61" },
     { id: 165, value: "83" },
     { id: 166, value: "60" },
-    { id: 167, value: "**" },
-    { id: 168, value: "**" },
   ],
   [
     { id: 169, value: "23" },
@@ -6505,8 +5980,6 @@ export const RajdhaniNight = [
     { id: 171, value: "57" },
     { id: 172, value: "26" },
     { id: 173, value: "45" },
-    { id: 174, value: "**" },
-    { id: 175, value: "**" },
   ],
   [
     { id: 176, value: "61" },
@@ -6514,8 +5987,6 @@ export const RajdhaniNight = [
     { id: 178, value: "78" },
     { id: 179, value: "11" },
     { id: 180, value: "33" },
-    { id: 181, value: "**" },
-    { id: 182, value: "**" },
   ],
   [
     { id: 183, value: "09" },
@@ -6523,8 +5994,6 @@ export const RajdhaniNight = [
     { id: 185, value: "72" },
     { id: 186, value: "14" },
     { id: 187, value: "20" },
-    { id: 188, value: "**" },
-    { id: 189, value: "**" },
   ],
   [
     { id: 190, value: "39" },
@@ -6532,8 +6001,6 @@ export const RajdhaniNight = [
     { id: 192, value: "27" },
     { id: 193, value: "07" },
     { id: 194, value: "78" },
-    { id: 195, value: "**" },
-    { id: 196, value: "**" },
   ],
   [
     { id: 197, value: "37" },
@@ -6541,8 +6008,6 @@ export const RajdhaniNight = [
     { id: 199, value: "30" },
     { id: 200, value: "93" },
     { id: 201, value: "91" },
-    { id: 202, value: "**" },
-    { id: 203, value: "**" },
   ],
   [
     { id: 204, value: "68" },
@@ -6550,8 +6015,6 @@ export const RajdhaniNight = [
     { id: 206, value: "57" },
     { id: 207, value: "56" },
     { id: 208, value: "99" },
-    { id: 209, value: "**" },
-    { id: 210, value: "**" },
   ],
   [
     { id: 211, value: "49" },
@@ -6559,8 +6022,6 @@ export const RajdhaniNight = [
     { id: 213, value: "33" },
     { id: 214, value: "71" },
     { id: 215, value: "91" },
-    { id: 216, value: "**" },
-    { id: 217, value: "**" },
   ],
   [
     { id: 218, value: "99" },
@@ -6568,17 +6029,14 @@ export const RajdhaniNight = [
     { id: 220, value: "70" },
     { id: 221, value: "55" },
     { id: 222, value: "78" },
-    { id: 223, value: "**" },
-    { id: 224, value: "**" },
   ],
   [
     { id: 225, value: "06" },
-    { id: 226, value: "**" },
     { id: 227, value: "52" },
     { id: 228, value: "44" },
+    { id: 206, value: "57" },
+
     { id: 229, value: "09" },
-    { id: 230, value: "**" },
-    { id: 231, value: "**" },
   ],
   [
     { id: 232, value: "58" },
@@ -6586,8 +6044,6 @@ export const RajdhaniNight = [
     { id: 234, value: "59" },
     { id: 235, value: "78" },
     { id: 236, value: "89" },
-    { id: 237, value: "**" },
-    { id: 238, value: "**" },
   ],
   [
     { id: 239, value: "57" },
@@ -6595,8 +6051,6 @@ export const RajdhaniNight = [
     { id: 241, value: "68" },
     { id: 242, value: "36" },
     { id: 243, value: "04" },
-    { id: 244, value: "**" },
-    { id: 245, value: "**" },
   ],
   [
     { id: 246, value: "43" },
@@ -6604,8 +6058,6 @@ export const RajdhaniNight = [
     { id: 248, value: "86" },
     { id: 249, value: "67" },
     { id: 250, value: "99" },
-    { id: 251, value: "**" },
-    { id: 252, value: "**" },
   ],
   [
     { id: 253, value: "72" },
@@ -6613,8 +6065,6 @@ export const RajdhaniNight = [
     { id: 255, value: "94" },
     { id: 256, value: "99" },
     { id: 257, value: "01" },
-    { id: 258, value: "**" },
-    { id: 259, value: "**" },
   ],
   [
     { id: 260, value: "98" },
@@ -6622,8 +6072,6 @@ export const RajdhaniNight = [
     { id: 262, value: "87" },
     { id: 263, value: "12" },
     { id: 264, value: "96" },
-    { id: 265, value: "**" },
-    { id: 266, value: "**" },
   ],
   [
     { id: 267, value: "20" },
@@ -6631,8 +6079,6 @@ export const RajdhaniNight = [
     { id: 269, value: "99" },
     { id: 270, value: "45" },
     { id: 271, value: "81" },
-    { id: 272, value: "**" },
-    { id: 273, value: "**" },
   ],
   [
     { id: 274, value: "94" },
@@ -6640,8 +6086,6 @@ export const RajdhaniNight = [
     { id: 276, value: "47" },
     { id: 277, value: "53" },
     { id: 278, value: "53" },
-    { id: 279, value: "**" },
-    { id: 280, value: "**" },
   ],
   [
     { id: 281, value: "91" },
@@ -6649,8 +6093,6 @@ export const RajdhaniNight = [
     { id: 283, value: "41" },
     { id: 284, value: "27" },
     { id: 285, value: "65" },
-    { id: 286, value: "**" },
-    { id: 287, value: "**" },
   ],
   [
     { id: 288, value: "37" },
@@ -6658,8 +6100,6 @@ export const RajdhaniNight = [
     { id: 290, value: "91" },
     { id: 291, value: "89" },
     { id: 292, value: "49" },
-    { id: 293, value: "**" },
-    { id: 294, value: "**" },
   ],
   [
     { id: 295, value: "33" },
@@ -6667,8 +6107,6 @@ export const RajdhaniNight = [
     { id: 297, value: "61" },
     { id: 298, value: "12" },
     { id: 299, value: "53" },
-    { id: 300, value: "**" },
-    { id: 301, value: "**" },
   ],
   [
     { id: 302, value: "16" },
@@ -6676,35 +6114,22 @@ export const RajdhaniNight = [
     { id: 304, value: "84" },
     { id: 305, value: "01" },
     { id: 306, value: "20" },
-    { id: 307, value: "**" },
-    { id: 308, value: "**" },
   ],
   [
     { id: 309, value: "38" },
     { id: 310, value: "34" },
+    { id: 206, value: "57" },
+
     { id: 311, value: "42" },
     { id: 312, value: "56" },
-    { id: 313, value: "**" },
-    { id: 314, value: "**" },
-    { id: 315, value: "**" },
   ],
-  [
-    { id: 316, value: "**" },
-    { id: 317, value: "**" },
-    { id: 318, value: "**" },
-    { id: 319, value: "**" },
-    { id: 320, value: "**" },
-    { id: 321, value: "**" },
-    { id: 322, value: "**" },
-  ],
+
   [
     { id: 337, value: "54" },
     { id: 338, value: "93" },
     { id: 339, value: "29" },
     { id: 340, value: "51" },
     { id: 341, value: "08" },
-    { id: 342, value: "**" },
-    { id: 343, value: "**" },
   ],
   [
     { id: 344, value: "24" },
@@ -6712,8 +6137,6 @@ export const RajdhaniNight = [
     { id: 346, value: "54" },
     { id: 347, value: "99" },
     { id: 348, value: "55" },
-    { id: 349, value: "**" },
-    { id: 350, value: "**" },
   ],
   [
     { id: 351, value: "74" },
@@ -6721,8 +6144,6 @@ export const RajdhaniNight = [
     { id: 353, value: "47" },
     { id: 354, value: "24" },
     { id: 355, value: "37" },
-    { id: 356, value: "**" },
-    { id: 357, value: "**" },
   ],
   [
     { id: 358, value: "94" },
@@ -6730,8 +6151,6 @@ export const RajdhaniNight = [
     { id: 360, value: "34" },
     { id: 361, value: "87" },
     { id: 362, value: "28" },
-    { id: 363, value: "**" },
-    { id: 364, value: "**" },
   ],
   [
     { id: 365, value: "94" },
@@ -6739,8 +6158,6 @@ export const RajdhaniNight = [
     { id: 367, value: "30" },
     { id: 368, value: "15" },
     { id: 369, value: "38" },
-    { id: 370, value: "**" },
-    { id: 371, value: "**" },
   ],
   [
     { id: 372, value: "37" },
@@ -6748,8 +6165,6 @@ export const RajdhaniNight = [
     { id: 374, value: "09" },
     { id: 375, value: "30" },
     { id: 376, value: "42" },
-    { id: 377, value: "**" },
-    { id: 378, value: "**" },
   ],
   [
     { id: 379, value: "22" },
@@ -6757,8 +6172,6 @@ export const RajdhaniNight = [
     { id: 381, value: "85" },
     { id: 382, value: "18" },
     { id: 383, value: "22" },
-    { id: 384, value: "**" },
-    { id: 385, value: "**" },
   ],
   [
     { id: 386, value: "47" },
@@ -6766,8 +6179,6 @@ export const RajdhaniNight = [
     { id: 388, value: "17" },
     { id: 389, value: "09" },
     { id: 390, value: "25" },
-    { id: 391, value: "**" },
-    { id: 392, value: "**" },
   ],
   [
     { id: 393, value: "90" },
@@ -6775,17 +6186,14 @@ export const RajdhaniNight = [
     { id: 395, value: "01" },
     { id: 396, value: "21" },
     { id: 397, value: "52" },
-    { id: 398, value: "**" },
-    { id: 399, value: "**" },
   ],
   [
     { id: 400, value: "33" },
     { id: 401, value: "64" },
+    { id: 310, value: "34" },
+
     { id: 402, value: "31" },
     { id: 403, value: "68" },
-    { id: 404, value: "**" },
-    { id: 405, value: "**" },
-    { id: 406, value: "**" },
   ],
   [
     { id: 407, value: "38" },
@@ -6793,8 +6201,6 @@ export const RajdhaniNight = [
     { id: 409, value: "24" },
     { id: 410, value: "90" },
     { id: 411, value: "60" },
-    { id: 412, value: "**" },
-    { id: 413, value: "**" },
   ],
   [
     { id: 414, value: "77" },
@@ -6802,8 +6208,6 @@ export const RajdhaniNight = [
     { id: 416, value: "83" },
     { id: 417, value: "28" },
     { id: 418, value: "72" },
-    { id: 419, value: "**" },
-    { id: 420, value: "**" },
   ],
   [
     { id: 421, value: "03" },
@@ -6811,8 +6215,6 @@ export const RajdhaniNight = [
     { id: 423, value: "36" },
     { id: 424, value: "07" },
     { id: 425, value: "45" },
-    { id: 426, value: "**" },
-    { id: 427, value: "**" },
   ],
   [
     { id: 428, value: "60" },
@@ -6820,8 +6222,6 @@ export const RajdhaniNight = [
     { id: 430, value: "60" },
     { id: 431, value: "91" },
     { id: 432, value: "77" },
-    { id: 433, value: "**" },
-    { id: 434, value: "**" },
   ],
   [
     { id: 435, value: "38" },
@@ -6829,8 +6229,6 @@ export const RajdhaniNight = [
     { id: 437, value: "36" },
     { id: 438, value: "79" },
     { id: 439, value: "91" },
-    { id: 440, value: "**" },
-    { id: 441, value: "**" },
   ],
   [
     { id: 442, value: "79" },
@@ -6838,8 +6236,6 @@ export const RajdhaniNight = [
     { id: 444, value: "86" },
     { id: 445, value: "74" },
     { id: 446, value: "86" },
-    { id: 447, value: "**" },
-    { id: 448, value: "**" },
   ],
   [
     { id: 449, value: "68" },
@@ -6847,8 +6243,6 @@ export const RajdhaniNight = [
     { id: 451, value: "85" },
     { id: 452, value: "79" },
     { id: 453, value: "17" },
-    { id: 454, value: "**" },
-    { id: 455, value: "**" },
   ],
   [
     { id: 456, value: "76" },
@@ -6856,17 +6250,14 @@ export const RajdhaniNight = [
     { id: 458, value: "34" },
     { id: 459, value: "56" },
     { id: 460, value: "51" },
-    { id: 461, value: "**" },
-    { id: 462, value: "**" },
   ],
   [
-    { id: 467, value: "**" },
     { id: 463, value: "18" },
     { id: 464, value: "31" },
+    { id: 401, value: "64" },
+
     { id: 465, value: "83" },
     { id: 466, value: "55" },
-    { id: 468, value: "**" },
-    { id: 469, value: "**" },
   ],
   [
     { id: 470, value: "48" },
@@ -6874,8 +6265,6 @@ export const RajdhaniNight = [
     { id: 472, value: "91" },
     { id: 473, value: "77" },
     { id: 474, value: "09" },
-    { id: 475, value: "**" },
-    { id: 476, value: "**" },
   ],
   [
     { id: 477, value: "43" },
@@ -6883,8 +6272,6 @@ export const RajdhaniNight = [
     { id: 479, value: "54" },
     { id: 480, value: "02" },
     { id: 481, value: "63" },
-    { id: 482, value: "**" },
-    { id: 483, value: "**" },
   ],
   [
     { id: 484, value: "16" },
@@ -6892,8 +6279,6 @@ export const RajdhaniNight = [
     { id: 486, value: "32" },
     { id: 487, value: "80" },
     { id: 488, value: "13" },
-    { id: 489, value: "**" },
-    { id: 490, value: "**" },
   ],
   [
     { id: 491, value: "28" },
@@ -6901,8 +6286,6 @@ export const RajdhaniNight = [
     { id: 493, value: "29" },
     { id: 494, value: "48" },
     { id: 495, value: "05" },
-    { id: 496, value: "**" },
-    { id: 497, value: "**" },
   ],
   [
     { id: 498, value: "21" },
@@ -6910,8 +6293,6 @@ export const RajdhaniNight = [
     { id: 500, value: "14" },
     { id: 501, value: "56" },
     { id: 502, value: "52" },
-    { id: 503, value: "**" },
-    { id: 504, value: "**" },
   ],
   [
     { id: 505, value: "05" },
@@ -6919,8 +6300,6 @@ export const RajdhaniNight = [
     { id: 507, value: "96" },
     { id: 508, value: "18" },
     { id: 509, value: "64" },
-    { id: 510, value: "**" },
-    { id: 511, value: "**" },
   ],
   [
     { id: 512, value: "42" },
@@ -6928,8 +6307,6 @@ export const RajdhaniNight = [
     { id: 514, value: "80" },
     { id: 515, value: "08" },
     { id: 516, value: "20" },
-    { id: 517, value: "**" },
-    { id: 518, value: "**" },
   ],
   [
     { id: 519, value: "40" },
@@ -6937,8 +6314,6 @@ export const RajdhaniNight = [
     { id: 521, value: "25" },
     { id: 522, value: "27" },
     { id: 523, value: "63" },
-    { id: 524, value: "**" },
-    { id: 525, value: "**" },
   ],
   [
     { id: 526, value: "08" },
@@ -6946,8 +6321,6 @@ export const RajdhaniNight = [
     { id: 528, value: "87" },
     { id: 529, value: "57" },
     { id: 530, value: "81" },
-    { id: 531, value: "**" },
-    { id: 532, value: "**" },
   ],
   [
     { id: 533, value: "72" },
@@ -6955,8 +6328,6 @@ export const RajdhaniNight = [
     { id: 535, value: "53" },
     { id: 536, value: "41" },
     { id: 537, value: "55" },
-    { id: 538, value: "**" },
-    { id: 539, value: "**" },
   ],
   [
     { id: 540, value: "41" },
@@ -6964,8 +6335,6 @@ export const RajdhaniNight = [
     { id: 542, value: "97" },
     { id: 543, value: "66" },
     { id: 544, value: "47" },
-    { id: 545, value: "**" },
-    { id: 546, value: "**" },
   ],
   [
     { id: 547, value: "99" },
@@ -6973,8 +6342,6 @@ export const RajdhaniNight = [
     { id: 549, value: "01" },
     { id: 550, value: "08" },
     { id: 551, value: "39" },
-    { id: 552, value: "**" },
-    { id: 553, value: "**" },
   ],
   [
     { id: 554, value: "25" },
@@ -6982,8 +6349,6 @@ export const RajdhaniNight = [
     { id: 556, value: "57" },
     { id: 557, value: "13" },
     { id: 558, value: "23" },
-    { id: 559, value: "**" },
-    { id: 560, value: "**" },
   ],
   [
     { id: 561, value: "37" },
@@ -6991,8 +6356,6 @@ export const RajdhaniNight = [
     { id: 563, value: "61" },
     { id: 564, value: "78" },
     { id: 565, value: "12" },
-    { id: 566, value: "**" },
-    { id: 567, value: "**" },
   ],
 ];
 
@@ -7005,8 +6368,6 @@ export const MainBazar = [
     { id: 3, value: "15" },
     { id: 4, value: "62" },
     { id: 5, value: "88" },
-    { id: 6, value: "**" },
-    { id: 7, value: "**" },
   ],
   [
     { id: 8, value: "74" },
@@ -7014,8 +6375,6 @@ export const MainBazar = [
     { id: 10, value: "56" },
     { id: 11, value: "53" },
     { id: 12, value: "31" },
-    { id: 13, value: "**" },
-    { id: 14, value: "**" },
   ],
   [
     { id: 15, value: "31" },
@@ -7023,17 +6382,13 @@ export const MainBazar = [
     { id: 17, value: "24" },
     { id: 18, value: "60" },
     { id: 19, value: "84" },
-    { id: 20, value: "**" },
-    { id: 21, value: "**" },
   ],
   [
     { id: 1, value: "18" },
+    { id: 4, value: "62" },
     { id: 2, value: "64" },
     { id: 3, value: "63" },
-    { id: 4, value: "**" },
     { id: 5, value: "40" },
-    { id: 6, value: "**" },
-    { id: 7, value: "**" },
   ],
   [
     { id: 8, value: "10" },
@@ -7041,8 +6396,6 @@ export const MainBazar = [
     { id: 10, value: "89" },
     { id: 11, value: "85" },
     { id: 12, value: "52" },
-    { id: 13, value: "**" },
-    { id: 14, value: "**" },
   ],
   [
     { id: 15, value: "76" },
@@ -7050,8 +6403,6 @@ export const MainBazar = [
     { id: 17, value: "92" },
     { id: 18, value: "48" },
     { id: 19, value: "19" },
-    { id: 20, value: "**" },
-    { id: 21, value: "**" },
   ],
   [
     { id: 22, value: "19" },
@@ -7059,8 +6410,6 @@ export const MainBazar = [
     { id: 24, value: "97" },
     { id: 25, value: "12" },
     { id: 26, value: "36" },
-    { id: 27, value: "**" },
-    { id: 28, value: "**" },
   ],
   [
     { id: 29, value: "57" },
@@ -7068,8 +6417,6 @@ export const MainBazar = [
     { id: 31, value: "76" },
     { id: 32, value: "96" },
     { id: 33, value: "44" },
-    { id: 34, value: "**" },
-    { id: 35, value: "**" },
   ],
   [
     { id: 36, value: "75" },
@@ -7077,17 +6424,13 @@ export const MainBazar = [
     { id: 38, value: "45" },
     { id: 39, value: "88" },
     { id: 40, value: "43" },
-    { id: 41, value: "**" },
-    { id: 42, value: "**" },
   ],
   [
     { id: 43, value: "32" },
+    { id: 4, value: "62" },
     { id: 44, value: "88" },
-    { id: 45, value: "**" },
     { id: 46, value: "51" },
     { id: 47, value: "65" },
-    { id: 48, value: "**" },
-    { id: 49, value: "**" },
   ],
   [
     { id: 50, value: "89" },
@@ -7095,8 +6438,6 @@ export const MainBazar = [
     { id: 52, value: "58" },
     { id: 53, value: "57" },
     { id: 54, value: "13" },
-    { id: 55, value: "**" },
-    { id: 56, value: "**" },
   ],
   [
     { id: 57, value: "32" },
@@ -7104,8 +6445,6 @@ export const MainBazar = [
     { id: 59, value: "88" },
     { id: 60, value: "76" },
     { id: 61, value: "81" },
-    { id: 62, value: "**" },
-    { id: 63, value: "**" },
   ],
   [
     { id: 64, value: "44" },
@@ -7113,8 +6452,6 @@ export const MainBazar = [
     { id: 66, value: "60" },
     { id: 67, value: "93" },
     { id: 68, value: "30" },
-    { id: 69, value: "**" },
-    { id: 70, value: "**" },
   ],
   [
     { id: 71, value: "88" },
@@ -7122,8 +6459,6 @@ export const MainBazar = [
     { id: 73, value: "57" },
     { id: 74, value: "40" },
     { id: 75, value: "90" },
-    { id: 76, value: "**" },
-    { id: 77, value: "**" },
   ],
   [
     { id: 78, value: "13" },
@@ -7131,8 +6466,6 @@ export const MainBazar = [
     { id: 80, value: "95" },
     { id: 81, value: "90" },
     { id: 82, value: "95" },
-    { id: 83, value: "**" },
-    { id: 84, value: "**" },
   ],
   [
     { id: 85, value: "28" },
@@ -7140,8 +6473,6 @@ export const MainBazar = [
     { id: 87, value: "11" },
     { id: 88, value: "56" },
     { id: 89, value: "27" },
-    { id: 90, value: "**" },
-    { id: 91, value: "**" },
   ],
   [
     { id: 92, value: "12" },
@@ -7149,8 +6480,6 @@ export const MainBazar = [
     { id: 94, value: "26" },
     { id: 95, value: "77" },
     { id: 96, value: "93" },
-    { id: 97, value: "**" },
-    { id: 98, value: "**" },
   ],
   [
     { id: 99, value: "58" },
@@ -7158,8 +6487,6 @@ export const MainBazar = [
     { id: 101, value: "24" },
     { id: 102, value: "56" },
     { id: 103, value: "26" },
-    { id: 104, value: "**" },
-    { id: 105, value: "**" },
   ],
   [
     { id: 106, value: "64" },
@@ -7167,8 +6494,6 @@ export const MainBazar = [
     { id: 108, value: "87" },
     { id: 109, value: "24" },
     { id: 110, value: "80" },
-    { id: 111, value: "**" },
-    { id: 112, value: "**" },
   ],
   [
     { id: 113, value: "47" },
@@ -7176,8 +6501,6 @@ export const MainBazar = [
     { id: 115, value: "93" },
     { id: 116, value: "82" },
     { id: 117, value: "64" },
-    { id: 118, value: "**" },
-    { id: 119, value: "**" },
   ],
   [
     { id: 120, value: "62" },
@@ -7185,8 +6508,6 @@ export const MainBazar = [
     { id: 122, value: "37" },
     { id: 123, value: "61" },
     { id: 124, value: "13" },
-    { id: 125, value: "**" },
-    { id: 126, value: "**" },
   ],
   [
     { id: 127, value: "95" },
@@ -7194,8 +6515,6 @@ export const MainBazar = [
     { id: 129, value: "03" },
     { id: 130, value: "98" },
     { id: 131, value: "20" },
-    { id: 132, value: "**" },
-    { id: 133, value: "**" },
   ],
   [
     { id: 134, value: "10" },
@@ -7203,8 +6522,6 @@ export const MainBazar = [
     { id: 136, value: "05" },
     { id: 137, value: "69" },
     { id: 138, value: "63" },
-    { id: 139, value: "**" },
-    { id: 140, value: "**" },
   ],
   [
     { id: 141, value: "61" },
@@ -7212,8 +6529,6 @@ export const MainBazar = [
     { id: 143, value: "05" },
     { id: 144, value: "13" },
     { id: 145, value: "94" },
-    { id: 146, value: "**" },
-    { id: 147, value: "**" },
   ],
   [
     { id: 148, value: "35" },
@@ -7221,8 +6536,6 @@ export const MainBazar = [
     { id: 150, value: "20" },
     { id: 151, value: "07" },
     { id: 152, value: "14" },
-    { id: 153, value: "**" },
-    { id: 154, value: "**" },
   ],
   [
     { id: 155, value: "99" },
@@ -7230,8 +6543,6 @@ export const MainBazar = [
     { id: 157, value: "93" },
     { id: 158, value: "50" },
     { id: 159, value: "99" },
-    { id: 160, value: "**" },
-    { id: 161, value: "**" },
   ],
   [
     { id: 162, value: "65" },
@@ -7239,8 +6550,6 @@ export const MainBazar = [
     { id: 164, value: "42" },
     { id: 165, value: "81" },
     { id: 166, value: "05" },
-    { id: 167, value: "**" },
-    { id: 168, value: "**" },
   ],
   [
     { id: 169, value: "52" },
@@ -7248,8 +6557,6 @@ export const MainBazar = [
     { id: 171, value: "31" },
     { id: 172, value: "48" },
     { id: 173, value: "48" },
-    { id: 174, value: "**" },
-    { id: 175, value: "**" },
   ],
   [
     { id: 176, value: "91" },
@@ -7257,8 +6564,6 @@ export const MainBazar = [
     { id: 178, value: "42" },
     { id: 179, value: "11" },
     { id: 180, value: "69" },
-    { id: 181, value: "**" },
-    { id: 182, value: "**" },
   ],
   [
     { id: 183, value: "30" },
@@ -7266,8 +6571,6 @@ export const MainBazar = [
     { id: 185, value: "24" },
     { id: 186, value: "25" },
     { id: 187, value: "61" },
-    { id: 188, value: "**" },
-    { id: 189, value: "**" },
   ],
   [
     { id: 190, value: "94" },
@@ -7275,8 +6578,6 @@ export const MainBazar = [
     { id: 192, value: "18" },
     { id: 193, value: "88" },
     { id: 194, value: "24" },
-    { id: 195, value: "**" },
-    { id: 196, value: "**" },
   ],
   [
     { id: 197, value: "75" },
@@ -7284,17 +6585,13 @@ export const MainBazar = [
     { id: 199, value: "69" },
     { id: 200, value: "40" },
     { id: 201, value: "92" },
-    { id: 202, value: "**" },
-    { id: 203, value: "**" },
   ],
   [
     { id: 1, value: "44" },
-    { id: 2, value: "**" },
     { id: 3, value: "61" },
+    { id: 44, value: "88" },
     { id: 4, value: "67" },
     { id: 5, value: "20" },
-    { id: 6, value: "**" },
-    { id: 7, value: "**" },
   ],
   [
     { id: 1, value: "22" },
@@ -7302,8 +6599,6 @@ export const MainBazar = [
     { id: 3, value: "05" },
     { id: 4, value: "94" },
     { id: 5, value: "44" },
-    { id: 6, value: "**" },
-    { id: 7, value: "**" },
   ],
   [
     { id: 1, value: "22" },
@@ -7311,8 +6606,6 @@ export const MainBazar = [
     { id: 3, value: "05" },
     { id: 4, value: "94" },
     { id: 5, value: "44" },
-    { id: 6, value: "**" },
-    { id: 7, value: "**" },
   ],
   [
     { id: 8, value: "60" },
@@ -7320,8 +6613,6 @@ export const MainBazar = [
     { id: 10, value: "89" },
     { id: 11, value: "81" },
     { id: 12, value: "47" },
-    { id: 13, value: "**" },
-    { id: 14, value: "**" },
   ],
   [
     { id: 15, value: "41" },
@@ -7329,8 +6620,6 @@ export const MainBazar = [
     { id: 17, value: "14" },
     { id: 18, value: "98" },
     { id: 19, value: "74" },
-    { id: 20, value: "**" },
-    { id: 21, value: "**" },
   ],
   [
     { id: 22, value: "26" },
@@ -7338,8 +6627,6 @@ export const MainBazar = [
     { id: 24, value: "78" },
     { id: 25, value: "59" },
     { id: 26, value: "59" },
-    { id: 27, value: "**" },
-    { id: 28, value: "**" },
   ],
   [
     { id: 29, value: "88" },
@@ -7347,8 +6634,6 @@ export const MainBazar = [
     { id: 31, value: "44" },
     { id: 32, value: "25" },
     { id: 33, value: "51" },
-    { id: 34, value: "**" },
-    { id: 35, value: "**" },
   ],
   [
     { id: 36, value: "69" },
@@ -7356,8 +6641,6 @@ export const MainBazar = [
     { id: 38, value: "68" },
     { id: 39, value: "38" },
     { id: 40, value: "77" },
-    { id: 41, value: "**" },
-    { id: 42, value: "**" },
   ],
   [
     { id: 1, value: "83" },
@@ -7365,8 +6648,6 @@ export const MainBazar = [
     { id: 3, value: "35" },
     { id: 4, value: "21" },
     { id: 5, value: "26" },
-    { id: 6, value: "**" },
-    { id: 7, value: "**" },
   ],
   [
     { id: 8, value: "80" },
@@ -7374,8 +6655,6 @@ export const MainBazar = [
     { id: 10, value: "39" },
     { id: 11, value: "56" },
     { id: 12, value: "30" },
-    { id: 13, value: "**" },
-    { id: 14, value: "**" },
   ],
   [
     { id: 15, value: "25" },
@@ -7383,8 +6662,6 @@ export const MainBazar = [
     { id: 17, value: "40" },
     { id: 18, value: "25" },
     { id: 19, value: "04" },
-    { id: 20, value: "**" },
-    { id: 21, value: "**" },
   ],
   [
     { id: 22, value: "47" },
@@ -7392,8 +6669,6 @@ export const MainBazar = [
     { id: 24, value: "24" },
     { id: 25, value: "35" },
     { id: 26, value: "84" },
-    { id: 27, value: "**" },
-    { id: 28, value: "**" },
   ],
   [
     { id: 29, value: "50" },
@@ -7401,8 +6676,6 @@ export const MainBazar = [
     { id: 31, value: "87" },
     { id: 32, value: "30" },
     { id: 33, value: "28" },
-    { id: 34, value: "**" },
-    { id: 35, value: "**" },
   ],
   [
     { id: 36, value: "29" },
@@ -7410,26 +6683,14 @@ export const MainBazar = [
     { id: 38, value: "41" },
     { id: 39, value: "30" },
     { id: 40, value: "59" },
-    { id: 41, value: "**" },
-    { id: 42, value: "**" },
   ],
-  [
-    { id: 36, value: "**" },
-    { id: 37, value: "**" },
-    { id: 38, value: "**" },
-    { id: 39, value: "**" },
-    { id: 40, value: "**" },
-    { id: 41, value: "**" },
-    { id: 42, value: "**" },
-  ],
+  [],
   [
     { id: 1, value: "59" },
     { id: 2, value: "34" },
     { id: 3, value: "72" },
     { id: 4, value: "15" },
     { id: 5, value: "83" },
-    { id: 6, value: "**" },
-    { id: 7, value: "**" },
   ],
   [
     { id: 8, value: "55" },
@@ -10355,150 +9616,149 @@ export const SUPREMEDAY = [
     { id: 616, value: "88" },
   ],
   [
-  { "id": 617, "value": "88" },
-  { "id": 618, "value": "55" },
-  { "id": 619, "value": "69" },
-  { "id": 620, "value": "09" },
-  { "id": 621, "value": "98" },
-  { "id": 622, "value": "52" },
-  { "id": 623, "value": "34" }
-],
-[
-  { "id": 624, "value": "98" },
-  { "id": 625, "value": "26" },
-  { "id": 626, "value": "26" },
-  { "id": 627, "value": "71" },
-  { "id": 628, "value": "00" },
-  { "id": 629, "value": "95" },
-  { "id": 630, "value": "02" }
-],
-[
-  { "id": 631, "value": "08" },
-  { "id": 632, "value": "42" },
-  { "id": 633, "value": "66" },
-  { "id": 634, "value": "77" },
-  { "id": 635, "value": "77" },
-  { "id": 636, "value": "95" },
-  { "id": 637, "value": "15" }
-],
-[
-  { "id": 638, "value": "03" },
-  { "id": 639, "value": "69" },
-  { "id": 640, "value": "54" },
-  { "id": 641, "value": "07" },
-  { "id": 642, "value": "62" },
-  { "id": 643, "value": "81" },
-  { "id": 644, "value": "45" }
-],
-[
-  { "id": 645, "value": "03" },
-  { "id": 646, "value": "08" },
-  { "id": 647, "value": "44" },
-  { "id": 648, "value": "05" },
-  { "id": 649, "value": "92" },
-  { "id": 650, "value": "29" },
-  { "id": 651, "value": "92" }
-],
-[
-  { "id": 652, "value": "78" },
-  { "id": 653, "value": "46" },
-  { "id": 654, "value": "12" },
-  { "id": 655, "value": "64" },
-  { "id": 656, "value": "45" },
-  { "id": 657, "value": "09" },
-  { "id": 658, "value": "37" }
-],
-[
-  { "id": 659, "value": "88" },
-  { "id": 660, "value": "01" },
-  { "id": 661, "value": "33" },
-  { "id": 662, "value": "03" },
-  { "id": 663, "value": "16" },
-  { "id": 664, "value": "90" },
-  { "id": 665, "value": "71" }
-],
-[
-  { "id": 666, "value": "41" },
-  { "id": 667, "value": "05" },
-  { "id": 668, "value": "83" },
-  { "id": 669, "value": "**" },
-  { "id": 670, "value": "09" },
-  { "id": 671, "value": "59" },
-  { "id": 672, "value": "84" }
-]
-,[
-  { "id": 673, "value": "14" },
-  { "id": 674, "value": "36" },
-  { "id": 675, "value": "16" },
-  { "id": 676, "value": "14" },
-  { "id": 677, "value": "52" },
-  { "id": 678, "value": "22" },
-  { "id": 679, "value": "34" }
-],
-[
-  { "id": 680, "value": "11" },
-  { "id": 681, "value": "36" },
-  { "id": 682, "value": "60" },
-  { "id": 683, "value": "06" },
-  { "id": 684, "value": "08" },
-  { "id": 685, "value": "79" },
-  { "id": 686, "value": "83" }
-],
-[
-  { "id": 687, "value": "12" },
-  { "id": 688, "value": "77" },
-  { "id": 689, "value": "25" },
-  { "id": 690, "value": "80" },
-  { "id": 691, "value": "08" },
-  { "id": 692, "value": "98" },
-  { "id": 693, "value": "71" }
-],
-[
-  { "id": 694, "value": "97" },
-  { "id": 695, "value": "16" },
-  { "id": 696, "value": "65" },
-  { "id": 697, "value": "10" },
-  { "id": 698, "value": "25" },
-  { "id": 699, "value": "76" },
-  { "id": 700, "value": "70" }
-],
-[
-  { "id": 701, "value": "89" },
-  { "id": 702, "value": "21" },
-  { "id": 703, "value": "70" },
-  { "id": 704, "value": "84" },
-  { "id": 705, "value": "54" },
-  { "id": 706, "value": "73" },
-  { "id": 707, "value": "39" }
-],
-[
-  { "id": 708, "value": "94" },
-  { "id": 709, "value": "47" },
-  { "id": 710, "value": "79" },
-  { "id": 711, "value": "25" },
-  { "id": 712, "value": "06" },
-  { "id": 713, "value": "33" },
-  { "id": 714, "value": "90" }
-],
-[
-  { "id": 715, "value": "88" },
-  { "id": 716, "value": "20" },
-  { "id": 717, "value": "42" },
-  { "id": 718, "value": "41" },
-  { "id": 719, "value": "98" },
-  { "id": 720, "value": "29" },
-  { "id": 721, "value": "30" }
-],
-[
-  { "id": 722, "value": "34" },
-  { "id": 723, "value": "00" },
-  { "id": 724, "value": "79" },
-  { "id": 725, "value": "22" },
-  { "id": 726, "value": "89" },
-  { "id": 727, "value": "08" },
-  { "id": 728, "value": "77" }
-]
-,
+    { id: 617, value: "88" },
+    { id: 618, value: "55" },
+    { id: 619, value: "69" },
+    { id: 620, value: "09" },
+    { id: 621, value: "98" },
+    { id: 622, value: "52" },
+    { id: 623, value: "34" },
+  ],
+  [
+    { id: 624, value: "98" },
+    { id: 625, value: "26" },
+    { id: 626, value: "26" },
+    { id: 627, value: "71" },
+    { id: 628, value: "00" },
+    { id: 629, value: "95" },
+    { id: 630, value: "02" },
+  ],
+  [
+    { id: 631, value: "08" },
+    { id: 632, value: "42" },
+    { id: 633, value: "66" },
+    { id: 634, value: "77" },
+    { id: 635, value: "77" },
+    { id: 636, value: "95" },
+    { id: 637, value: "15" },
+  ],
+  [
+    { id: 638, value: "03" },
+    { id: 639, value: "69" },
+    { id: 640, value: "54" },
+    { id: 641, value: "07" },
+    { id: 642, value: "62" },
+    { id: 643, value: "81" },
+    { id: 644, value: "45" },
+  ],
+  [
+    { id: 645, value: "03" },
+    { id: 646, value: "08" },
+    { id: 647, value: "44" },
+    { id: 648, value: "05" },
+    { id: 649, value: "92" },
+    { id: 650, value: "29" },
+    { id: 651, value: "92" },
+  ],
+  [
+    { id: 652, value: "78" },
+    { id: 653, value: "46" },
+    { id: 654, value: "12" },
+    { id: 655, value: "64" },
+    { id: 656, value: "45" },
+    { id: 657, value: "09" },
+    { id: 658, value: "37" },
+  ],
+  [
+    { id: 659, value: "88" },
+    { id: 660, value: "01" },
+    { id: 661, value: "33" },
+    { id: 662, value: "03" },
+    { id: 663, value: "16" },
+    { id: 664, value: "90" },
+    { id: 665, value: "71" },
+  ],
+  [
+    { id: 666, value: "41" },
+    { id: 667, value: "05" },
+    { id: 668, value: "83" },
+    { id: 669, value: "**" },
+    { id: 670, value: "09" },
+    { id: 671, value: "59" },
+    { id: 672, value: "84" },
+  ],
+  [
+    { id: 673, value: "14" },
+    { id: 674, value: "36" },
+    { id: 675, value: "16" },
+    { id: 676, value: "14" },
+    { id: 677, value: "52" },
+    { id: 678, value: "22" },
+    { id: 679, value: "34" },
+  ],
+  [
+    { id: 680, value: "11" },
+    { id: 681, value: "36" },
+    { id: 682, value: "60" },
+    { id: 683, value: "06" },
+    { id: 684, value: "08" },
+    { id: 685, value: "79" },
+    { id: 686, value: "83" },
+  ],
+  [
+    { id: 687, value: "12" },
+    { id: 688, value: "77" },
+    { id: 689, value: "25" },
+    { id: 690, value: "80" },
+    { id: 691, value: "08" },
+    { id: 692, value: "98" },
+    { id: 693, value: "71" },
+  ],
+  [
+    { id: 694, value: "97" },
+    { id: 695, value: "16" },
+    { id: 696, value: "65" },
+    { id: 697, value: "10" },
+    { id: 698, value: "25" },
+    { id: 699, value: "76" },
+    { id: 700, value: "70" },
+  ],
+  [
+    { id: 701, value: "89" },
+    { id: 702, value: "21" },
+    { id: 703, value: "70" },
+    { id: 704, value: "84" },
+    { id: 705, value: "54" },
+    { id: 706, value: "73" },
+    { id: 707, value: "39" },
+  ],
+  [
+    { id: 708, value: "94" },
+    { id: 709, value: "47" },
+    { id: 710, value: "79" },
+    { id: 711, value: "25" },
+    { id: 712, value: "06" },
+    { id: 713, value: "33" },
+    { id: 714, value: "90" },
+  ],
+  [
+    { id: 715, value: "88" },
+    { id: 716, value: "20" },
+    { id: 717, value: "42" },
+    { id: 718, value: "41" },
+    { id: 719, value: "98" },
+    { id: 720, value: "29" },
+    { id: 721, value: "30" },
+  ],
+  [
+    { id: 722, value: "34" },
+    { id: 723, value: "00" },
+    { id: 724, value: "79" },
+    { id: 725, value: "22" },
+    { id: 726, value: "89" },
+    { id: 727, value: "08" },
+    { id: 728, value: "77" },
+  ],
 ];
 
 export const SUPREMENIGHT = [

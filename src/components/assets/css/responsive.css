@@ -209,8 +209,13 @@
   }
 
   .footer-image {
-    width: 60%;
+    width: 40%;
   }
+  .footer-img-3 {
+    height: 40px;
+    width: 40px;
+    margin-top: 15px;
+}
   .footer-text {
     text-align: justify;
     line-height: 30px;
@@ -224,7 +229,7 @@
     font-size: 15px !important;
   }
   .copyright-text {
-    font-size: 15px !important;
+    font-size: 12px !important;
   }
   .footer-terms-text {
     font-size: 15px !important;
@@ -485,10 +490,10 @@
     padding: 10px 0px;
     text-align: justify;
     line-height: 30px;
-    font-size: 15px !important;
+    font-size: 12px !important;
   }
   .copyright-text {
-    font-size: 15px !important;
+    font-size: 12px !important;
   }
   .footer-terms-text {
     font-size: 15px !important;
@@ -516,4 +521,34 @@
 
 .custom-toggler .navbar-toggler-icon {
   margin-top: 35px;
+}
+
+@media (min-width:769px) {
+  .footer-img-3{
+    height: 50px;
+      width: 50px;
+      margin-top: 15px;
+  }
+}
+
+@media  (min-width:459px) and (max-width:991px){
+  .footer-img-sec img {
+    width: 120px !important;
+}
+}
+
+@media (max-width:320px) {
+  .footer-last-content p {
+    font-size: 10px !important;
+}
+.footer-para-test {
+margin-left: 0px;
+  font-size: 11px !important;
+}
+}
+
+@media (max-width:768px) {
+  .footer-btn-scroll{
+margin-top: 10px;
+  }
 }

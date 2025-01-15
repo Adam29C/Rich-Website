@@ -14,8 +14,8 @@ const ShreeDevi = ({ chartData }) => {
             <th className="cc">WED</th>
             <th className="cc">THU</th>
             <th className="cc">FRI</th>
-            <th className="cc">SAT</th>
-            <th className="cc">SUN</th>
+            {/* <th className="cc">SAT</th>
+            <th className="cc">SUN</th> */}
           </tr>
         </thead>
         <tbody>

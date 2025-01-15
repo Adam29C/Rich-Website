@@ -1,10 +1,11 @@
 import React from "react";
-import img1 from "../../../RichImages/Gambling therapy.svg";
-import img2 from "../../../RichImages/begameble aware.org.svg";
-import img3 from "../../../RichImages/18.svg.svg";
-import logo from "../../../RichImages/Light them logo.svg";
+import eighteen from "../../../RichImages/18-new.svg";
+import begameble from "../../../RichImages/be-gamble-new.svg";
+import gambling from "../../../RichImages/gambling-new.svg";
+import dark_back_logo from "../../../RichImages/richlogo-new-white.svg";
 import "../../../App.css";
-import { Link } from "react-router-dom";
+
+
 const Footer = () => {
   const handleClickUp = () => {
     const targetElement = document.getElementById("root");
@@ -37,58 +38,50 @@ const Footer = () => {
             </button>
           </div>
           <div className="row">
-            <div className="col-md-6 footer-left-sec">
-              <div className=" d-flex">
+            <div className="col-xl-12 col-md-12 d-flex flex-column">
+              <div className=" d-flex justify-content-center">
                 <img
-                  src={logo}
+                  src={dark_back_logo}
                   className="img-fluid footer-image float-left"
-                  alt="#"
+                  alt=""
                 />
               </div>
-
-              <p className="footer-text f-size">
-                Our website is operated by Rich143 International, a company
-                established under the law of Isle of Man, with registered
-                address at 1-10 Ballanoa Meadow IM4-2HT, Isle Of Man, and having
-                its gaming sublicense issued by Isle of Man e-Gaming and all
-                rights to operate the gaming software worldwide.
-              </p>
-
-              <p className="copyright-text f-size text-left">
-                Copyright © 2024 - Rich143. All Rights Reserved
-              </p>
             </div>
-            <div className="col-md-6 footer-right-sec">
+            <div className="col-xl-12 col-md-12 ">
               <div className="footer-right-image">
                 <div className="margin-img">
                   <img
                     fetchpriority="high"
                     decoding="async"
                     data-nimg="fill"
-                    src={img3}
+                    src={eighteen}
                     className="footer-img-3"
                   />
                 </div>
-
-                <p className="footer-para-test f-size">
+                <p className="footer-para-test ">
                   Players need to be 18+ in order to register. Underage gambling
                   is prohibited.
                 </p>
               </div>
               <div className="footer-img-sec">
-                <img className="img1" src={img1} alt="https://khatri555.com/" />
-                <img className="img2" src={img2} alt="https://khatri555.com/" />
+              <img
+                  className="img2"
+                  src={gambling}
+                  alt=""
+                />
+                <img
+                  className="img1"
+                  src={begameble}
+                  alt=""
+                />
+             
               </div>
-              <p className="footer-terms-text">
-                <Link
-                  className=""
-                  to="/terms-conditions"
-                  onClick={handleClickUp}
-                >
-                  Terms & Conditions
-                </Link>
-              </p>
             </div>
+          </div>
+          <div className="footer-last-content gCDmxv">
+            <p className="copyright-text ">
+              Copyright © 2025 - Rich143 | All Rights Reserved
+            </p>
           </div>
         </div>
       </div>
