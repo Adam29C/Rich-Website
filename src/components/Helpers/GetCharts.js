@@ -26,11 +26,12 @@ export const GetAllCharts = async (apiEndPOint, dataRequest) => {
       let relatedData = [];
 
       weekData.data.forEach((item) => {
-        if (item.resultDate !== currentResultDate) {
+        if (
+          item.resultDate !== currentResultDate &&
+          item.winningDigit !== "test" &&
+          item.winningDigitFamily !== "test"
+        ) {
           if (currentResultDate !== "") {
-
-            console.log("week.data" ,week.data);
-            
             week.data.push({
               resultDate: currentResultDate,
               relatedData: relatedData,
@@ -39,6 +40,7 @@ export const GetAllCharts = async (apiEndPOint, dataRequest) => {
           currentResultDate = item.resultDate;
           relatedData = [];
         }
+
 
         relatedData.push(item);
       });

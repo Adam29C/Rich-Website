@@ -89,9 +89,14 @@ export async function GET_ALL_GAMES_RESULT(data, token) {
 //GET ALL GAMES JODI CHART
 export async function GET_ALL_JODI_CHART(data, token) {
   try {
-    const res = await axios.post(`${Config.base_url}api/web/jodichart`, data, {
-      data: {},
-    });
+    // const res = await axios.post(`${Config.base_url}api/web/jodichart`, data, {
+    const res = await axios.post(
+      `http://localhost:6999/api/web/jodichart`,
+      data,
+      {
+        data: {},
+      }
+    );
     return await res?.data;
   } catch (err) {
     return err;
