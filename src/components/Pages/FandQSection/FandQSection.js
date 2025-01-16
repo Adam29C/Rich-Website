@@ -87,7 +87,7 @@ const FandQSection = () => {
                   {isOpen.games && (
                     <div className="description-text">
                       <br />
-                      Popular Satta Matka Games Like Kalyan, Sridevi, Shree day,
+                      Popular Satta Matka Games Like Kalyan, Sridevi, ,
                       Milan, Time Bazar & Rajdhani, Main bazar etc..
                     </div>
                   )}
