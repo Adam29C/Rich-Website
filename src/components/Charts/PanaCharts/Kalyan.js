@@ -3,6 +3,9 @@ import { redJodi } from "../JodiCharts/Chart.config";
 import { fa_time } from "../../Helpers/getWeekDays";
 
 const ShreeDevi = ({ chartData }) => {
+
+
+  console.log("chartData" ,chartData)
   return (
     <div>
       <table className="table fw-bold" border="collapse">

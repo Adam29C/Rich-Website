@@ -4,7 +4,7 @@ import "../../assets/css/Section3.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import star from '../../../images/Star-Icon.svg'
+import star from "../../../images/Star-Icon.svg";
 
 const Section3 = () => {
   useEffect(() => {
@@ -20,17 +20,17 @@ const Section3 = () => {
     autoplay: true,
     // autoplaySpeed: 10,
 
-    slidesToShow: 4, 
+    slidesToShow: 4,
     slidesToScroll: 1,
     responsive: [
       {
-        breakpoint: 1024, 
+        breakpoint: 1024,
         settings: {
-          slidesToShow: 3, 
+          slidesToShow: 3,
         },
       },
       {
-        breakpoint: 600, 
+        breakpoint: 600,
         settings: {
           slidesToShow: 2,
         },
@@ -42,23 +42,18 @@ const Section3 = () => {
         },
       },
     ],
-    beforeChange: (oldIndex, newIndex) => {
-    },
+    beforeChange: (oldIndex, newIndex) => {},
   };
   return (
     <>
       <div className="container">
         <div className="winner-container">
           <div className="heding-sec heading-sec-custom m-2 d-flex text-center justify-content-center align-items-center">
-            <img
-              src={star}
-              alt="https://khatri555.com/"
-            />
-            <h1 className="mb-0 mt-3 ms-2 me-2 font-700">Today's Top Winners</h1>
-            <img
-              src={star}
-              alt="https://khatri555.com/"
-            />
+            <img src={star} alt="https://rich143.com/" />
+            <h1 className="mb-0 mt-3 ms-2 me-2 font-700">
+              Today's Top Winners
+            </h1>
+            <img src={star} alt="https://rich143.com/" />
           </div>
           <Slider {...settings}>
             <div>

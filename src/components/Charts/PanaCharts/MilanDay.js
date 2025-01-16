@@ -3,6 +3,7 @@ import { redJodi } from "../JodiCharts/Chart.config";
 import { fa_time } from "../../Helpers/getWeekDays";
 
 const ShreeDevi = ({ chartData }) => {
+  console.log("chartData", chartData);
 
   return (
     <div>
@@ -20,7 +21,7 @@ const ShreeDevi = ({ chartData }) => {
           </tr>
         </thead>
         <tbody>
-        {Object.entries(MILANDAY).map(([week, days], index) => {
+          {Object.entries(MILANDAY).map(([week, days], index) => {
             let splitDate = week.split(" ");
 
             return (
@@ -89,7 +90,8 @@ const ShreeDevi = ({ chartData }) => {
                             isInRedJodi ? "text-danger" : "text-dark"
                           }`}
                         >
-                          {nestedItem.relatedData[0] &&
+                          {nestedItem.relatedData[0] != "null" &&
+                            nestedItem.relatedData[0] &&
                             nestedItem.relatedData[0].winningDigit}
                         </span>
                         <span
@@ -97,7 +99,8 @@ const ShreeDevi = ({ chartData }) => {
                             isInRedJodi ? "text-danger" : "text-dark"
                           }`}
                         >
-                          {nestedItem.relatedData[0] &&
+                          {nestedItem.relatedData[0] != "null" &&
+                            nestedItem.relatedData[0] &&
                             nestedItem.relatedData[0].winningDigitFamily}
                           {nestedItem.relatedData[1] &&
                             nestedItem.relatedData[1].winningDigitFamily}
@@ -107,7 +110,8 @@ const ShreeDevi = ({ chartData }) => {
                             isInRedJodi ? "text-danger" : "text-dark"
                           }`}
                         >
-                          {nestedItem.relatedData[1] &&
+                          {nestedItem.relatedData[1] != "null" &&
+                            nestedItem.relatedData[1] &&
                             nestedItem.relatedData[1].winningDigit}
                         </span>
                       </div>

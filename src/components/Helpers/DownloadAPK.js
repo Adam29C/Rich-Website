@@ -5,7 +5,7 @@ export const downloadAPK = async () => {
   if (res.status) {
     const link = document.createElement("a");
     link.href = res.appInfo;
-    link.setAttribute("download", "Khatri555.apk");
+    link.setAttribute("download", "Rich143.apk");
     document.body.appendChild(link);
     link.click();
     link.parentNode.removeChild(link);

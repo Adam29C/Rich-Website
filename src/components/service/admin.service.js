@@ -72,9 +72,14 @@ export async function GET_ALL_STARTLINE_GAMES(data, token) {
 //GET ALL GAMES RESULT
 export async function GET_ALL_GAMES_RESULT(data, token) {
   try {
-    const res = await axios.post(`${Config.base_url}api/web/panachart`, data, {
-      data: {},
-    });
+    // const res = await axios.post(`${Config.base_url}api/web/panachart`, data, {
+    const res = await axios.post(
+      `http://localhost:6999/api/web/panachart`,
+      data,
+      {
+        data: {},
+      }
+    );
     return await res?.data;
   } catch (err) {
     return err;
@@ -138,6 +143,7 @@ export async function GET_JACKPOT_JODI_CHART(data, token) {
 }
 //GET APK LINK
 export async function GET_APK_LINK(data, token) {
+  // console.log("`${Config.base_url}api/web/app_url`" ,`${Config.base_url}api/web/app_url`)
   try {
     const res = await axios.get(`${Config.base_url}api/web/app_url`, data, {
       data: {},
@@ -191,7 +197,6 @@ export async function GET_ALL_JACKPOT_JODI_CHART(data, token) {
     return err;
   }
 }
-
 
 // ALL  JACKPOT_GAME CHART
 
