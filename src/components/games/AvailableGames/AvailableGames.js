@@ -4,7 +4,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { GET_ALL_GAMES } from "../../service/admin.service";
 import ReusableCard from "../ReusableCard";
 const AvailableGames = () => {
-
   const [getData, setgetData] = useState([]);
 
   const getResponseData = async () => {
@@ -19,8 +18,6 @@ const AvailableGames = () => {
 
   return (
     <div>
-    
-
       <ReusableCard
         GameData={getData}
         title="AVAILABLE GAMES"

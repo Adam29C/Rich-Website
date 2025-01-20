@@ -81,21 +81,23 @@ button {
 .download-now {
   background-color: #ffff;
 
-  border-radius: 50px;
+  border-radius: 50px 0 ;
   border: 3px solid #1c3e35;
   background-size: 200% 100%;
   padding: 0.5rem;
   color: #1c3e35;
-  transition: all 0.3s ease;
+  /* transition: all 0.3s ease; */
   
 }
-
+/* 
 .download-now:hover {
   background: linear-gradient(97.51deg, #1c3e35 -39.91%, #4aa48c 117.67%);
   color: #ffff;
   border: 3px solid #4aa48c;
+  border-ra/dius: 0 50px ;
 
-}
+
+} */
 .banner-text-section {
   width: 520px;
 }

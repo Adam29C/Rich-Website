@@ -7,7 +7,6 @@ import activeuser from "../../../RichImages/Active User icon (2).gif";
 import gameicon from "../../../RichImages/game icon.gif";
 import supporticon from "../../../RichImages/Support icon.gif";
 
-
 const Section2 = () => {
   const [getData, setgetData] = useState([]);
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -51,15 +50,12 @@ const Section2 = () => {
                           isIPhoneXR ? "d-flex flex-column" : ""
                         }`}
                       >
-                    
                         <h1>
-                          Play <span className="rich-text-color">Big</span>,
-       
-                        Win <span className="rich-text-color">Big</span>,
+                          Play <span className="rich-text-color">Big</span>, Win{" "}
+                          <span className="rich-text-color">Big</span>,
                         </h1>
                         <h1>
                           Only On &nbsp;
-                          
                           <span className="rich-text-color">Rich143</span>
                         </h1>
                       </div>
@@ -105,12 +101,19 @@ const Section2 = () => {
               />
             </div>
           </div>
-          <div className="download-now d-flex justify-content-center align-items-center mt(-5)">
+          <div className="download-now  d-flex justify-content-center align-items-center mt(-5)">
             <h1
               className="mb-0 font-400 curser-pointer"
               onClick={() => download()}
             >
-              Download App
+              <div span="download-app">
+                <i
+                  class="fa fa-hand-o-right right-arrow"
+                  aria-hidden="true"
+                ></i>
+                Download App
+                <i class="fa fa-hand-o-left left-arrow" aria-hidden="true"></i>
+              </div>
             </h1>
           </div>
         </div>
@@ -133,7 +136,6 @@ const Section2 = () => {
             <div className="d-flex justify-content-center align-items-center gap-3 contact-btn">
               <button className="contact-button-whp">
                 <a
-                  
                   href={`https://wa.me/+${getData && getData.number}`}
                   className="text-decoration-none"
                 >

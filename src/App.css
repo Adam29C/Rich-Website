@@ -869,7 +869,10 @@ button.navbar-toggler.navbar-toggler-btn:focus {
     right: 14px;
     top: 68px;
     border-radius: 12px;
-  }
+    height: 171px;
+
+  }       
+
 
   #navbarSupportedContent {
     background-color: #fff;
@@ -1300,6 +1303,17 @@ button.navbar-toggler.navbar-toggler-btn:focus {
   } */
   .Card_Size {
     width: 48%;
+  }
+
+  .button-container {
+  top: 4px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  border: 4px solid white;
+  border-radius: 10px;
+  margin-top: 102px;
+  right: 30px;
   }
 }
 
