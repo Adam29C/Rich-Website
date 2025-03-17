@@ -2409,7 +2409,7 @@ export const Six = [
   ],
   [
     { id: 190, value: "49" },
-    { id: 240, value: "**" },
+    { id: 240, value: "72" },
     { id: 200, value: "91" },
     { id: 192, value: "87" },
     { id: 201, value: "62" },
@@ -2681,7 +2681,7 @@ export const Seven = [
   ],
   [
     { id: 176, value: "38" },
-    { id: 177, value: "**" },
+    { id: 177, value: "72" },
     { id: 173, value: "91" },
     { id: 179, value: "76" },
     { id: 180, value: "10" },
@@ -3225,7 +3225,7 @@ export const Nine = [
   ],
   [
     { id: 176, value: "93" },
-    { id: 177, value: "**" },
+    { id: 177, value: "72" },
     { id: 178, value: "65" },
     { id: 179, value: "53" },
     { id: 180, value: "55" },

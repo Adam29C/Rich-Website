@@ -117,7 +117,7 @@ const Pana_Chart = () => {
       <div className="container ">
         <div className="row justify-content-center">
           <div className="p-0 text-center d-flex justify-content-center   col-xl-12 col-q-12 col-md-12 col-sm-12  ">
-            <div className="table-responsive  text-center col-xl-8 col-lg-12 col-md-12 col-sm-12 ">
+            <div className="table-responsive  text-center col-xl-9 col-lg-12 col-md-12 col-sm-12 ">
               {nameRejext(location.state.title) === nameRejext("7:00PM") ? (
                 <ShreeDay chartData={getData.data} />
               ) : nameRejext(location.state.title) === nameRejext("8:00PM") ? (

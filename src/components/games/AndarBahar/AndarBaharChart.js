@@ -122,15 +122,15 @@ const Andar_Bahar_Chart = (props) => {
                 <ShreeNight chartData={getData.data} />
               ) : nameRejext(location.state.title) === nameRejext("12:30PM") ? (
                 <MadhurDay chartData={getData.data} />
-              ) : nameRejext(location.state.title) === nameRejext("1:30PM") ? (
+              ) : nameRejext(location.state.title) === nameRejext("01:30PM") ? (
                 <MadhurNight chartData={getData.data} />
-              ) : nameRejext(location.state.title) === nameRejext("3:30PM") ? (
+              ) : nameRejext(location.state.title) === nameRejext("03:30PM") ? (
                 <MilanDay chartData={getData.data} />
               ) : nameRejext(location.state.title) === nameRejext("4:30PM") ? (
                 <MilanNight chartData={getData.data} />
-              ) : nameRejext(location.state.title) === nameRejext("5:30PM") ? (
+              ) : nameRejext(location.state.title) === nameRejext("05:30PM") ? (
                 <RajdhaniDay chartData={getData.data} />
-              ) : nameRejext(location.state.title) === nameRejext("6:30PM") ? (
+              ) : nameRejext(location.state.title) === nameRejext("06:30PM") ? (
                 <RajdhaniNight chartData={getData.data} />
               ) : nameRejext(location.state.title) === nameRejext("10:30Am") ? (
                 <Kalyan chartData={getData.data} />
@@ -139,7 +139,7 @@ const Andar_Bahar_Chart = (props) => {
               ) : nameRejext(location.state.title) === nameRejext("9:30PM") ||
                 nameRejext(location.state.title) === nameRejext("09:30PM") ? (
                 <TimeBazar chartData={getData.data} />
-              ) : nameRejext(location.state.title) === nameRejext("2:30PM") ? (
+              ) : nameRejext(location.state.title) === nameRejext("02:30PM") ? (
                 <MainBazar chartData={getData.data} />
               ) : nameRejext(location.state.title) ===
                 nameRejext("allratanjackpot") ? (

@@ -299,7 +299,6 @@ export const TimeBazar = [
     { id: 4, value: "56" },
     { id: 5, value: "16" },
     { id: 6, value: "31" },
-    { id: 7, value: "**" },
   ],
   [
     { id: 8, value: "98" },
@@ -308,7 +307,6 @@ export const TimeBazar = [
     { id: 11, value: "66" },
     { id: 12, value: "08" },
     { id: 13, value: "29" },
-    { id: 14, value: "**" },
   ],
   [
     { id: 15, value: "91" },
@@ -317,16 +315,14 @@ export const TimeBazar = [
     { id: 18, value: "60" },
     { id: 19, value: "55" },
     { id: 20, value: "43" },
-    { id: 21, value: "**" },
   ],
   [
     { id: 22, value: "41" },
     { id: 23, value: "91" },
     { id: 24, value: "33" },
-    { id: 25, value: "**" },
+    { id: 25, value: "55" },
     { id: 26, value: "96" },
     { id: 27, value: "66" },
-    { id: 28, value: "**" },
   ],
   [
     { id: 29, value: "58" },
@@ -335,7 +331,6 @@ export const TimeBazar = [
     { id: 32, value: "07" },
     { id: 33, value: "13" },
     { id: 34, value: "48" },
-    { id: 35, value: "**" },
   ],
   [
     { id: 36, value: "98" },
@@ -344,7 +339,6 @@ export const TimeBazar = [
     { id: 39, value: "45" },
     { id: 40, value: "44" },
     { id: 41, value: "56" },
-    { id: 42, value: "**" },
   ],
   [
     { id: 43, value: "73" },
@@ -353,7 +347,6 @@ export const TimeBazar = [
     { id: 46, value: "01" },
     { id: 47, value: "71" },
     { id: 48, value: "87" },
-    { id: 49, value: "**" },
   ],
   [
     { id: 50, value: "46" },
@@ -362,7 +355,6 @@ export const TimeBazar = [
     { id: 53, value: "27" },
     { id: 54, value: "26" },
     { id: 55, value: "42" },
-    { id: 56, value: "**" },
   ],
   [
     { id: 57, value: "98" },
@@ -371,16 +363,14 @@ export const TimeBazar = [
     { id: 60, value: "83" },
     { id: 61, value: "57" },
     { id: 62, value: "87" },
-    { id: 63, value: "**" },
   ],
   [
     { id: 64, value: "84" },
     { id: 65, value: "50" },
-    { id: 66, value: "**" },
+    { id: 66, value: "48" },
     { id: 67, value: "46" },
     { id: 68, value: "53" },
     { id: 69, value: "97" },
-    { id: 70, value: "**" },
   ],
   [
     { id: 71, value: "20" },
@@ -389,7 +379,6 @@ export const TimeBazar = [
     { id: 74, value: "65" },
     { id: 75, value: "48" },
     { id: 76, value: "10" },
-    { id: 77, value: "**" },
   ],
   [
     { id: 78, value: "04" },
@@ -398,7 +387,6 @@ export const TimeBazar = [
     { id: 81, value: "20" },
     { id: 82, value: "67" },
     { id: 83, value: "58" },
-    { id: 84, value: "**" },
   ],
   [
     { id: 85, value: "22" },
@@ -407,7 +395,6 @@ export const TimeBazar = [
     { id: 88, value: "32" },
     { id: 89, value: "09" },
     { id: 90, value: "00" },
-    { id: 91, value: "**" },
   ],
   [
     { id: 92, value: "58" },
@@ -416,7 +403,6 @@ export const TimeBazar = [
     { id: 95, value: "09" },
     { id: 96, value: "37" },
     { id: 97, value: "64" },
-    { id: 98, value: "**" },
   ],
   [
     { id: 99, value: "77" },
@@ -425,7 +411,6 @@ export const TimeBazar = [
     { id: 102, value: "33" },
     { id: 103, value: "15" },
     { id: 104, value: "37" },
-    { id: 105, value: "**" },
   ],
   [
     { id: 106, value: "72" },
@@ -434,7 +419,6 @@ export const TimeBazar = [
     { id: 109, value: "73" },
     { id: 110, value: "02" },
     { id: 111, value: "03" },
-    { id: 112, value: "**" },
   ],
   [
     { id: 113, value: "60" },
@@ -443,7 +427,6 @@ export const TimeBazar = [
     { id: 116, value: "55" },
     { id: 117, value: "14" },
     { id: 118, value: "72" },
-    { id: 119, value: "**" },
   ],
   [
     { id: 120, value: "73" },
@@ -452,7 +435,6 @@ export const TimeBazar = [
     { id: 123, value: "04" },
     { id: 124, value: "25" },
     { id: 125, value: "06" },
-    { id: 126, value: "**" },
   ],
   [
     { id: 127, value: "78" },
@@ -461,7 +443,6 @@ export const TimeBazar = [
     { id: 130, value: "73" },
     { id: 131, value: "61" },
     { id: 132, value: "84" },
-    { id: 133, value: "**" },
   ],
   [
     { id: 134, value: "55" },
@@ -470,7 +451,6 @@ export const TimeBazar = [
     { id: 137, value: "23" },
     { id: 138, value: "67" },
     { id: 139, value: "05" },
-    { id: 140, value: "**" },
   ],
   [
     { id: 141, value: "83" },
@@ -479,7 +459,6 @@ export const TimeBazar = [
     { id: 144, value: "46" },
     { id: 145, value: "59" },
     { id: 146, value: "69" },
-    { id: 147, value: "**" },
   ],
   [
     { id: 148, value: "41" },
@@ -488,7 +467,6 @@ export const TimeBazar = [
     { id: 151, value: "77" },
     { id: 152, value: "11" },
     { id: 153, value: "84" },
-    { id: 154, value: "**" },
   ],
   [
     { id: 155, value: "83" },
@@ -497,7 +475,6 @@ export const TimeBazar = [
     { id: 158, value: "52" },
     { id: 159, value: "09" },
     { id: 160, value: "62" },
-    { id: 161, value: "**" },
   ],
   [
     { id: 162, value: "56" },
@@ -506,7 +483,6 @@ export const TimeBazar = [
     { id: 165, value: "04" },
     { id: 166, value: "29" },
     { id: 167, value: "75" },
-    { id: 168, value: "**" },
   ],
   [
     { id: 169, value: "06" },
@@ -515,7 +491,6 @@ export const TimeBazar = [
     { id: 172, value: "13" },
     { id: 173, value: "93" },
     { id: 174, value: "50" },
-    { id: 175, value: "**" },
   ],
   [
     { id: 176, value: "10" },
@@ -524,7 +499,6 @@ export const TimeBazar = [
     { id: 179, value: "04" },
     { id: 180, value: "54" },
     { id: 181, value: "57" },
-    { id: 182, value: "**" },
   ],
   [
     { id: 183, value: "55" },
@@ -533,7 +507,6 @@ export const TimeBazar = [
     { id: 186, value: "09" },
     { id: 187, value: "86" },
     { id: 188, value: "14" },
-    { id: 189, value: "**" },
   ],
   [
     { id: 190, value: "21" },
@@ -542,7 +515,6 @@ export const TimeBazar = [
     { id: 193, value: "24" },
     { id: 194, value: "24" },
     { id: 195, value: "03" },
-    { id: 196, value: "**" },
   ],
   [
     { id: 197, value: "96" },
@@ -551,7 +523,6 @@ export const TimeBazar = [
     { id: 200, value: "53" },
     { id: 201, value: "42" },
     { id: 202, value: "88" },
-    { id: 203, value: "**" },
   ],
   [
     { id: 204, value: "90" },
@@ -560,7 +531,6 @@ export const TimeBazar = [
     { id: 207, value: "37" },
     { id: 208, value: "20" },
     { id: 209, value: "81" },
-    { id: 210, value: "**" },
   ],
   [
     { id: 211, value: "24" },
@@ -569,7 +539,6 @@ export const TimeBazar = [
     { id: 214, value: "40" },
     { id: 215, value: "28" },
     { id: 216, value: "84" },
-    { id: 217, value: "**" },
   ],
   [
     { id: 218, value: "25" },
@@ -578,25 +547,22 @@ export const TimeBazar = [
     { id: 221, value: "10" },
     { id: 222, value: "87" },
     { id: 223, value: "32" },
-    { id: 224, value: "**" },
   ],
   [
     { id: 225, value: "86" },
-    { id: 226, value: "**" },
+    { id: 226, value: "11" },
     { id: 227, value: "28" },
     { id: 228, value: "48" },
     { id: 229, value: "25" },
     { id: 230, value: "84" },
-    { id: 231, value: "**" },
   ],
   [
-    { id: 237, value: "**" },
+    { id: 237, value: "11" },
     { id: 232, value: "44" },
     { id: 233, value: "79" },
     { id: 234, value: "35" },
     { id: 235, value: "59" },
     { id: 236, value: "11" },
-    { id: 237, value: "**" },
   ],
   [
     { id: 238, value: "35" },
@@ -605,7 +571,6 @@ export const TimeBazar = [
     { id: 241, value: "54" },
     { id: 242, value: "31" },
     { id: 243, value: "31" },
-    { id: 244, value: "**" },
   ],
   [
     { id: 245, value: "76" },
@@ -614,7 +579,6 @@ export const TimeBazar = [
     { id: 248, value: "62" },
     { id: 249, value: "32" },
     { id: 250, value: "97" },
-    { id: 251, value: "**" },
   ],
   [
     { id: 252, value: "59" },
@@ -623,7 +587,6 @@ export const TimeBazar = [
     { id: 255, value: "84" },
     { id: 256, value: "03" },
     { id: 257, value: "78" },
-    { id: 258, value: "**" },
   ],
   [
     { id: 259, value: "57" },
@@ -632,7 +595,6 @@ export const TimeBazar = [
     { id: 262, value: "80" },
     { id: 263, value: "81" },
     { id: 264, value: "64" },
-    { id: 265, value: "**" },
   ],
   [
     { id: 266, value: "46" },
@@ -641,7 +603,6 @@ export const TimeBazar = [
     { id: 269, value: "11" },
     { id: 270, value: "85" },
     { id: 271, value: "60" },
-    { id: 272, value: "**" },
   ],
   [
     { id: 273, value: "80" },
@@ -650,7 +611,6 @@ export const TimeBazar = [
     { id: 276, value: "84" },
     { id: 277, value: "40" },
     { id: 278, value: "94" },
-    { id: 279, value: "**" },
   ],
   [
     { id: 280, value: "16" },
@@ -659,7 +619,6 @@ export const TimeBazar = [
     { id: 283, value: "03" },
     { id: 284, value: "06" },
     { id: 285, value: "87" },
-    { id: 286, value: "**" },
   ],
   [
     { id: 287, value: "03" },
@@ -668,7 +627,6 @@ export const TimeBazar = [
     { id: 290, value: "13" },
     { id: 291, value: "79" },
     { id: 292, value: "00" },
-    { id: 293, value: "**" },
   ],
   [
     { id: 294, value: "56" },
@@ -677,7 +635,6 @@ export const TimeBazar = [
     { id: 297, value: "36" },
     { id: 298, value: "77" },
     { id: 299, value: "98" },
-    { id: 300, value: "**" },
   ],
   [
     { id: 301, value: "44" },
@@ -686,26 +643,16 @@ export const TimeBazar = [
     { id: 304, value: "78" },
     { id: 305, value: "71" },
     { id: 306, value: "67" },
-    { id: 307, value: "**" },
   ],
   [
     { id: 308, value: "47" },
     { id: 309, value: "38" },
     { id: 310, value: "26" },
-    { id: 311, value: "00" },
-    { id: 312, value: "**" },
-    { id: 313, value: "**" },
-    { id: 314, value: "**" },
+    { id: 312, value: "42" },
+    { id: 324, value: "71" },
+    { id: 325, value: "50" },
   ],
-  [
-    { id: 315, value: "**" },
-    { id: 316, value: "**" },
-    { id: 317, value: "**" },
-    { id: 318, value: "**" },
-    { id: 319, value: "**" },
-    { id: 320, value: "**" },
-    { id: 321, value: "**" },
-  ],
+
   [
     { id: 322, value: "78" },
     { id: 323, value: "17" },
@@ -713,7 +660,6 @@ export const TimeBazar = [
     { id: 325, value: "50" },
     { id: 326, value: "59" },
     { id: 327, value: "42" },
-    { id: 328, value: "**" },
   ],
   [
     { id: 329, value: "21" },
@@ -722,7 +668,6 @@ export const TimeBazar = [
     { id: 332, value: "03" },
     { id: 333, value: "03" },
     { id: 334, value: "34" },
-    { id: 335, value: "**" },
   ],
   [
     { id: 336, value: "68" },
@@ -731,7 +676,6 @@ export const TimeBazar = [
     { id: 339, value: "99" },
     { id: 340, value: "67" },
     { id: 341, value: "69" },
-    { id: 342, value: "**" },
   ],
   [
     { id: 343, value: "33" },
@@ -740,7 +684,6 @@ export const TimeBazar = [
     { id: 346, value: "02" },
     { id: 347, value: "99" },
     { id: 348, value: "54" },
-    { id: 349, value: "**" },
   ],
   [
     { id: 350, value: "50" },
@@ -749,7 +692,6 @@ export const TimeBazar = [
     { id: 353, value: "41" },
     { id: 354, value: "84" },
     { id: 355, value: "18" },
-    { id: 356, value: "**" },
   ],
   [
     { id: 357, value: "37" },
@@ -758,7 +700,6 @@ export const TimeBazar = [
     { id: 360, value: "22" },
     { id: 361, value: "65" },
     { id: 362, value: "27" },
-    { id: 363, value: "**" },
   ],
   [
     { id: 364, value: "13" },
@@ -767,7 +708,6 @@ export const TimeBazar = [
     { id: 367, value: "59" },
     { id: 368, value: "17" },
     { id: 369, value: "04" },
-    { id: 370, value: "**" },
   ],
   [
     { id: 371, value: "35" },
@@ -776,7 +716,6 @@ export const TimeBazar = [
     { id: 374, value: "61" },
     { id: 375, value: "23" },
     { id: 376, value: "40" },
-    { id: 377, value: "**" },
   ],
   [
     { id: 378, value: "83" },
@@ -785,16 +724,14 @@ export const TimeBazar = [
     { id: 381, value: "56" },
     { id: 382, value: "11" },
     { id: 383, value: "44" },
-    { id: 384, value: "**" },
   ],
   [
     { id: 385, value: "17" },
     { id: 386, value: "85" },
     { id: 387, value: "08" },
     { id: 388, value: "03" },
-    { id: 389, value: "**" },
-    { id: 390, value: "**" },
-    { id: 391, value: "**" },
+    { id: 389, value: "17" },
+    { id: 390, value: "33" },
   ],
   [
     { id: 392, value: "14" },
@@ -803,7 +740,6 @@ export const TimeBazar = [
     { id: 395, value: "86" },
     { id: 396, value: "37" },
     { id: 397, value: "13" },
-    { id: 398, value: "**" },
   ],
   [
     { id: 399, value: "97" },
@@ -812,7 +748,6 @@ export const TimeBazar = [
     { id: 402, value: "79" },
     { id: 403, value: "05" },
     { id: 404, value: "08" },
-    { id: 405, value: "**" },
   ],
   [
     { id: 406, value: "07" },
@@ -821,7 +756,6 @@ export const TimeBazar = [
     { id: 409, value: "67" },
     { id: 410, value: "42" },
     { id: 411, value: "46" },
-    { id: 412, value: "**" },
   ],
   [
     { id: 413, value: "80" },
@@ -830,7 +764,6 @@ export const TimeBazar = [
     { id: 416, value: "94" },
     { id: 417, value: "16" },
     { id: 418, value: "65" },
-    { id: 419, value: "**" },
   ],
   [
     { id: 420, value: "65" },
@@ -839,7 +772,6 @@ export const TimeBazar = [
     { id: 423, value: "24" },
     { id: 424, value: "84" },
     { id: 425, value: "03" },
-    { id: 426, value: "**" },
   ],
   [
     { id: 427, value: "94" },
@@ -848,7 +780,6 @@ export const TimeBazar = [
     { id: 430, value: "71" },
     { id: 431, value: "80" },
     { id: 432, value: "30" },
-    { id: 433, value: "**" },
   ],
   [
     { id: 434, value: "96" },
@@ -857,7 +788,6 @@ export const TimeBazar = [
     { id: 437, value: "79" },
     { id: 438, value: "71" },
     { id: 439, value: "74" },
-    { id: 440, value: "**" },
   ],
   [
     { id: 441, value: "80" },
@@ -866,16 +796,14 @@ export const TimeBazar = [
     { id: 444, value: "12" },
     { id: 445, value: "07" },
     { id: 446, value: "59" },
-    { id: 447, value: "**" },
   ],
   [
-    { id: 449, value: "**" },
+    { id: 449, value: "07" },
     { id: 450, value: "71" },
     { id: 451, value: "74" },
     { id: 452, value: "37" },
     { id: 453, value: "33" },
     { id: 454, value: "49" },
-    { id: 455, value: "**" },
   ],
   [
     { id: 456, value: "24" },
@@ -884,7 +812,6 @@ export const TimeBazar = [
     { id: 459, value: "12" },
     { id: 460, value: "29" },
     { id: 461, value: "17" },
-    { id: 462, value: "**" },
   ],
   [
     { id: 463, value: "69" },
@@ -893,7 +820,6 @@ export const TimeBazar = [
     { id: 466, value: "45" },
     { id: 467, value: "49" },
     { id: 468, value: "31" },
-    { id: 469, value: "**" },
   ],
   [
     { id: 470, value: "71" },
@@ -902,7 +828,6 @@ export const TimeBazar = [
     { id: 473, value: "78" },
     { id: 474, value: "49" },
     { id: 475, value: "82" },
-    { id: 476, value: "**" },
   ],
   [
     { id: 477, value: "91" },
@@ -911,7 +836,6 @@ export const TimeBazar = [
     { id: 480, value: "53" },
     { id: 481, value: "36" },
     { id: 482, value: "12" },
-    { id: 483, value: "**" },
   ],
   [
     { id: 484, value: "20" },
@@ -920,7 +844,6 @@ export const TimeBazar = [
     { id: 487, value: "95" },
     { id: 488, value: "52" },
     { id: 489, value: "56" },
-    { id: 490, value: "**" },
   ],
   [
     { id: 491, value: "06" },
@@ -929,7 +852,6 @@ export const TimeBazar = [
     { id: 494, value: "92" },
     { id: 495, value: "34" },
     { id: 496, value: "84" },
-    { id: 497, value: "**" },
   ],
 ];
 
@@ -976,7 +898,7 @@ export const MadhurDay = [
     { id: 29, value: "03" },
     { id: 30, value: "00" },
     { id: 31, value: "23" },
-    { id: 32, value: "**" },
+    { id: 32, value: "44" },
     { id: 33, value: "63" },
     { id: 34, value: "77" },
     { id: 35, value: "66" },
@@ -1029,7 +951,7 @@ export const MadhurDay = [
   [
     { id: 71, value: "02" },
     { id: 72, value: "68" },
-    { id: 73, value: "**" },
+    { id: 73, value: "11" },
     { id: 74, value: "13" },
     { id: 75, value: "99" },
     { id: 76, value: "75" },
@@ -1347,17 +1269,8 @@ export const MadhurDay = [
     { id: 318, value: "68" },
     { id: 319, value: "07" },
     { id: 320, value: "37" },
-    { id: 321, value: "**" },
-    { id: 322, value: "**" },
-  ],
-  [
-    { id: 323, value: "**" },
-    { id: 324, value: "**" },
-    { id: 325, value: "**" },
-    { id: 326, value: "**" },
-    { id: 327, value: "**" },
-    { id: 328, value: "**" },
-    { id: 329, value: "**" },
+    { id: 311, value: "64" },
+    { id: 334, value: "91" },
   ],
   [
     { id: 330, value: "71" },
@@ -1445,7 +1358,7 @@ export const MadhurDay = [
     { id: 394, value: "30" },
     { id: 395, value: "91" },
     { id: 396, value: "97" },
-    { id: 397, value: "**" },
+    { id: 391, value: "01" },
     { id: 398, value: "40" },
     { id: 399, value: "48" },
   ],
@@ -1522,7 +1435,7 @@ export const MadhurDay = [
     { id: 455, value: "54" },
   ],
   [
-    { id: 456, value: "**" },
+    { id: 391, value: "01" },
     { id: 457, value: "91" },
     { id: 458, value: "41" },
     { id: 459, value: "03" },
@@ -2916,7 +2829,6 @@ export const RajdhaniDay = [
     { id: 312, value: "64" },
     { id: 227, value: "30" },
     { id: 227, value: "30" },
-
   ],
   [
     { id: 330, value: "06" },
@@ -3069,7 +2981,6 @@ export const RajdhaniDay = [
     { id: 458, value: "10" },
     { id: 459, value: "07" },
     { id: 309, value: "12" },
-
   ],
   [
     { id: 461, value: "41" },
@@ -4989,7 +4900,7 @@ export const ShreeDeviNight = [
     { id: 9, value: "85" },
     { id: 10, value: "65" },
     { id: 11, value: "98" },
-    { id: 12, value: "**" },
+    { id: 3, value: "93" },
     { id: 13, value: "21" },
     { id: 14, value: "39" },
   ],
@@ -5066,7 +4977,8 @@ export const ShreeDeviNight = [
     { id: 70, value: "61" },
   ],
   [
-    { id: 71, value: "**" },
+    { id: 68, value: "09" },
+
     { id: 72, value: "51" },
     { id: 73, value: "27" },
     { id: 74, value: "74" },
@@ -6698,8 +6610,6 @@ export const MainBazar = [
     { id: 10, value: "69" },
     { id: 11, value: "91" },
     { id: 12, value: "97" },
-    { id: 13, value: "**" },
-    { id: 14, value: "**" },
   ],
   [
     { id: 15, value: "27" },
@@ -6707,8 +6617,6 @@ export const MainBazar = [
     { id: 17, value: "28" },
     { id: 18, value: "26" },
     { id: 19, value: "10" },
-    { id: 20, value: "**" },
-    { id: 21, value: "**" },
   ],
   [
     { id: 22, value: "62" },
@@ -6716,8 +6624,6 @@ export const MainBazar = [
     { id: 24, value: "66" },
     { id: 25, value: "14" },
     { id: 26, value: "03" },
-    { id: 27, value: "**" },
-    { id: 28, value: "**" },
   ],
   [
     { id: 29, value: "71" },
@@ -6725,8 +6631,6 @@ export const MainBazar = [
     { id: 31, value: "51" },
     { id: 32, value: "34" },
     { id: 33, value: "29" },
-    { id: 34, value: "**" },
-    { id: 35, value: "**" },
   ],
   [
     { id: 36, value: "39" },
@@ -6734,8 +6638,6 @@ export const MainBazar = [
     { id: 38, value: "19" },
     { id: 39, value: "91" },
     { id: 40, value: "34" },
-    { id: 41, value: "**" },
-    { id: 42, value: "**" },
   ],
   [
     { id: 43, value: "81" },
@@ -6743,8 +6645,6 @@ export const MainBazar = [
     { id: 45, value: "25" },
     { id: 46, value: "82" },
     { id: 47, value: "34" },
-    { id: 48, value: "**" },
-    { id: 49, value: "**" },
   ],
   [
     { id: 50, value: "85" },
@@ -6752,8 +6652,6 @@ export const MainBazar = [
     { id: 52, value: "02" },
     { id: 53, value: "90" },
     { id: 54, value: "23" },
-    { id: 55, value: "**" },
-    { id: 56, value: "**" },
   ],
   [
     { id: 57, value: "45" },
@@ -6761,17 +6659,13 @@ export const MainBazar = [
     { id: 59, value: "78" },
     { id: 60, value: "25" },
     { id: 61, value: "74" },
-    { id: 62, value: "**" },
-    { id: 63, value: "**" },
   ],
   [
     { id: 1, value: "89" },
     { id: 2, value: "47" },
     { id: 3, value: "04" },
     { id: 4, value: "16" },
-    { id: 5, value: "**" },
-    { id: 6, value: "**" },
-    { id: 7, value: "**" },
+    { id: 12, value: "79" },
   ],
   [
     { id: 8, value: "58" },
@@ -6779,8 +6673,6 @@ export const MainBazar = [
     { id: 10, value: "55" },
     { id: 11, value: "87" },
     { id: 12, value: "72" },
-    { id: 13, value: "**" },
-    { id: 14, value: "**" },
   ],
   [
     { id: 15, value: "28" },
@@ -6788,8 +6680,6 @@ export const MainBazar = [
     { id: 17, value: "72" },
     { id: 18, value: "01" },
     { id: 19, value: "65" },
-    { id: 20, value: "**" },
-    { id: 21, value: "**" },
   ],
   [
     { id: 22, value: "04" },
@@ -6797,8 +6687,6 @@ export const MainBazar = [
     { id: 24, value: "55" },
     { id: 25, value: "52" },
     { id: 26, value: "77" },
-    { id: 27, value: "**" },
-    { id: 28, value: "**" },
   ],
   [
     { id: 29, value: "70" },
@@ -6806,8 +6694,6 @@ export const MainBazar = [
     { id: 31, value: "54" },
     { id: 32, value: "94" },
     { id: 33, value: "14" },
-    { id: 34, value: "**" },
-    { id: 35, value: "**" },
   ],
   [
     { id: 36, value: "50" },
@@ -6815,8 +6701,6 @@ export const MainBazar = [
     { id: 38, value: "68" },
     { id: 39, value: "03" },
     { id: 40, value: "55" },
-    { id: 41, value: "**" },
-    { id: 42, value: "**" },
   ],
   [
     { id: 43, value: "31" },
@@ -6824,8 +6708,6 @@ export const MainBazar = [
     { id: 45, value: "20" },
     { id: 46, value: "11" },
     { id: 47, value: "82" },
-    { id: 48, value: "**" },
-    { id: 49, value: "**" },
   ],
   [
     { id: 50, value: "15" },
@@ -6833,8 +6715,6 @@ export const MainBazar = [
     { id: 52, value: "71" },
     { id: 53, value: "90" },
     { id: 54, value: "41" },
-    { id: 48, value: "**" },
-    { id: 49, value: "**" },
   ],
   [
     { id: 1, value: "98" },
@@ -6842,17 +6722,13 @@ export const MainBazar = [
     { id: 3, value: "63" },
     { id: 4, value: "71" },
     { id: 5, value: "02" },
-    { id: 6, value: "**" },
-    { id: 7, value: "**" },
   ],
   [
-    { id: 13, value: "**" },
     { id: 8, value: "12" },
     { id: 9, value: "71" },
     { id: 10, value: "84" },
+    { id: 12, value: "79" },
     { id: 11, value: "08" },
-    { id: 13, value: "**" },
-    { id: 14, value: "**" },
   ],
   [
     { id: 1, value: "67" },
@@ -6860,8 +6736,6 @@ export const MainBazar = [
     { id: 3, value: "71" },
     { id: 4, value: "03" },
     { id: 5, value: "22" },
-    { id: 6, value: "**" },
-    { id: 7, value: "**" },
   ],
   [
     { id: 8, value: "61" },
@@ -6869,8 +6743,6 @@ export const MainBazar = [
     { id: 10, value: "38" },
     { id: 11, value: "01" },
     { id: 12, value: "79" },
-    { id: 13, value: "**" },
-    { id: 14, value: "**" },
   ],
   [
     { id: 15, value: "63" },
@@ -6878,8 +6750,6 @@ export const MainBazar = [
     { id: 17, value: "85" },
     { id: 18, value: "64" },
     { id: 19, value: "58" },
-    { id: 20, value: "**" },
-    { id: 21, value: "**" },
   ],
   [
     { id: 22, value: "55" },
@@ -6887,8 +6757,6 @@ export const MainBazar = [
     { id: 24, value: "11" },
     { id: 25, value: "87" },
     { id: 26, value: "14" },
-    { id: 27, value: "**" },
-    { id: 28, value: "**" },
   ],
   [
     { id: 29, value: "11" },
@@ -6896,8 +6764,6 @@ export const MainBazar = [
     { id: 31, value: "40" },
     { id: 32, value: "44" },
     { id: 33, value: "40" },
-    { id: 34, value: "**" },
-    { id: 35, value: "**" },
   ],
   [
     { id: 36, value: "67" },
@@ -6905,8 +6771,6 @@ export const MainBazar = [
     { id: 38, value: "32" },
     { id: 39, value: "86" },
     { id: 40, value: "67" },
-    { id: 41, value: "**" },
-    { id: 42, value: "**" },
   ],
   [
     { id: 43, value: "03" },
@@ -6914,8 +6778,6 @@ export const MainBazar = [
     { id: 45, value: "80" },
     { id: 46, value: "20" },
     { id: 47, value: "29" },
-    { id: 48, value: "**" },
-    { id: 49, value: "**" },
   ],
   [
     { id: 50, value: "54" },
@@ -6923,8 +6785,6 @@ export const MainBazar = [
     { id: 52, value: "04" },
     { id: 53, value: "97" },
     { id: 54, value: "46" },
-    { id: 55, value: "**" },
-    { id: 56, value: "**" },
   ],
   [
     { id: 57, value: "39" },
@@ -6932,8 +6792,6 @@ export const MainBazar = [
     { id: 59, value: "58" },
     { id: 60, value: "32" },
     { id: 61, value: "74" },
-    { id: 62, value: "**" },
-    { id: 63, value: "**" },
   ],
   [
     { id: 64, value: "19" },
@@ -6941,8 +6799,6 @@ export const MainBazar = [
     { id: 66, value: "68" },
     { id: 67, value: "32" },
     { id: 68, value: "65" },
-    { id: 69, value: "**" },
-    { id: 70, value: "**" },
   ],
   [
     { id: 71, value: "46" },
@@ -6950,8 +6806,6 @@ export const MainBazar = [
     { id: 73, value: "91" },
     { id: 74, value: "51" },
     { id: 75, value: "22" },
-    { id: 76, value: "**" },
-    { id: 77, value: "**" },
   ],
   [
     { id: 78, value: "35" },
@@ -6959,8 +6813,6 @@ export const MainBazar = [
     { id: 80, value: "11" },
     { id: 81, value: "18" },
     { id: 82, value: "65" },
-    { id: 83, value: "**" },
-    { id: 84, value: "**" },
   ],
   [
     { id: 85, value: "48" },
@@ -6968,8 +6820,6 @@ export const MainBazar = [
     { id: 87, value: "52" },
     { id: 88, value: "97" },
     { id: 89, value: "97" },
-    { id: 90, value: "**" },
-    { id: 91, value: "**" },
   ],
   [
     { id: 1, value: "48" },
@@ -6977,8 +6827,6 @@ export const MainBazar = [
     { id: 3, value: "52" },
     { id: 4, value: "97" },
     { id: 5, value: "97" },
-    { id: 6, value: "**" },
-    { id: 7, value: "**" },
   ],
   [
     { id: 8, value: "32" },
@@ -6986,8 +6834,6 @@ export const MainBazar = [
     { id: 10, value: "47" },
     { id: 11, value: "89" },
     { id: 12, value: "12" },
-    { id: 13, value: "**" },
-    { id: 14, value: "**" },
   ],
   [
     { id: 15, value: "09" },
@@ -6995,8 +6841,6 @@ export const MainBazar = [
     { id: 17, value: "25" },
     { id: 18, value: "13" },
     { id: 19, value: "81" },
-    { id: 20, value: "**" },
-    { id: 21, value: "**" },
   ],
   [
     { id: 22, value: "82" },
@@ -7004,8 +6848,6 @@ export const MainBazar = [
     { id: 24, value: "95" },
     { id: 25, value: "68" },
     { id: 26, value: "44" },
-    { id: 27, value: "**" },
-    { id: 28, value: "**" },
   ],
   [
     { id: 29, value: "40" },
@@ -7013,8 +6855,6 @@ export const MainBazar = [
     { id: 31, value: "40" },
     { id: 32, value: "82" },
     { id: 33, value: "13" },
-    { id: 34, value: "**" },
-    { id: 35, value: "**" },
   ],
   [
     { id: 398, value: "74" },
@@ -7022,17 +6862,13 @@ export const MainBazar = [
     { id: 400, value: "59" },
     { id: 401, value: "33" },
     { id: 402, value: "63" },
-    { id: 403, value: "**" },
-    { id: 404, value: "**" },
   ],
   [
-    { id: 410, value: "**" },
     { id: 405, value: "44" },
     { id: 406, value: "31" },
     { id: 407, value: "32" },
+    { id: 400, value: "59" },
     { id: 408, value: "29" },
-    { id: 411, value: "**" },
-    { id: 411, value: "**" },
   ],
   [
     { id: 409, value: "64" },
@@ -7040,8 +6876,6 @@ export const MainBazar = [
     { id: 413, value: "15" },
     { id: 414, value: "03" },
     { id: 415, value: "45" },
-    { id: 411, value: "**" },
-    { id: 411, value: "**" },
   ],
   [
     { id: 416, value: "01" },
@@ -7049,8 +6883,6 @@ export const MainBazar = [
     { id: 418, value: "07" },
     { id: 419, value: "65" },
     { id: 420, value: "16" },
-    { id: 421, value: "**" },
-    { id: 422, value: "**" },
   ],
   [
     { id: 423, value: "29" },
@@ -7058,8 +6890,6 @@ export const MainBazar = [
     { id: 425, value: "96" },
     { id: 426, value: "71" },
     { id: 427, value: "75" },
-    { id: 428, value: "**" },
-    { id: 429, value: "**" },
   ],
   [
     { id: 430, value: "64" },
@@ -7067,8 +6897,6 @@ export const MainBazar = [
     { id: 432, value: "42" },
     { id: 433, value: "66" },
     { id: 434, value: "61" },
-    { id: 435, value: "**" },
-    { id: 436, value: "**" },
   ],
   [
     { id: 437, value: "16" },
@@ -7076,8 +6904,6 @@ export const MainBazar = [
     { id: 439, value: "26" },
     { id: 440, value: "32" },
     { id: 441, value: "50" },
-    { id: 442, value: "**" },
-    { id: 443, value: "**" },
   ],
   [
     { id: 444, value: "49" },
@@ -7085,8 +6911,6 @@ export const MainBazar = [
     { id: 446, value: "46" },
     { id: 447, value: "42" },
     { id: 448, value: "55" },
-    { id: 449, value: "**" },
-    { id: 450, value: "**" },
   ],
   [
     { id: 451, value: "64" },
@@ -7094,8 +6918,6 @@ export const MainBazar = [
     { id: 453, value: "05" },
     { id: 454, value: "24" },
     { id: 455, value: "20" },
-    { id: 456, value: "**" },
-    { id: 457, value: "**" },
   ],
   [
     { id: 458, value: "75" },
@@ -7103,8 +6925,6 @@ export const MainBazar = [
     { id: 460, value: "95" },
     { id: 461, value: "77" },
     { id: 462, value: "60" },
-    { id: 463, value: "**" },
-    { id: 464, value: "**" },
   ],
   [
     { id: 465, value: "71" },
@@ -7112,8 +6932,6 @@ export const MainBazar = [
     { id: 467, value: "07" },
     { id: 468, value: "59" },
     { id: 469, value: "68" },
-    { id: 463, value: "**" },
-    { id: 464, value: "**" },
   ],
   [
     { id: 470, value: "30" },
@@ -7121,8 +6939,6 @@ export const MainBazar = [
     { id: 472, value: "34" },
     { id: 473, value: "60" },
     { id: 474, value: "02" },
-    { id: 475, value: "**" },
-    { id: 476, value: "**" },
   ],
   [
     { id: 477, value: "78" },
@@ -7130,8 +6946,6 @@ export const MainBazar = [
     { id: 479, value: "70" },
     { id: 480, value: "60" },
     { id: 481, value: "23" },
-    { id: 482, value: "**" },
-    { id: 483, value: "**" },
   ],
   [
     { id: 484, value: "07" },
@@ -7139,8 +6953,6 @@ export const MainBazar = [
     { id: 486, value: "36" },
     { id: 487, value: "61" },
     { id: 488, value: "68" },
-    { id: 489, value: "**" },
-    { id: 490, value: "**" },
   ],
   [
     { id: 491, value: "81" },
@@ -7148,8 +6960,6 @@ export const MainBazar = [
     { id: 493, value: "84" },
     { id: 494, value: "91" },
     { id: 495, value: "18" },
-    { id: 496, value: "**" },
-    { id: 497, value: "**" },
   ],
   [
     { id: 498, value: "74" },
@@ -7157,8 +6967,6 @@ export const MainBazar = [
     { id: 500, value: "79" },
     { id: 501, value: "47" },
     { id: 502, value: "05" },
-    { id: 503, value: "**" },
-    { id: 504, value: "**" },
   ],
   [
     { id: 505, value: "00" },
@@ -7166,8 +6974,6 @@ export const MainBazar = [
     { id: 507, value: "12" },
     { id: 508, value: "31" },
     { id: 509, value: "12" },
-    { id: 510, value: "**" },
-    { id: 511, value: "**" },
   ],
   [
     { id: 512, value: "57" },
@@ -7175,8 +6981,6 @@ export const MainBazar = [
     { id: 514, value: "15" },
     { id: 515, value: "97" },
     { id: 516, value: "77" },
-    { id: 517, value: "**" },
-    { id: 518, value: "**" },
   ],
   [
     { id: 519, value: "78" },
@@ -7184,8 +6988,6 @@ export const MainBazar = [
     { id: 521, value: "84" },
     { id: 522, value: "13" },
     { id: 523, value: "13" },
-    { id: 524, value: "**" },
-    { id: 525, value: "**" },
   ],
   [
     { id: 526, value: "39" },
@@ -7193,8 +6995,6 @@ export const MainBazar = [
     { id: 528, value: "69" },
     { id: 529, value: "90" },
     { id: 530, value: "36" },
-    { id: 531, value: "**" },
-    { id: 532, value: "**" },
   ],
   [
     { id: 533, value: "46" },
@@ -7202,17 +7002,13 @@ export const MainBazar = [
     { id: 535, value: "02" },
     { id: 536, value: "70" },
     { id: 537, value: "97" },
-    { id: 531, value: "**" },
-    { id: 532, value: "**" },
   ],
   [
     { id: 533, value: "34" },
     { id: 534, value: "85" },
     { id: 535, value: "61" },
-    { id: 536, value: "**" },
+    { id: 535, value: "02" },
     { id: 537, value: "52" },
-    { id: 538, value: "**" },
-    { id: 538, value: "**" },
   ],
   [
     { id: 539, value: "81" },
@@ -7220,8 +7016,6 @@ export const MainBazar = [
     { id: 541, value: "52" },
     { id: 542, value: "41" },
     { id: 543, value: "38" },
-    { id: 545, value: "**" },
-    { id: 545, value: "**" },
   ],
   [
     { id: 544, value: "21" },
@@ -7229,8 +7023,6 @@ export const MainBazar = [
     { id: 547, value: "82" },
     { id: 548, value: "31" },
     { id: 549, value: "01" },
-    { id: 550, value: "**" },
-    { id: 550, value: "**" },
   ],
 ];
 
