@@ -1,8 +1,6 @@
 import React from "react";
-import { RajdhaniDay } from "./Chart.config";
+import { RAJDHANIDAY } from "../PanaCharts/Chart.config";
 import { redJodi } from "./Chart.config";
-
-// import { Data } from "../ShreeJackpot/Chart.config";
 const ShreeDay = ({ chartData }) => {
   return (
     <div>
@@ -15,63 +13,61 @@ const ShreeDay = ({ chartData }) => {
             <th className="ch">THU</th>
             <th className="ch">FRI</th>
             <th className="ch">SAT</th>
-            {/* <th className="ch">SUN</th> */}
           </tr>
         </thead>
         <tbody>
-          {RajdhaniDay.map((group, groupIndex) => (
-            <tr key={groupIndex}>
-              {group.map((item) => (
-                <td>
-                  <div className="kalyan-chart-number-black">
-                    <span
-                      className={`cp ${
-                        redJodi
-                          .map((j) => parseInt(j))
-                          .includes(parseInt(item.value))
-                          ? "text-danger"
-                          : "text-dark"
-                      }`}
-                    >
-                      {item.value}
-                    </span>
-                  </div>
-                </td>
-              ))}
-            </tr>
-          ))}
+          {Object.entries(RAJDHANIDAY).map(([week, days], index) => {
+            return (
+              <tr key={index}>
+                {Object.entries(days).map(([day, values], id) => (
+                  <td key={id} className="cc">
+                    <div className="kalyan-chart-number-black">
+                      <span
+                        className={`cp ${
+                          redJodi
+                            .map((j) => parseInt(j))
+                            .includes(parseInt(values[1]))
+                            ? "text-danger"
+                            : "text-dark"
+                        }`}
+                      >
+                        {values[1]}
+                      </span>
+                    </div>
+                  </td>
+                ))}
+              </tr>
+            );
+          })}
 
-       
-{chartData &&
-  chartData.map((item1) => {
-    return (
-      <tr key={item1.id}>
-        {item1.data.map((nestedItem) => {
-          const combine = `${
-            nestedItem.relatedData?.[0]?.winningDigitFamily}${nestedItem.relatedData?.[1]?.winningDigitFamily}`;
-          return (
-            <td key={nestedItem.id}>
-              <div className="kalyan-chart-number-black">
-                <span
-                  className={`cp ${
-                    redJodi
-                      .map((j) => parseInt(j))
-                      .includes(parseInt(combine))
-                      ? "text-danger"
-                      : "text-dark"
-                  }`}
-                >
-                  {nestedItem.relatedData?.[0]?.winningDigitFamily}
-                  {nestedItem.relatedData?.[1]?.winningDigitFamily}
-                </span>
-              </div>
-            </td>
-          );
-        })}
-      </tr>
-    );
-  })}
-
+          {chartData &&
+            chartData.map((item1) => {
+              return (
+                <tr key={item1.id}>
+                  {item1.data.map((nestedItem) => {
+                    const combine = `${nestedItem.relatedData?.[0]?.winningDigitFamily}${nestedItem.relatedData?.[1]?.winningDigitFamily}`;
+                    return (
+                      <td key={nestedItem.id}>
+                        <div className="kalyan-chart-number-black">
+                          <span
+                            className={`cp ${
+                              redJodi
+                                .map((j) => parseInt(j))
+                                .includes(parseInt(combine))
+                                ? "text-danger"
+                                : "text-dark"
+                            }`}
+                          >
+                            {nestedItem.relatedData?.[0]?.winningDigitFamily}
+                            {nestedItem.relatedData?.[1]?.winningDigitFamily}
+                          </span>
+                        </div>
+                      </td>
+                    );
+                  })}
+                </tr>
+              );
+            })}
         </tbody>
       </table>
     </div>

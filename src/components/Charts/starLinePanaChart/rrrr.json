@@ -1,0 +1,90 @@
+{
+    "statusCode": 200,
+    "status": "Success",
+    "data": [
+        {
+            "_id": "668d4382211a65d88600fa7e",
+            "providerName": "10:00 AM",
+            "providerResult": "339-5",
+            "modifiedAt": "03/20/2025 10:01:26 AM",
+            "resultStatus": 1
+        },
+        {
+            "_id": "668d438e211a65d88600fa9d",
+            "providerName": "11:00 AM",
+            "providerResult": "369-8",
+            "modifiedAt": "03/20/2025 11:00:26 AM",
+            "resultStatus": 1
+        },
+        {
+            "_id": "668d439d211a65d88600fab2",
+            "providerName": "12:00 PM",
+            "providerResult": "550-0",
+            "modifiedAt": "03/20/2025 12:01:20 PM",
+            "resultStatus": 1
+        },
+        {
+            "_id": "668d43ad211a65d88600fac7",
+            "providerName": "1:00 PM",
+            "providerResult": "356-4",
+            "modifiedAt": "03/20/2025 01:00:33 PM",
+            "resultStatus": 1
+        },
+        {
+            "_id": "668d43c1211a65d88600fae2",
+            "providerName": "2:00 PM",
+            "providerResult": "689-3",
+            "modifiedAt": "03/20/2025 02:03:04 PM",
+            "resultStatus": 1
+        },
+        {
+            "_id": "668d43d6211a65d88600faff",
+            "providerName": "3:00 PM",
+            "providerResult": "277-6",
+            "modifiedAt": "03/20/2025 03:00:51 PM",
+            "resultStatus": 1
+        },
+        {
+            "_id": "668d43ee211a65d88600fb20",
+            "providerName": "4:00 PM",
+            "providerResult": "124-7",
+            "modifiedAt": "03/20/2025 04:00:05 PM",
+            "resultStatus": 1
+        },
+        {
+            "_id": "668d43fe211a65d88600fb35",
+            "providerName": "5:00 PM",
+            "providerResult": "***-**",
+            "modifiedAt": "03/20/2025 08:00:00 AM",
+            "resultStatus": 0
+        },
+        {
+            "_id": "668d440f211a65d88600fb52",
+            "providerName": "6:00 PM",
+            "providerResult": "***-**",
+            "modifiedAt": "03/20/2025 08:00:00 AM",
+            "resultStatus": 0
+        },
+        {
+            "_id": "668d4424211a65d88600fb6d",
+            "providerName": "7:00 PM",
+            "providerResult": "***-**",
+            "modifiedAt": "03/20/2025 08:00:00 AM",
+            "resultStatus": 0
+        },
+        {
+            "_id": "668d4432211a65d88600fb82",
+            "providerName": "8:00 PM",
+            "providerResult": "***-**",
+            "modifiedAt": "03/20/2025 08:00:00 AM",
+            "resultStatus": 0
+        },
+        {
+            "_id": "668d4490211a65d88600fc2d",
+            "providerName": "9:00 PM",
+            "providerResult": "***-**",
+            "modifiedAt": "03/20/2025 08:00:00 AM",
+            "resultStatus": 0
+        }
+    ]
+}

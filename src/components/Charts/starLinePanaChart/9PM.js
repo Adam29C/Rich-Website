@@ -1,8 +1,10 @@
 import { Nine } from "./Chart.config";
 import { redPana } from "../JodiCharts/Chart.config";
-import { fa_time } from "../../Helpers/getWeekDays";
+import { formatDate } from "../../Helpers/getWeekDays";
 
 const ShreeDevi = ({ chartData }) => {
+
+
   return (
     <div>
       <table className="table fw-bold" border="collapse">
@@ -19,7 +21,7 @@ const ShreeDevi = ({ chartData }) => {
           </tr>
         </thead>
         <tbody>
-        {Object.entries(Nine).map(([week, days], index) => {
+        {/* {Object.entries(Nine).map(([week, days], index) => {
             let splitDate = week.split(" ");
             return (
               <>
@@ -27,9 +29,9 @@ const ShreeDevi = ({ chartData }) => {
                   <td className="cc td-width-13">
                     <div className="pana-chart-main">
                       <span className="result_date">
-                        {fa_time(splitDate[0])} <br />
+                        {formatDate(splitDate[0])} <br />
                         {splitDate[1]} <br />
-                        {fa_time(splitDate[2])}
+                        {formatDate(splitDate[2])}
                       </span>
                     </div>
                   </td>
@@ -67,7 +69,7 @@ const ShreeDevi = ({ chartData }) => {
                 </tr>
               </>
             );
-          })}
+          })} */}
               {chartData &&
             chartData.map((item1) => (
               <tr key={item1.id}>

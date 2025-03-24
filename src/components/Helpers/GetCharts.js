@@ -1,5 +1,5 @@
 import { nameRejext } from "./StringRejex";
-import { fa_time } from "./getWeekDays";
+import { fa_time, formatDate } from "./getWeekDays";
 
 export const GetAllCharts = async (apiEndPOint, dataRequest) => {
   const title = nameRejext(dataRequest.title);
@@ -17,8 +17,8 @@ export const GetAllCharts = async (apiEndPOint, dataRequest) => {
       const resultDates = aa.map((item) => new Date(item.resultDate));
 
       const week = {
-        weekStartDay: fa_time(weekData.startDate),
-        weekEndDay: fa_time(weekData.endDate),
+        weekStartDay: formatDate(weekData.startDate),
+        weekEndDay: formatDate(weekData.endDate),
         data: [],
       };
 
@@ -40,7 +40,6 @@ export const GetAllCharts = async (apiEndPOint, dataRequest) => {
           currentResultDate = item.resultDate;
           relatedData = [];
         }
-
 
         relatedData.push(item);
       });

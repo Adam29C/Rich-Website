@@ -31,6 +31,12 @@ export function fDateTime(date) {
   return format(new Date(date), "dd MMM yyyy HH:mm:ss");
 }
 
+export function formatDate(dateString) {
+  const date = new Date(dateString);
+  return new Intl.DateTimeFormat("en-GB").format(date);
+}
+
+
 export function fDateTimeSuffix(date) {
   return format(new Date(date), "dd/MM/yyyy hh:mm:ss");
 }
