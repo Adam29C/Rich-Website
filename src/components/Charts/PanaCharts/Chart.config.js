@@ -10938,6 +10938,16 @@ export const SUPREMENIGHT = {
   },
 };
 
-// export const SUPREMEDAY ={}
+export const VEDAMORNING ={}
+export const YUGMORNING ={}
+export const DHARMMORNING ={}
 
-// export const SUPREMENIGHT = {};
+export const VEDADAY ={}
+export const YUGDAY ={}
+export const DHARMDAY ={}
+
+
+export const VEDANIGHT ={}
+export const YUGNIGHT ={}
+export const DHARMNIGHT ={}
+

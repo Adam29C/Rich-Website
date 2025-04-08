@@ -31,9 +31,20 @@ import INDRADAY from "../../Charts/PanaCharts/INDRADAY";
 import INDRANIGHT from "../../Charts/PanaCharts/INDRANIGHT";
 import MAYADAY from "../../Charts/PanaCharts/MAYADAY";
 import MAYANIGHT from "../../Charts/PanaCharts/MAYANIGHT";
-
-import SUPREMEDAY from "../../Charts/PanaCharts/SUPREMEDAY";
 import SUPREMENIGHT from "../../Charts/PanaCharts/SUPREMENIGHT";
+import SUPREMEDAY from "../../Charts/PanaCharts/SUPREMEDAY";
+
+import DHARMNIGHT from "../../Charts/PanaCharts/DHARMNIGHT";
+import DHARMDAY from "../../Charts/PanaCharts/DHARMDAY";
+import DHARMMORNING from "../../Charts/PanaCharts/DHARMMORNING";
+
+import YUGNIGHT from "../../Charts/PanaCharts/YUGNIGHT";
+import YUGDAY from "../../Charts/PanaCharts/YUGDAY";
+import YUGMORNING from "../../Charts/PanaCharts/YUGMORNING";
+
+import VEDANIGHT from "../../Charts/PanaCharts/VEDANIGHT";
+import VEDADAY from "../../Charts/PanaCharts/VEDADAY";
+import VEDAMORNING from "../../Charts/PanaCharts/VEDAMORNING";
 
 import { GetAllCharts } from "../../Helpers/GetCharts";
 
@@ -172,8 +183,33 @@ const Pana_Chart = () => {
                 nameRejext("SUPREMEDAY") ? (
                 <SUPREMEDAY chartData={getData.data} />
               ) : nameRejext(location.state.title) ===
-                nameRejext("SUPREMENIGHT") ? (
-                <SUPREMENIGHT chartData={getData.data} />
+                nameRejext("SUPREMEDAY") ? (
+                <SUPREMEDAY chartData={getData.data} />
+              ) : nameRejext(location.state.title) ===
+                nameRejext("DHARMMORNING") ? (
+                <DHARMMORNING chartData={getData.data} />
+              ) : nameRejext(location.state.title) ===
+                nameRejext("DHARMNIGHT") ? (
+                <DHARMNIGHT chartData={getData.data} />
+              ) : nameRejext(location.state.title) ===
+                nameRejext("YUGNIGHT") ? (
+                <YUGNIGHT chartData={getData.data} />
+              ) : nameRejext(location.state.title) === nameRejext("YUGDAY") ? (
+                <YUGDAY chartData={getData.data} />
+              ) : nameRejext(location.state.title) ===
+                nameRejext("YUGMORNING") ? (
+                <YUGMORNING chartData={getData.data} />
+              ) : nameRejext(location.state.title) === nameRejext("VEDADAY") ? (
+                <VEDADAY chartData={getData.data} />
+              ) : nameRejext(location.state.title) ===
+                nameRejext("VEDANIGHT") ? (
+                <VEDANIGHT chartData={getData.data} />
+              ) : nameRejext(location.state.title) ===
+                nameRejext("VEDAMORNING") ? (
+                <VEDAMORNING chartData={getData.data} />
+              ) : nameRejext(location.state.title) ===
+                nameRejext("DHARMDAY") ? (
+                <DHARMDAY chartData={getData.data} />
               ) : (
                 ""
               )}

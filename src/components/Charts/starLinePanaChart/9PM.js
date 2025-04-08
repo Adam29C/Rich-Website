@@ -1,7 +1,6 @@
 import { Nine } from "./Chart.config";
 import { redPana } from "../JodiCharts/Chart.config";
 import { formatDate } from "../../Helpers/getWeekDays";
-
 const ShreeDevi = ({ chartData }) => {
 
 
