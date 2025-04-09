@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.bc471ac3.css",
-    "main.js": "/static/js/main.75fb35c6.js",
+    "main.css": "/static/css/main.43341667.css",
+    "main.js": "/static/js/main.b8d95516.js",
     "static/media/bgfooterimage.png": "/static/media/bgfooterimage.be488ba5a9de37445324.png",
-    "static/media/Bannerimg.png": "/static/media/Bannerimg.25c9837e6f5a4f231cb6.png",
+    "static/media/Bannerimg.jpg": "/static/media/Bannerimg.2236a64740d0e65f4910.jpg",
     "static/media/be-gamble-new.svg": "/static/media/be-gamble-new.8309ad773c9abf5e7ef3f487751c6954.svg",
     "static/media/gambling-new.svg": "/static/media/gambling-new.201519b40a54a2eb789a8d4e3ec6652c.svg",
     "static/media/logofooter.png": "/static/media/logofooter.4e0b58c9293fcf0ebcab.png",
@@ -20,11 +20,11 @@
     "static/media/stars.svg": "/static/media/stars.591465ce73701820c8b4964396e590ce.svg",
     "static/media/downloadbutton.svg": "/static/media/downloadbutton.8bcce216800c59622de511bba70cd42c.svg",
     "static/media/back.svg": "/static/media/back.1ae01ae12611c8e8d3d6d6d7b5a615fa.svg",
-    "main.bc471ac3.css.map": "/static/css/main.bc471ac3.css.map",
-    "main.75fb35c6.js.map": "/static/js/main.75fb35c6.js.map"
+    "main.43341667.css.map": "/static/css/main.43341667.css.map",
+    "main.b8d95516.js.map": "/static/js/main.b8d95516.js.map"
   },
   "entrypoints": [
-    "static/css/main.bc471ac3.css",
-    "static/js/main.75fb35c6.js"
+    "static/css/main.43341667.css",
+    "static/js/main.b8d95516.js"
   ]
 }

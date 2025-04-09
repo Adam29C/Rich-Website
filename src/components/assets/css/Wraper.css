@@ -84,13 +84,8 @@ svg {
 
 .move-color {
   animation: gradientAnimation 5s linear infinite;
-  background: #227e8b;
-  background: linear-gradient(
-    52deg,
-    var(--color-primary) 20%,
-    #237f8a 50%,
-    var(--color-primary) 80%
-  );
+  /* background: #1c3e35; */
+  background: #1c3e35;
   background-size: 200% 100%;
   border: none !important;
   border-radius: 50px;

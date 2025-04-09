@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "../../assets/css/Herosection.css";
 import { GET_CONTACT } from "../../service/admin.service";
 import { downloadAPK } from "../../Helpers/DownloadAPK";
-import heroimage from "../../../RichImages/Bannerimg.png";
+import heroimage from "../../../RichImages/Bannerimg.jpg";
 import activeuser from "../../../RichImages/active.svg";
 import gameicon from "../../../RichImages/games.svg";
 import supporticon from "../../../RichImages/support.svg";
@@ -74,9 +74,15 @@ const Section2 = () => {
           </div>
           {/* Right Column with Image */}
           <div className="col-md-6 text-center">
-            <img src={heroimage} alt="Rich143" className=" banner-img" />
+            {/* <img src={heroimage} alt="Rich143" className=" banner-img" /> */}
           </div>
         </div>
+      </div>
+      <div className="col-10 download-now move-color d-flex justify-content-center align-items-center  text-light my-3" 
+        onClick={download}
+      >
+        <i className="fa-2x fa fa-download mr-15px" aria-hidden="true" />
+        <h1 className="mb-0 font-400 curser-pointer">Download App</h1>
       </div>
       <div className="images-main-herosection col-md-12 py-3">
         <div></div>
