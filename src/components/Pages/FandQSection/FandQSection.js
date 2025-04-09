@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
-import star from "../../../images/Star-Icon.svg";
+// import star from "../../../images/Star-Icon.svg";
 import Accordion from "react-bootstrap/Accordion";
+import star from "../../../RichImages/stars.svg";
 
 const FandQSection = () => {
   // .............
@@ -28,29 +29,33 @@ const FandQSection = () => {
     <div className="container">
       <div className="row">
         <div className="">
-          <div className="heading-sec m-4 d-flex flex-column text-center justify-content-center align-items-center my-5">
-            <h1 className="mb-0 ms-2 me-2 rich-game-title">
+          <div className="heading-sec m-4 d-flex flex-row text-center justify-content-center align-items-center my-5">
+          <img className="game-icons-img" src={star} alt="#" />   <h1 className="mb-0 ms-2 me-2 rich-game-title">
               Frequently Asked Questions
             </h1>
+            <img className="game-icons-img" src={star} alt="#" />
           </div>
 
           <div className="accordion-container">
             <div className="row">
-              <div className="col-12 col-md-6 col-lg-6">
-                <div 
-                className={`accordion-section ${isOpen.ramabet ? "acc-bg-color" : ""}`}
+              <div className="col-12 col-md-6 col-lg-12">
+                <div
+                  className={`accordion-section ${
+                    isOpen.ramabet ? "acc-bg-color" : ""
+                  }`}
+                  style={{ backgroundColor: "#028a94" }}
                 >
                   <div
                     className="d-flex align-items-center justify-content-between accordion-header"
                     onClick={() => toggleAccordion("ramabet")}
                   >
-                    <div className="rich-text-color faq-title">
-                      What is Rich143 ?
-                    </div>
+                    <div className="faq-title">What is Rich143 ?</div>
                     <div className="collapse-icon">
                       <i
                         className={`gry-col fa ${
-                          isOpen.ramabet ? "fa-chevron-down" : "fa-chevron-right"
+                          isOpen.ramabet
+                            ? "fa-chevron-down"
+                            : "fa-chevron-right"
                         }`}
                       ></i>
                     </div>
@@ -65,15 +70,18 @@ const FandQSection = () => {
                 </div>
               </div>
 
-              <div className="col-12 col-md-6 col-lg-6">
-                <div 
-                className={`accordion-section ${isOpen.games ? "acc-bg-color" : ""}`}
+              <div className="col-12 col-md-6 col-lg-12">
+                <div
+                  className={`accordion-section ${
+                    isOpen.games ? "acc-bg-color" : ""
+                  }`}
+                  style={{ backgroundColor: "#028a94" }}
                 >
                   <div
                     className="d-flex align-items-center justify-content-between accordion-header"
                     onClick={() => toggleAccordion("games")}
                   >
-                    <div className="rich-text-color faq-title">
+                    <div className=" faq-title">
                       What games are available on Rich143 ?
                     </div>
                     <div className="collapse-icon">
@@ -87,27 +95,32 @@ const FandQSection = () => {
                   {isOpen.games && (
                     <div className="description-text">
                       <br />
-                      Popular Satta Matka Games Like Kalyan, Sridevi, ,
-                      Milan, Time Bazar & Rajdhani, Main bazar etc..
+                      Popular Satta Matka Games Like Kalyan, Sridevi, , Milan,
+                      Time Bazar & Rajdhani, Main bazar etc..
                     </div>
                   )}
                 </div>
               </div>
-         <div className="col-12 col-md-6 col-lg-6">
-                <div 
-                className={`accordion-section ${isOpen.depositWithdrawal ? "acc-bg-color" : ""}`}
+              <div className="col-12 col-md-6 col-lg-12">
+                <div
+                  className={`accordion-section ${
+                    isOpen.depositWithdrawal ? "acc-bg-color" : ""
+                  }`}
+                  style={{ backgroundColor: "#028a94" }}
                 >
                   <div
                     className="d-flex align-items-center justify-content-between accordion-header"
                     onClick={() => toggleAccordion("depositWithdrawal")}
                   >
-                    <div className="rich-text-color faq-title">
+                    <div className="faq-title">
                       What is the minimum Deposit and Withdrawal Amount ?
                     </div>
                     <div className="collapse-icon">
                       <i
                         className={`gry-col fa ${
-                          isOpen.depositWithdrawal ? "fa-chevron-down" : "fa-chevron-right"
+                          isOpen.depositWithdrawal
+                            ? "fa-chevron-down"
+                            : "fa-chevron-right"
                         }`}
                       ></i>
                     </div>
@@ -122,22 +135,24 @@ const FandQSection = () => {
                 </div>
               </div>
 
-
-              <div className="col-12 col-md-6 col-lg-6">
-                <div 
-                className={`accordion-section ${isOpen.license ? "acc-bg-color" : ""}`}
+              <div className="col-12 col-md-6 col-lg-12">
+                <div
+                  className={`accordion-section ${
+                    isOpen.license ? "acc-bg-color" : ""
+                  }`}
+                  style={{ backgroundColor: "#028a94" }}
                 >
                   <div
                     className="d-flex align-items-center justify-content-between accordion-header"
                     onClick={() => toggleAccordion("license")}
                   >
-                    <div className="rich-text-color faq-title">
-                      Does Rich143 have License ?
-                    </div>
+                    <div className="faq-title">Does Rich143 have License ?</div>
                     <div className="collapse-icon">
                       <i
                         className={`gry-col fa ${
-                          isOpen.license ? "fa-chevron-down" : "fa-chevron-right"
+                          isOpen.license
+                            ? "fa-chevron-down"
+                            : "fa-chevron-right"
                         }`}
                       ></i>
                     </div>
@@ -152,22 +167,26 @@ const FandQSection = () => {
                 </div>
               </div>
 
-     
-              <div className="col-12 col-md-6 col-lg-6">
-                <div 
-                className={`accordion-section ${isOpen.whyChoose ? "acc-bg-color" : ""}`}
+              <div className="col-12 col-md-6 col-lg-12">
+                <div
+                  className={`accordion-section ${
+                    isOpen.whyChoose ? "acc-bg-color" : ""
+                  }`}
+                  style={{ backgroundColor: "#028a94" }}
                 >
                   <div
                     className="d-flex align-items-center justify-content-between accordion-header"
                     onClick={() => toggleAccordion("whyChoose")}
                   >
-                    <div className="rich-text-color faq-title">
+                    <div className=" faq-title">
                       Why Choose Rich143 Among Other Providers ?
                     </div>
                     <div className="collapse-icon">
                       <i
                         className={`gry-col fa ${
-                          isOpen.whyChoose ?"fa-chevron-down" : "fa-chevron-right"
+                          isOpen.whyChoose
+                            ? "fa-chevron-down"
+                            : "fa-chevron-right"
                         }`}
                       ></i>
                     </div>

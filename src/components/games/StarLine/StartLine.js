@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import gameIcon from "../../../RichImages/game icon.gif";
+// import gameIcon from "../../../RichImages/game icon.gif";
+import star from "../../../RichImages/stars.svg";
 
 import { GET_ALL_STARTLINE_GAMES } from "../../service/admin.service";
 import { downloadAPK } from "../../Helpers/DownloadAPK";
@@ -52,9 +53,9 @@ const StartLine = () => {
       <div className="available-component">
         <div className="heding-sec heading-sec-custom cust-m text-center">
           <div className="d-flex text-center justify-content-center align-items-center">
-            <img className="game-icons-img" src={gameIcon} alt="#" />
+            <img className="game-icons-img" src={star} alt="#" />
             <h5 className="mb-0 ms-2 me-2 rich-game-title">STARLINE GAMES</h5>
-            <img className="game-icons-img" src={gameIcon} alt="#" />
+            <img className="game-icons-img" src={star} alt="#" />
           </div>
           <p className="rich-game-title-text">
             Most Trusted Game Available on our Platform
@@ -94,46 +95,30 @@ const StartLine = () => {
                         >
                           {showData(data?.gameDetails)?.message}
                         </h6> */}
-                        <div class="result__time d-flex justify-content-between">
-                          <span>
-                            Open Bids
-                            <br />
-                            <strong>
-                              {showData(data?.gameDetails) != undefined &&
-                                showData(data?.gameDetails)?.OBT}
-                            </strong>
-                          </span>
-                          <span>
-                            Close Bids
-                            <br />
-                            <strong>
-                              {showData(data?.gameDetails) != undefined &&
-                                showData(data?.gameDetails)?.CBT}
-                            </strong>
-                          </span>
-                        </div>
+                        <h6
+                          className="mb-2"
+                          style={{
+                            fontWeight: 600,
+                            color:
+                              showData(data?.gameDetails) != undefined &&
+                              showData(data?.gameDetails)?.message ==
+                                "Close for today"
+                                ? "red"
+                                : showData(data?.gameDetails)?.message ==
+                                  "Running for close"
+                                ? "#4BB543"
+                                : showData(data?.gameDetails)?.message ==
+                                  "Running for open"
+                                ? "#4BB543"
+                                : "#4BB543",
+                          }}
+                        >
+                          {showData(data?.gameDetails)?.message}
+                        </h6>
+                       
                       </div>
                     </div>
                     <div className="d-flex flex-column justify-content-center align-items-center">
-                      <h6
-                        className="mb-2"
-                        style={{
-                          color:
-                            showData(data?.gameDetails) != undefined &&
-                            showData(data?.gameDetails)?.message ==
-                              "Close for today"
-                              ? "red"
-                              : showData(data?.gameDetails)?.message ==
-                                "Running for close"
-                              ? "#4BB543"
-                              : showData(data?.gameDetails)?.message ==
-                                "Running for open"
-                              ? "#4BB543"
-                              : "#4BB543",
-                        }}
-                      >
-                        {showData(data?.gameDetails)?.message}
-                      </h6>
                       {showData(data?.gameDetails)?.message ===
                       "Close for today" ? (
                         <div className="play-icon">
@@ -143,7 +128,7 @@ const StartLine = () => {
                               downloadFile(showData(data?.gameDetails)?.message)
                             }
                           >
-                            <svg
+                            {/* <svg
                               width="50"
                               height="50"
                               viewBox="0 0 50 50"
@@ -162,6 +147,24 @@ const StartLine = () => {
                                 stroke="#FF0000"
                                 stroke-width="2"
                               />
+                            </svg> */}
+                            <svg
+                              width="40"
+                              height="40"
+                              viewBox="0 0 61 60"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M60.9313 30C60.9313 46.5685 47.469 60 30.8624 60C14.2558 60 0.793457 46.5685 0.793457 30C0.793457 13.4315 14.2558 0 30.8624 0C47.469 0 60.9313 13.4315 60.9313 30Z"
+                                fill="#ED3636"
+                              />
+                              <path
+                                fill-rule="evenodd"
+                                clip-rule="evenodd"
+                                d="M23.3655 15.4429C23.0379 15.1961 22.6483 15.0459 22.2405 15.0089C21.8326 14.972 21.4226 15.0499 21.0563 15.2338C20.6901 15.4177 20.382 15.7004 20.1667 16.0502C19.9514 16.4 19.8374 16.8031 19.8374 17.2143V43.7857C19.8374 44.1969 19.9514 44.6 20.1667 44.9498C20.382 45.2996 20.6901 45.5823 21.0563 45.7662C21.4226 45.9501 21.8326 46.028 22.2405 45.9911C22.6483 45.9541 23.0379 45.8039 23.3655 45.5571L41.0059 32.2714C41.2798 32.0652 41.5021 31.7977 41.6551 31.4903C41.8082 31.1828 41.8879 30.8438 41.8879 30.5C41.8879 30.1562 41.8082 29.8172 41.6551 29.5097C41.5021 29.2023 41.2798 28.9348 41.0059 28.7286L23.3655 15.4429Z"
+                                fill="white"
+                              />
                             </svg>
                           </a>
                         </div>
@@ -177,40 +180,110 @@ const StartLine = () => {
                                 )
                               }
                             >
-                              
-                              <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M45 25C45 36.0457 36.0457 45 25 45C13.9543 45 5 36.0457 5 25C5 13.9543 13.9543 5 25 5C36.0457 5 45 13.9543 45 25Z" fill="url(#paint0_linear_300_2845)"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M21.5462 16.5823C21.3632 16.445 21.1456 16.3615 20.9177 16.3409C20.6899 16.3204 20.4608 16.3637 20.2562 16.466C20.0515 16.5683 19.8795 16.7256 19.7592 16.9202C19.6389 17.1148 19.5752 17.339 19.5752 17.5678V32.3504C19.5752 32.5792 19.6389 32.8035 19.7592 32.9981C19.8795 33.1927 20.0515 33.3499 20.2562 33.4523C20.4608 33.5546 20.6899 33.5979 20.9177 33.5773C21.1456 33.5568 21.3632 33.4732 21.5462 33.3359L31.4013 25.9446C31.5543 25.8299 31.6785 25.6811 31.764 25.51C31.8495 25.339 31.894 25.1504 31.894 24.9591C31.894 24.7679 31.8495 24.5793 31.764 24.4082C31.6785 24.2372 31.5543 24.0884 31.4013 23.9736L21.5462 16.5823Z" fill="white"/>
-<circle cx="25" cy="25" r="24" stroke="url(#paint1_linear_300_2845)" stroke-width="2"/>
-<defs>
-<linearGradient id="paint0_linear_300_2845" x1="-11.3478" y1="-8.04348" x2="58.7762" y2="1.2053" gradientUnits="userSpaceOnUse">
-<stop stop-color="#1C3E35"/>
-<stop offset="1" stop-color="#4AA48C"/>
-</linearGradient>
-<linearGradient id="paint1_linear_300_2845" x1="-20.4348" y1="-16.3044" x2="67.2202" y2="-4.74337" gradientUnits="userSpaceOnUse">
-<stop stop-color="#1C3E35"/>
-<stop offset="1" stop-color="#4AA48C"/>
-</linearGradient>
-</defs>
-</svg>
-
+                              {/* <svg
+                                width="50"
+                                height="50"
+                                viewBox="0 0 50 50"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M45 25C45 36.0457 36.0457 45 25 45C13.9543 45 5 36.0457 5 25C5 13.9543 13.9543 5 25 5C36.0457 5 45 13.9543 45 25Z"
+                                  fill="url(#paint0_linear_300_2845)"
+                                />
+                                <path
+                                  fill-rule="evenodd"
+                                  clip-rule="evenodd"
+                                  d="M21.5462 16.5823C21.3632 16.445 21.1456 16.3615 20.9177 16.3409C20.6899 16.3204 20.4608 16.3637 20.2562 16.466C20.0515 16.5683 19.8795 16.7256 19.7592 16.9202C19.6389 17.1148 19.5752 17.339 19.5752 17.5678V32.3504C19.5752 32.5792 19.6389 32.8035 19.7592 32.9981C19.8795 33.1927 20.0515 33.3499 20.2562 33.4523C20.4608 33.5546 20.6899 33.5979 20.9177 33.5773C21.1456 33.5568 21.3632 33.4732 21.5462 33.3359L31.4013 25.9446C31.5543 25.8299 31.6785 25.6811 31.764 25.51C31.8495 25.339 31.894 25.1504 31.894 24.9591C31.894 24.7679 31.8495 24.5793 31.764 24.4082C31.6785 24.2372 31.5543 24.0884 31.4013 23.9736L21.5462 16.5823Z"
+                                  fill="white"
+                                />
+                                <circle
+                                  cx="25"
+                                  cy="25"
+                                  r="24"
+                                  stroke="url(#paint1_linear_300_2845)"
+                                  stroke-width="2"
+                                />
+                                <defs>
+                                  <linearGradient
+                                    id="paint0_linear_300_2845"
+                                    x1="-11.3478"
+                                    y1="-8.04348"
+                                    x2="58.7762"
+                                    y2="1.2053"
+                                    gradientUnits="userSpaceOnUse"
+                                  >
+                                    <stop stop-color="#1C3E35" />
+                                    <stop offset="1" stop-color="#4AA48C" />
+                                  </linearGradient>
+                                  <linearGradient
+                                    id="paint1_linear_300_2845"
+                                    x1="-20.4348"
+                                    y1="-16.3044"
+                                    x2="67.2202"
+                                    y2="-4.74337"
+                                    gradientUnits="userSpaceOnUse"
+                                  >
+                                    <stop stop-color="#1C3E35" />
+                                    <stop offset="1" stop-color="#4AA48C" />
+                                  </linearGradient>
+                                </defs>
+                              </svg> */}
+                              <svg
+                                width="40"
+                                height="40"
+                                viewBox="0 0 61 60"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M60.9313 30C60.9313 46.5685 47.469 60 30.8624 60C14.2558 60 0.793457 46.5685 0.793457 30C0.793457 13.4315 14.2558 0 30.8624 0C47.469 0 60.9313 13.4315 60.9313 30Z"
+                                  fill="#028a94"
+                                />
+                                <path
+                                  fillRule="evenodd"
+                                  clipRule="evenodd"
+                                  d="M23.3655 15.4429C23.0379 15.1961 22.6483 15.0459 22.2405 15.0089C21.8326 14.972 21.4226 15.0499 21.0563 15.2338C20.6901 15.4177 20.382 15.7004 20.1667 16.0502C19.9514 16.4 19.8374 16.8031 19.8374 17.2143V43.7857C19.8374 44.1969 19.9514 44.6 20.1667 44.9498C20.382 45.2996 20.6901 45.5823 21.0563 45.7662C21.4226 45.9501 21.8326 46.028 22.2405 45.9911C22.6483 45.9541 23.0379 45.8039 23.3655 45.5571L41.0059 32.2714C41.2798 32.0652 41.5021 31.7977 41.6551 31.4903C41.8082 31.1828 41.8879 30.8438 41.8879 30.5C41.8879 30.1562 41.8082 29.8172 41.6551 29.5097C41.5021 29.2023 41.2798 28.9348 41.0059 28.7286L23.3655 15.4429Z"
+                                  fill="white"
+                                />
+                              </svg>
                             </a>
                           </div>
                         </>
                       )}
                     </div>
                   </div>
-                  <div className="bottom-sec d-flex align-items-center justify-content-center">
-                    <Link
-                      to={`/starline/${data?.providerName
-                        .toLowerCase()
-                        .replace(/\s+/g, "")}`}
-                      state={{ title: data?.providerName, id: data._id }}
-                      className="chat-btn"
-                      style={{ textDecoration: "none" }}
-                    >
-                      <span>Pana Chart</span>
-                    </Link>
+                  <div className="bottom-sec d-flex align-items-center justify-content-start"                      style={{ marginLeft: "17px" }}
+                  >
+                          <Link
+                            to={`/starline/${data?.providerName
+                              .toLowerCase()
+                              .replace(/\s+/g, "")}`}
+                            state={{ title: data?.providerName, id: data._id }}
+                            className="chat-btn"
+                            style={{ textDecoration: "none" }}
+                          >
+                            <span>Pana Chart</span>
+                          </Link>
+                        </div>
+                  <div
+                    class="result__time d-flex"
+                    style={{ justifyContent: "space-around",  }}
+                  >
+                    <span>
+                      Open Bids &nbsp;
+                      <strong>
+                        {showData(data?.gameDetails) != undefined &&
+                          showData(data?.gameDetails)?.OBT}
+                      </strong>
+                    </span>
+                    <span>
+                      Close Bids &nbsp;
+                      <strong>
+                        {showData(data?.gameDetails) != undefined &&
+                          showData(data?.gameDetails)?.CBT}
+                      </strong>
+                    </span>
                   </div>
                 </div>
               </div>

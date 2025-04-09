@@ -115,25 +115,26 @@ button:not(:disabled) {
   /* border: 1px solid red; */
 padding: 10px 50px 50px 50px;
 background: #FFFFFF;
-box-shadow: 0px 1px 14px rgba(0, 0, 0, 0.25);
-border-radius: 80px 0px;
+/* box-shadow: 0px 1px 14px rgba(0, 0, 0, 0.25); */
+/* border-radius: 80px 0px; */
   box-shadow: inset;
 }
 
 .rich-game-title-text {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 18px;
   line-height: 24.8px;
   color: #000000;
 }
 
 .rich-game-title {
-  font-size: 40px;
-  font-weight: 700;
+  font-size: 25px;
+  font-weight: 600;
   line-height: 60px;
-  background: linear-gradient(97.51deg, #1C3E35 -39.91%, #4AA48C 117.67%);
+  /* background: linear-gradient(97.51deg, #1C3E35 -39.91%, #4AA48C 117.67%); */
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color:   #075358;
+  /* -webkit-text-fill-color: transparent; */
   background-clip: text;
   text-fill-color: transparent;
   text-transform: uppercase;
@@ -141,11 +142,12 @@ border-radius: 80px 0px;
 
 .game-rate-card-cust{
 padding: 10px;
-background: #FFFFFF;
-box-shadow: 0px 1px 14px rgba(0, 0, 0, 0.25);
-border-radius: 50px 0px;
+background: #FBFBFB;
+/* box-shadow: 0px 1px 14px rgba(0, 0, 0, 0.25); */
+/* border-radius: 50px 0px; */
 text-align: center;
 margin: 10px;
+border-left: 5px solid #075358;
 
 }
 

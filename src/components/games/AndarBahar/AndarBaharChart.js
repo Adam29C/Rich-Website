@@ -26,6 +26,9 @@ import MainBazar from "../../Charts/ShreeJackpot/2PM";
 
 import { GetAllCharts } from "../../Helpers/GetCharts";
 import AllJackpot from "../../Charts/ShreeJackpot/AllJackpot";
+import stars from "../../../RichImages/stars.svg"
+import back from "../../../RichImages/back.svg";
+
 const Andar_Bahar_Chart = (props) => {
   const navigate = useNavigate();
   const location = useLocation();
@@ -70,7 +73,7 @@ const Andar_Bahar_Chart = (props) => {
         <div className="row">
           <div className="text-center col-xl-12 col-q-12 col-md-12 col-sm-12 chart-header ">
             <div className="">
-              <h2 className="chart-header-font">
+              {/* <h2 className="chart-header-font">
                 <strong className="color-dark-gray ">
                   Jackpot &nbsp;
                   {location.state.title === "allratanjackpot"
@@ -78,8 +81,33 @@ const Andar_Bahar_Chart = (props) => {
                     : location.state.title}
                   &nbsp; Chart
                 </strong>
-              </h2>
-              <p>
+              </h2> */}
+              
+              <div className="d-flex justify-content-center align-items-center">
+            <img
+              className="game-icons-img"
+              style={{ height: "25px" }}
+              src={stars}
+              alt="#"
+            />
+            <h1
+              class="mb-0 ms-2 me-2 rich-game-title"
+              style={{ color: "#075358", fontSize: "28px" }}
+            >
+               Jackpot &nbsp;
+                  {location.state.title === "allratanjackpot"
+                    ? ""
+                    : location.state.title}
+                  &nbsp; Chart
+            </h1>
+            <img
+              className="game-icons-img"
+              style={{ height: "25px" }}
+              src={stars}
+              alt="#"
+            />
+          </div>
+              <p style={{fontWeight:600}}>
                 {location.state.title === "allratanjackpot"
                   ? ""
                   : location.state.title}
@@ -89,22 +117,23 @@ const Andar_Bahar_Chart = (props) => {
             </div>
 
             <button
-              className="btn-scroll my-3"
-              onClick={handleClick}
+            class="download-button" style={{ paddingLeft: "35px",paddingRight: "35px" }}
+            onClick={handleClick}
               id="scroll-down-button"
             >
+               Go To Bottom&nbsp;
               <svg
-                stroke="currentColor"
-                fill="currentColor"
-                strokeWidth={0}
-                viewBox="0 0 512 512"
-                height={20}
-                width={20}
+                width="16"
+                height="11"
+                viewBox="0 0 16 11"
+                fill="none"
                 xmlns="http://www.w3.org/2000/svg"
               >
-                <path d="M348.3 295.6c-5-5.1-13.3-5.1-18.4-.1L269 356.2V124.9c0-7.1-5.8-12.9-13-12.9s-13 5.8-13 12.9v231.3l-60.9-60.8c-5.1-5-13.3-4.9-18.4.1-5 5.1-5 13.2.1 18.3l83 82.4c1.2 1.1 2.5 2 4.1 2.7 1.6.7 3.3 1 5 1 3.4 0 6.6-1.3 9.1-3.7l83-82.4c5.2-4.9 5.3-13.1.3-18.2z" />
+                <path
+                  d="M13.8188 0.409424L8 6.22817L2.18125 0.409424L0 2.59067L8 10.5907L16 2.59067L13.8188 0.409424Z"
+                  fill="white"
+                />
               </svg>
-              Go To Bottom
             </button>
           </div>
         </div>
@@ -148,13 +177,15 @@ const Andar_Bahar_Chart = (props) => {
                 ""
               )}
 
-              <div className="row justify-content-center">
+              <div className="d-flex justify-content-center">
                 <button
-                  className=" btn  rounded-pill back-btn mt-2"
-                  onClick={() => navigate(-1)}
+                 class="download-button" style={{ paddingLeft: "35px",paddingRight: "35px" }}
+                 onClick={() => navigate(-1)}
                   id="scroll-down-button"
                 >
                   Back
+                  &nbsp;
+                  <img style={{width:'10px'}} src={back} />
                 </button>
               </div>
             </div>

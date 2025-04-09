@@ -3,7 +3,8 @@ import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
 import { Link } from "react-router-dom";
 import { GET_ALL_GAMESLIST } from "../../service/admin.service";
-import infinity from "../../../images/infinit.svg";
+import icon from "../../../RichImages/chartlist.svg";
+import stars from "../../../RichImages/stars.svg"
 const Charts_Container = ({ title, data, link, responsive_Class }) => {
   const Details = (route, name) => {
     if (route === "jodi") {
@@ -21,14 +22,17 @@ const Charts_Container = ({ title, data, link, responsive_Class }) => {
 
   return (
     <>
-      <div className={responsive_Class}>
-        <div className="timetable">
+ 
+      <div className={responsive_Class} >
+        <div className="timetable"style={{backgroundColor:'#fff',padding:'30px',borderRadius:'20px'}}>
           <div className="charts-games-main">
             <h3 className="charts-games-title"> {title}</h3>
             <div>
               {title === "Starline" || title === "Jackpot" ? (
                 <>
                   <div className="charts-games">
+                    <img src={icon} />
+
                     <h4 className="">
                       <Link
                         to={
@@ -59,6 +63,7 @@ const Charts_Container = ({ title, data, link, responsive_Class }) => {
                 data?.map((data1, index) => (
                   <>
                     <div className="charts-games">
+                      <img src={icon} />
                       <h4 className="">
                         <Link
                           to={Details(link, data1.providerName)}

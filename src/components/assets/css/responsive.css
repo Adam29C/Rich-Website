@@ -12,7 +12,7 @@
     line-height: 60px;
 
     text-transform: uppercase;
-    letter-spacing: 0.2rem;
+    /* letter-spacing: 0.2rem; */
     margin-left: 30px;
   }
 }
@@ -36,8 +36,8 @@
     height: 4px;
     background: linear-gradient(
       90deg,
-      #f1c40f,
-      #e74c3c
+      #075358,
+      #075358
     ); /* Tweak the color if needed */
     border-radius: 0;
     transition: all 0.5s ease-in-out;
@@ -45,7 +45,7 @@
 
   .link-hover-effect:hover::before {
     width: 100%;
-    border-radius: 50%;
+    border: 50%;
   }
 
   .main-contain-row {
@@ -131,7 +131,7 @@
     font-size: 26px;
     line-height: 60px;
     text-transform: uppercase;
-    letter-spacing: 0.2rem;
+    /* letter-spacing: 0.2rem; */
     margin-left: 65px;
     text-align: center;
   }
@@ -139,7 +139,6 @@
 
 @media (min-width: 320px) and (max-width: 425px) {
   .header-container {
-    background-image: url("../../../images/header-background-mobile.svg") !important;
     margin-top: -13px !important;
   }
   .banner-text-section h1 {
@@ -147,21 +146,41 @@
     font-size: 26px;
     line-height: 60px;
     text-transform: uppercase;
-    letter-spacing: 0.2rem;
+    /* letter-spacing: 0.2rem; */
     margin-left: 65px;
     text-align: center;
   }
 }
 
-@media (min-width: 426px) and (max-width: 768px) {
+@media (min-width: 425px) and (max-width: 768px) {
   .banner-text-section h1 {
     font-weight: 700;
     font-size: 36px;
     line-height: 60px;
     text-transform: uppercase;
-    letter-spacing: 0.2rem;
+    /* letter-spacing: 0.2rem; */
     margin-left: 65px;
     text-align: center;
+  }
+  .custom-text {
+    font-size: 1.3rem;
+  }
+
+  .lead {
+    font-size: 2.1rem;
+  }
+
+  button.download-button.new-btn {
+    margin: 1px 7px;
+    padding: 7px 8px;
+    font-size: 17px;
+    overflow: visible;
+  }
+
+  .contact-info {
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: #000000;
   }
 }
 @media (min-width: 767px) and (max-width: 991px) {
@@ -173,9 +192,34 @@
     font-size: 36px;
     line-height: 60px;
     text-transform: uppercase;
-    letter-spacing: 0.2rem;
+    /* letter-spacing: 0.2rem; */
     margin-left: 65px;
     text-align: center;
+  }
+
+  .custom-text {
+    font-size: 1.2rem;
+  }
+
+  .lead {
+    font-size: 1.9rem;
+  }
+
+  .contact-info {
+    font-size: 1.1rem;
+  }
+
+  button.download-button.new-btn {
+    margin: 1px 7px;
+    padding: 7px 8px;
+    font-size: 15px;
+    overflow: visible;
+  }
+
+  .contact-info {
+    font-weight: 500;
+    font-size: 1rem;
+    color: #000000;
   }
 }
 @media (min-width: 460px) and (max-width: 768px) {
@@ -193,12 +237,12 @@
     font-weight: 400;
   }
   .faq-title {
-    font-weight: 700;
+    font-weight: 500;
     font-size: 17px !important;
     line-height: 25px !important;
   }
   .description-text {
-    color: #000000;
+    color: #fff;
     font-weight: 400;
     font-size: 15px !important;
     line-height: 25px !important;
@@ -216,7 +260,7 @@
     height: 40px;
     width: 40px;
     margin-top: 15px;
-}
+  }
   .footer-text {
     text-align: justify;
     line-height: 30px;
@@ -252,28 +296,25 @@
   }
   .game-rate-container {
     padding: 10px 20px 20px 20px;
-    background: #ffffff;
-    box-shadow: 0px 1px 14px rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
+    /* background: #ffffff; */
+    /* box-shadow: 0px 1px 14px rgba(0, 0, 0, 0.25); */
+    /* border-radius: 20px; */
     box-shadow: inset;
   }
   .rich-game-title {
     font-size: 30px;
   }
 
-
-
-.button-container {
-  top: 4px;
-  position: absolute;
-  display: flex;
-  justify-content: center;
-border:  4px solid white;
-border-radius: 10px;
-margin-top: 109px;
-right: 30px;
-
-}
+  .button-container {
+    top: 4px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    border: 4px solid white;
+    border-radius: 10px;
+    margin-top: 109px;
+    right: 30px;
+  }
 }
 
 @media (min-width: 400px) and (max-width: 500px) {
@@ -316,7 +357,7 @@ right: 30px;
     line-height: 40px;
   }
   .rich-game-title-text {
-    font-weight: 400;
+    font-weight: 450;
     font-size: 15px;
     line-height: 20px;
   }
@@ -328,19 +369,19 @@ right: 30px;
     padding: 10px 20px 20px 20px;
     background: #ffffff;
     box-shadow: 0px 1px 14px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
+    /* border-radius: 10px; */
     box-shadow: inset;
   }
   .Card_Size {
     width: 100% !important;
   }
   .faq-title {
-    font-weight: 700;
+    font-weight: 500;
     font-size: 17px !important;
     line-height: 25px !important;
   }
   .description-text {
-    color: #000000;
+    color: #fff;
     font-weight: 400;
     font-size: 15px !important;
     line-height: 25px !important;
@@ -395,13 +436,13 @@ right: 30px;
     line-height: 30px;
 
     text-transform: uppercase;
-    letter-spacing: 0.1rem;
+    /* letter-spacing: 0.1rem; */
     margin-left: 0px;
     text-align: center;
   }
   .herosection-images {
-    height: 60px;
-    width: 60px;
+    height: 30px;
+    width: 30px;
   }
   .multi-image-main p {
     font-weight: 400;
@@ -409,7 +450,6 @@ right: 30px;
     line-height: 20px;
     text-align: center;
     color: #717171;
-    margin-top: 5px;
   }
   .multi-image-main h1 {
     font-weight: 600;
@@ -452,9 +492,9 @@ right: 30px;
   }
   .game-rate-container {
     padding: 10px 20px 20px 20px;
-    background: #ffffff;
-    box-shadow: 0px 1px 14px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
+    /* background: #ffffff; */
+    /* box-shadow: 0px 1px 14px rgba(0, 0, 0, 0.25); */
+    /* border-radius: 10px; */
     box-shadow: inset;
   }
   .Card_Size {
@@ -465,7 +505,7 @@ right: 30px;
     line-height: 30px;
   }
   .rich-game-title-text {
-    font-weight: 400;
+    font-weight: 600;
     font-size: 13px;
     line-height: 20px;
   }
@@ -484,12 +524,12 @@ right: 30px;
     font-weight: 400;
   }
   .faq-title {
-    font-weight: 700;
+    font-weight: 500;
     font-size: 17px !important;
     line-height: 25px !important;
   }
   .description-text {
-    color: #000000;
+    color: #fff;
     font-weight: 400;
     font-size: 15px !important;
     line-height: 25px !important;
@@ -532,43 +572,95 @@ right: 30px;
   .custom-toggler .navbar-toggler-icon {
     margin-top: 35px;
   }
+
+  .contact-info {
+    font-size: 1.2rem !important;
+  }
+
+  .parent-class {
+    text-align: center;
+    margin: 0 auto;
+    padding: 26px 2px;
+  }
+  .custom-text {
+    font-weight: 500;
+    font-size: 1.6rem;
+    color: #2c3e50;
+  }
+  .lead {
+    font-size: 2.1rem;
+    color: #34495e;
+    font-family: poppins, sans-serif;
+    font-weight: 600;
+  }
+
+  button.download-button.new-btn {
+    margin: 1px 7px;
+    padding: 7px 8px;
+    font-size: 15px;
+    overflow: visible;
+  }
+
+  .second-parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .button-container {
+    top: 14px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    /* border: 4px solid white; */
+    border-radius: 10px;
+    margin-top: 102px;
+    right: 15px;
+  }
+
+  .rich-game-title {
+    font-size: 19px !important;
+  }
+
+  .charts-games {
+    width: 100% !important;
+  }
 }
 
 .custom-toggler .navbar-toggler-icon {
   margin-top: 35px;
 }
 
-@media (min-width:769px) {
-  .footer-img-3{
+@media (min-width: 769px) {
+  .footer-img-3 {
     height: 50px;
-      width: 50px;
-      margin-top: 15px;
+    width: 50px;
+    margin-top: 15px;
   }
 }
 
-@media  (min-width:459px) and (max-width:991px){
+@media (min-width: 459px) and (max-width: 991px) {
   .footer-img-sec img {
     width: 120px !important;
-}
+  }
 }
 
-@media (max-width:320px) {
+@media (max-width: 320px) {
   .footer-last-content p {
     font-size: 10px !important;
-}
-.footer-para-test {
-margin-left: 0px;
-  font-size: 11px !important;
+  }
+  .footer-para-test {
+    margin-left: 0px;
+    font-size: 11px !important;
+  }
+
+  .button-container {
+    margin-top: 109px;
+  }
 }
 
-
-.button-container {
-margin-top: 109px;
-}
-}
-
-@media (max-width:768px) {
-  .footer-btn-scroll{
-margin-top: 10px;
+@media (max-width: 768px) {
+  .footer-btn-scroll {
+    margin-top: 10px;
   }
 }

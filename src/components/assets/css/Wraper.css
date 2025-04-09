@@ -194,31 +194,25 @@ svg {
   }
 }
 
-
-
-.button-container_3{
-  
+.button-container_3 {
   /* height: 65px;
   width: 170px;
 border:  5px solid white;
 position: relative;
 border-radius: 15px; */
-
-
 }
-.button-container_2{
+.button-container_2 {
   /* height: 55px;
   width: 160px;
   background: linear-gradient(97.51deg, #1c3e35 -39.91%, #4aa48c 117.67%);
 
   position: relative;
 border-radius: 10px; */
-
 }
 
-.download-btn-main-12{
+.download-btn-main-12 {
   display: flex;
-margin-top: 30px;
+  margin-top: 30px;
 }
 
 .button-container {
@@ -226,15 +220,14 @@ margin-top: 30px;
   position: absolute;
   display: flex;
   justify-content: center;
-border:  4px solid white;
-border-radius: 10px;
-margin-top: 28px;
-right: 30px;
-
+  /* border:  4px solid white; */
+  border-radius: 10px;
+  margin-top: 28px;
+  right: 30px;
 }
 
 .download-button {
-  background: linear-gradient(97.51deg, #1c3e35 -39.91%, #4aa48c 117.67%);
+  /* background: linear-gradient(97.51deg, #1c3e35 -39.91%, #4aa48c 117.67%); */
 
   color: white;
   border: none;
@@ -248,6 +241,8 @@ right: 30px;
   transition: background-color 0.3s ease;
 }
 
+
+
 .download-button:hover {
   background-color: #45a049; /* Darker green on hover */
 }
@@ -257,12 +252,9 @@ right: 30px;
   font-size: 20px;
 } */
 
-
 .test_image {
-height: 34px !important;
+  height: 18px !important;
 }
-
-
 
 .download-app {
   display: flex;
@@ -273,16 +265,14 @@ height: 34px !important;
 }
 
 .right-arrow {
-  animation: moveRight .5s infinite alternate;
+  animation: moveRight 0.5s infinite alternate;
   position: relative;
 }
 
 .left-arrow {
-  animation: moveLeft .5s infinite alternate;
+  animation: moveLeft 0.5s infinite alternate;
   position: relative;
 }
-
-
 
 @keyframes moveRight {
   0% {

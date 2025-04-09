@@ -56,7 +56,7 @@ const ShreeDay = () => {
             chartData.data.map((item1 , index) => (
               <tr key={item1}>
 
-                <td key={index}>{fa_time(item1.resultDate)}</td>
+                <td className="ccccc" key={index}>{fa_time(item1.resultDate)}</td>
                 {item1.results.map((nestedItem, index) => (
                   <td key={index} className="cc">
                     <div className="kalyan-chart-number-black">

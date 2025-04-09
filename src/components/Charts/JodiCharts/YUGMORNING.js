@@ -18,6 +18,8 @@ const ShreeDay = ({ chartData }) => {
             <th className="ch">THU</th>
             <th className="ch">FRI</th>
             <th className="ch">SAT</th>
+            <th className="ch">SUN</th>
+            
           </tr>
         </thead>
         <tbody>

@@ -54,7 +54,7 @@ table {
 }
 
 .second-card {
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
   padding-bottom: 10px;
@@ -119,11 +119,11 @@ table {
     flex-direction: row;
     gap: 40px;
     padding-bottom: 10px;
-}
-  .footer-img-3{
+  }
+  .footer-img-3 {
     height: 40px;
-      width: 40px;
-margin: 10px 0px 10px 0px;
+    width: 40px;
+    margin: 10px 0px 10px 0px;
   }
   .charts-games-title {
     color: #000000;
@@ -200,7 +200,7 @@ margin: 10px 0px 10px 0px;
 /* Chat Button Styles */
 .chat-btn {
   background-color: #fff;
-  border: 2px solid #2a5e50;
+  border: 2px solid #028a94;
   border-radius: 12px;
   color: #2a5e50;
   font-weight: 500;
@@ -212,8 +212,8 @@ margin: 10px 0px 10px 0px;
 }
 
 .chat-btn:hover {
-  background: linear-gradient(97.51deg, #1c3e35 -39.91%, #4aa48c 117.67%);
-  color: #fff;
+  background: linear-gradient(to right, #a3dadd -39.91%, #5ebdc4 117.67%);
+  color: #000;
 }
 
 /* Footer Image Styles */
@@ -258,32 +258,33 @@ margin: 10px 0px 10px 0px;
 }
 
 .result__time {
-gap: 15px;
+  gap: 40px;
   margin-top: 8px;
-
 }
 
 .result__time span {
   font-family: 14px;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 23px;
   text-align: center;
-  color: #696969;
+  color: #028a94;
 }
 
-.result__time span strong{
+.result__time span strong {
   color: black;
+  opacity: 0.7;
+  font-weight: 600;
 }
 .second-card-title {
-  color: #11305c;
-  font-weight: 700;
+  color: #028a94;
+  font-weight: 600;
   font-size: 20px;
   line-height: 24.8px;
 }
 
 .second-card-text {
-  color: #e8910c;
-  font-weight: 400;
+  color: #000;
+  font-weight: 600;
   font-size: 20px;
   line-height: 24.8px;
 }
@@ -299,13 +300,14 @@ gap: 15px;
 }
 
 .faq-title {
-  font-weight: 700;
+  font-weight: 300;
   font-size: 20px;
   line-height: 30px;
+  color: #fff;
 }
 
 .description-text {
-  color: #000000;
+  color: #fff;
   font-weight: 400;
   font-size: 17px;
   line-height: 30px;

@@ -2,7 +2,8 @@ import React from "react";
 import eighteen from "../../../RichImages/18-new.svg";
 import begameble from "../../../RichImages/be-gamble-new.svg";
 import gambling from "../../../RichImages/gambling-new.svg";
-import dark_back_logo from "../../../RichImages/richlogo-new-white.svg";
+// import dark_back_logo from "../../../RichImages/richlogo-new-white.svg";
+import logo from "../../../RichImages/logofooter.png"
 import "../../../App.css";
 
 
@@ -17,7 +18,7 @@ const Footer = () => {
   return (
     <>
       <div className="footer-container text-center mt-3 " id="scroll-up">
-        <div className="container">
+        <div className="container-fluid">
           <div className="footer-btn-scroll-main">
             <button
               className="footer-btn-scroll"
@@ -41,7 +42,7 @@ const Footer = () => {
             <div className="col-xl-12 col-md-12 d-flex flex-column">
               <div className=" d-flex justify-content-center">
                 <img
-                  src={dark_back_logo}
+                  src={logo}
                   className="img-fluid footer-image float-left"
                   alt=""
                 />
@@ -49,7 +50,7 @@ const Footer = () => {
             </div>
             <div className="col-xl-12 col-md-12 ">
               <div className="footer-right-image">
-                <div className="margin-img">
+                {/* <div className="margin-img">
                   <img
                     fetchpriority="high"
                     decoding="async"
@@ -57,26 +58,32 @@ const Footer = () => {
                     src={eighteen}
                     className="footer-img-3"
                   />
-                </div>
+                </div> */}
                 <p className="footer-para-test ">
                   Players need to be 18+ in order to register. Underage gambling
                   is prohibited.
                 </p>
               </div>
-              <div className="footer-img-sec">
-              <img
-                  className="img2"
-                  src={gambling}
-                  alt=""
-                />
+              <div style={{display:'flex',justifyContent:'center'}}>
+            <div style={{ border:'2px solid white',width:'80%'}}></div>
+
+            </div>
+           
+              <div className="footer-img-sec" >
+             
                 <img
                   className="img1"
                   src={begameble}
                   alt=""
                 />
-             
+              <img
+                  className="img2"
+                  src={gambling}
+                  alt=""
+                />
               </div>
             </div>
+            
           </div>
           <div className="footer-last-content gCDmxv">
             <p className="copyright-text ">

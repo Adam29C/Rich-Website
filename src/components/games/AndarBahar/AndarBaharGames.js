@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import gameIcon from "../../../RichImages/game icon.gif";
+import star from "../../../RichImages/stars.svg";
 import { GET_ALL_JACKPOT_GAME } from "../../service/admin.service";
 import { downloadAPK } from "../../Helpers/DownloadAPK";
 
@@ -51,9 +51,9 @@ const StartLine = () => {
       <div className="available-component">
         <div className="heding-sec heading-sec-custom cust-m text-center">
           <div className="d-flex text-center justify-content-center align-items-center">
-            <img className="game-icons-img" src={gameIcon} alt="#" />
+            <img className="game-icons-img" src={star} alt="#" />
             <h5 className="mb-0 ms-2 me-2 rich-game-title">JACKPOT GAMES</h5>
-            <img className="game-icons-img" src={gameIcon} alt="#" />
+            <img className="game-icons-img" src={star} alt="#" />
           </div>
           <p className="rich-game-title-text">
             Most Trusted Game Available on our Platform
@@ -106,54 +106,37 @@ const StartLine = () => {
                           >
                             {getmsg}
                           </h6> */}
-                          <div class="result__time d-flex justify-content-between">
-                            <span>
-                              Open Bids
-                              <br />
-                              <strong>
-                                {showData(data?.gameDetails) != undefined &&
-                                  showData(data?.gameDetails)?.OBT}
-                              </strong>
-                            </span>
-                            <span>
-                              Close Bids
-                              <br />
-                              <strong>
-                                {showData(data?.gameDetails) != undefined &&
-                                  showData(data?.gameDetails)?.CBT}
-                              </strong>
-                            </span>
-                          </div>
+                          <h6
+                            className={`mb-2 ${
+                              getmsg == "Close for today"
+                                ? "close-for-today"
+                                : getmsg == "Running for close"
+                                ? "betting-closed"
+                                : getmsg == "Running for open"
+                                ? "default-message"
+                                : "default-message"
+                            }`}
+                            style={{
+                              fontWeight: 600,
+                              color:
+                                showData(data?.gameDetails) != undefined &&
+                                showData(data?.gameDetails)?.message ==
+                                  "Close for today"
+                                  ? "red"
+                                  : showData(data?.gameDetails)?.message ==
+                                    "Running for close"
+                                  ? "#4BB543"
+                                  : showData(data?.gameDetails)?.message ==
+                                    "Running for open"
+                                  ? "#4BB543"
+                                  : "#4BB543",
+                            }}
+                          >
+                            {getmsg}
+                          </h6>
                         </div>
                       </div>
                       <div className="d-flex flex-column justify-content-center align-items-center">
-                        <h6
-                          className={`mb-2 ${
-                            getmsg == "Close for today"
-                              ? "close-for-today"
-                              : getmsg == "Running for close"
-                              ? "betting-closed"
-                              : getmsg == "Running for open"
-                              ? "default-message"
-                              : "default-message"
-                          }`}
-                          style={{
-                            color:
-                              showData(data?.gameDetails) != undefined &&
-                              showData(data?.gameDetails)?.message ==
-                                "Close for today"
-                                ? "red"
-                                : showData(data?.gameDetails)?.message ==
-                                  "Running for close"
-                                ? "#4BB543"
-                                : showData(data?.gameDetails)?.message ==
-                                  "Running for open"
-                                ? "#4BB543"
-                                : "#4BB543",
-                          }}
-                        >
-                          {getmsg}
-                        </h6>
                         {showData(data?.gameDetails)?.message ===
                         "Close for today" ? (
                           <div className="play-icon">
@@ -165,7 +148,7 @@ const StartLine = () => {
                                 )
                               }
                             >
-                              <svg
+                              {/* <svg
                                 width="50"
                                 height="50"
                                 viewBox="0 0 50 50"
@@ -184,6 +167,24 @@ const StartLine = () => {
                                   stroke="#FF0000"
                                   stroke-width="2"
                                 />
+                              </svg> */}
+                              <svg
+                                width="40"
+                                height="40"
+                                viewBox="0 0 61 60"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M60.9313 30C60.9313 46.5685 47.469 60 30.8624 60C14.2558 60 0.793457 46.5685 0.793457 30C0.793457 13.4315 14.2558 0 30.8624 0C47.469 0 60.9313 13.4315 60.9313 30Z"
+                                  fill="#ED3636"
+                                />
+                                <path
+                                  fill-rule="evenodd"
+                                  clip-rule="evenodd"
+                                  d="M23.3655 15.4429C23.0379 15.1961 22.6483 15.0459 22.2405 15.0089C21.8326 14.972 21.4226 15.0499 21.0563 15.2338C20.6901 15.4177 20.382 15.7004 20.1667 16.0502C19.9514 16.4 19.8374 16.8031 19.8374 17.2143V43.7857C19.8374 44.1969 19.9514 44.6 20.1667 44.9498C20.382 45.2996 20.6901 45.5823 21.0563 45.7662C21.4226 45.9501 21.8326 46.028 22.2405 45.9911C22.6483 45.9541 23.0379 45.8039 23.3655 45.5571L41.0059 32.2714C41.2798 32.0652 41.5021 31.7977 41.6551 31.4903C41.8082 31.1828 41.8879 30.8438 41.8879 30.5C41.8879 30.1562 41.8082 29.8172 41.6551 29.5097C41.5021 29.2023 41.2798 28.9348 41.0059 28.7286L23.3655 15.4429Z"
+                                  fill="white"
+                                />
                               </svg>
                             </a>
                           </div>
@@ -199,7 +200,7 @@ const StartLine = () => {
                                   )
                                 }
                               >
-                                <svg
+                                {/* <svg
                                   width="50"
                                   height="50"
                                   viewBox="0 0 50 50"
@@ -247,6 +248,24 @@ const StartLine = () => {
                                       <stop offset="1" stop-color="#4AA48C" />
                                     </linearGradient>
                                   </defs>
+                                </svg> */}
+                                <svg
+                                  width="40"
+                                  height="40"
+                                  viewBox="0 0 61 60"
+                                  fill="none"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <path
+                                    d="M60.9313 30C60.9313 46.5685 47.469 60 30.8624 60C14.2558 60 0.793457 46.5685 0.793457 30C0.793457 13.4315 14.2558 0 30.8624 0C47.469 0 60.9313 13.4315 60.9313 30Z"
+                                    fill="#028a94"
+                                  />
+                                  <path
+                                    fillRule="evenodd"
+                                    clipRule="evenodd"
+                                    d="M23.3655 15.4429C23.0379 15.1961 22.6483 15.0459 22.2405 15.0089C21.8326 14.972 21.4226 15.0499 21.0563 15.2338C20.6901 15.4177 20.382 15.7004 20.1667 16.0502C19.9514 16.4 19.8374 16.8031 19.8374 17.2143V43.7857C19.8374 44.1969 19.9514 44.6 20.1667 44.9498C20.382 45.2996 20.6901 45.5823 21.0563 45.7662C21.4226 45.9501 21.8326 46.028 22.2405 45.9911C22.6483 45.9541 23.0379 45.8039 23.3655 45.5571L41.0059 32.2714C41.2798 32.0652 41.5021 31.7977 41.6551 31.4903C41.8082 31.1828 41.8879 30.8438 41.8879 30.5C41.8879 30.1562 41.8082 29.8172 41.6551 29.5097C41.5021 29.2023 41.2798 28.9348 41.0059 28.7286L23.3655 15.4429Z"
+                                    fill="white"
+                                  />
                                 </svg>
                               </a>
                             </div>
@@ -254,16 +273,35 @@ const StartLine = () => {
                         )}
                       </div>
                     </div>
-                    <div className="bottom-sec d-flex align-items-center justify-content-center ">
+                    <div
+                      className="bottom-sec d-flex align-items-center justify-content-start"
+                      style={{ marginLeft: "17px" }}
+                    >
                       <Link
                         to={`/andarbahar/${data.providerName
                           .toLowerCase()
                           .replace(/\s+/g, "")}`}
                         state={{ title: data.providerName, id: data._id }}
-                        className="chat-btn a-tag-css w-75"
+                        className="chat-btn "
                       >
                         <span>Jodi Chart</span>
                       </Link>
+                    </div>
+                    <div class="result__time d-flex justify-content-around" >
+                      <span>
+                        Open Bids&nbsp;
+                        <strong>
+                          {showData(data?.gameDetails) != undefined &&
+                            showData(data?.gameDetails)?.OBT}
+                        </strong>
+                      </span>
+                      <span>
+                        Close Bids&nbsp;
+                        <strong>
+                          {showData(data?.gameDetails) != undefined &&
+                            showData(data?.gameDetails)?.CBT}
+                        </strong>
+                      </span>
                     </div>
                   </div>
                 </div>
