@@ -80,7 +80,7 @@ const Section2 = () => {
           </div>
         </div>
         <button
-        className="col-8 move-color   my-3 mb-4"
+        className="col-md-10 col-10 move-color   my-3 mb-4"
         onClick={download}
       >
         <div className="download-icon">
