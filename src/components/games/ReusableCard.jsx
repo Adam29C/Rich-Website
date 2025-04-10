@@ -58,7 +58,12 @@ const Section4 = ({ GameData, title, showPana }) => {
               src={stars}
               alt="#"
             />
-            <h5 className="mb-0 ms-2 me-2 rich-game-title">{title}</h5>
+            <h5
+              className="mb-0 ms-2 me-2 rich-game-title"
+              style={{ fontSize: "28px" }}
+            >
+              {title}
+            </h5>
             <img
               className="game-icons-img"
               // style={{ height: "28px" }}
