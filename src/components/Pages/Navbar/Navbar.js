@@ -124,11 +124,7 @@ const DownloadButton = () => {
       <div class="button-container_3">
         <div class="button-container_2">
           <div class="button-container">
-            <button
-              class="download-button"
-           
-              onClick={download}
-            >
+            <button class="download-button test" onClick={download}>
               <span>Download App</span>
               &nbsp;
               <img className="test_image" src={downloadbutton} alt="Logo" />

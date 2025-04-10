@@ -2,12 +2,14 @@ import React, { useEffect, useState } from "react";
 import "../../assets/css/Herosection.css";
 import { GET_CONTACT } from "../../service/admin.service";
 import { downloadAPK } from "../../Helpers/DownloadAPK";
-import heroimage from "../../../RichImages/Bannerimg.jpg";
+// import heroimage from "../../../RichImages/Bannerimg.jpg";
 import activeuser from "../../../RichImages/active.svg";
 import gameicon from "../../../RichImages/games.svg";
 import supporticon from "../../../RichImages/support.svg";
 import call from "../../../RichImages/whatspp.svg";
 import whatspp from "../../../RichImages/call.svg";
+import heroimagerich from "../../../RichImages/heroimagerich.png";
+import clickhand from "../../../RichImages/clickhand.gif";
 
 const Section2 = () => {
   const [getData, setgetData] = useState([]);
@@ -39,8 +41,8 @@ const Section2 = () => {
 
   return (
     <>
-      <div className="container-fluid bg-light ">
-        <div className="row ">
+      <div className="container-fluid bg-light p-2">
+        <div className="row">
           {/* Left Column with Text */}
           <div className="col-md-6 parent-class">
             <h1 className="custom-text">Welcome To Rich143</h1>
@@ -74,16 +76,26 @@ const Section2 = () => {
           </div>
           {/* Right Column with Image */}
           <div className="col-md-6 text-center">
-            {/* <img src={heroimage} alt="Rich143" className=" banner-img" /> */}
+            <img src={heroimagerich} alt="Rich143" className=" banner-img" />
           </div>
         </div>
-      </div>
-      <div className="col-10 download-now move-color d-flex justify-content-center align-items-center  text-light my-3" 
+        <button
+        className="col-8 move-color   my-3 mb-4"
         onClick={download}
       >
-        <i className="fa-2x fa fa-download mr-15px" aria-hidden="true" />
+        <div className="download-icon">
+        <i className="fa-2x fa fa-download mt-1 custom-color" aria-hidden="true" />
+        </div>
         <h1 className="mb-0 font-400 curser-pointer">Download App</h1>
+        {/* <img src={clickhand} className="clickhand"/> */}
+      </button>
+
+{/* <div class='butcontainer col-6   my-3 mb-4'>
+  <span class='pulse-button'>        <h1 className="mb-0 font-400 curser-pointer">Download App</h1>
+  </span>
+</div> */}
       </div>
+    
       <div className="images-main-herosection col-md-12 py-3">
         <div></div>
 
