@@ -1328,15 +1328,27 @@ button.navbar-toggler.navbar-toggler-btn:focus {
     width: 48%;
   }
 
+
   .button-container {
-    top: 14px;
+    top: 92px !important;
     position: absolute;
     display: flex;
     justify-content: center;
-    /* border: 4px solid white; */
+    /* border:  4px solid white; */
     border-radius: 10px;
-    margin-top: 102px;
-    right: 15px;
+    margin-top: 28px;
+    right: 30px;
+  }
+  
+}
+@media (max-width: 575.98px) {
+  button.download-button.test {
+    background-color: #075358 !important;
+    color: #fff;
+    font-weight: 500;
+    padding: 8px;
+    width: 174px;
+    font-size: 16px;
   }
 }
 

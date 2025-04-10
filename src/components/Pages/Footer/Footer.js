@@ -3,9 +3,9 @@ import eighteen from "../../../RichImages/18-new.svg";
 import begameble from "../../../RichImages/be-gamble-new.svg";
 import gambling from "../../../RichImages/gambling-new.svg";
 // import dark_back_logo from "../../../RichImages/richlogo-new-white.svg";
-import logo from "../../../RichImages/logofooter.png"
+import logo from "../../../RichImages/logofooter.png";
 import "../../../App.css";
-
+import { useLocation } from "react-router-dom";
 
 const Footer = () => {
   const handleClickUp = () => {
@@ -14,6 +14,17 @@ const Footer = () => {
       targetElement.scrollIntoView({ behavior: "smooth" });
     }
   };
+  const location = useLocation();
+  const currentPath = location.pathname;
+  const firstPart = currentPath.split("/")[1];
+  const value = [
+    "charts",
+    "starline",
+    "andarbahar",
+    "pana-chart",
+    "jodi-chart",
+  ];
+  const isIncluded = !value.includes(firstPart);
 
   return (
     <>
@@ -40,7 +51,7 @@ const Footer = () => {
           </div>
           <div className="row">
             <div className="col-xl-12 col-md-12 d-flex flex-column">
-              <div className=" d-flex justify-content-center">
+              <div className="d-flex justify-content-center">
                 <img
                   src={logo}
                   className="img-fluid footer-image float-left"
@@ -64,32 +75,29 @@ const Footer = () => {
                   is prohibited.
                 </p>
               </div>
-              <div style={{display:'flex',justifyContent:'center'}}>
-            <div style={{ border:'2px solid white',width:'80%'}}></div>
+              {isIncluded && (
+                <div style={{ display: "flex", justifyContent: "center" }}>
+                  <div
+                    style={{ border: "2px solid white", width: "80%" }}
+                  ></div>
+                </div>
+              )}
 
+              {isIncluded && (
+                <div className="footer-img-sec">
+                  <img className="img1" src={begameble} alt="" />
+                  <img className="img2" src={gambling} alt="" />
+                </div>
+              )}
             </div>
-           
-              <div className="footer-img-sec" >
-             
-                <img
-                  className="img1"
-                  src={begameble}
-                  alt=""
-                />
-              <img
-                  className="img2"
-                  src={gambling}
-                  alt=""
-                />
-              </div>
+          </div>
+          {isIncluded && (
+            <div className="footer-last-content gCDmxv">
+              <p className="copyright-text ">
+                Copyright © 2025 - Rich143 | All Rights Reserved
+              </p>
             </div>
-            
-          </div>
-          <div className="footer-last-content gCDmxv">
-            <p className="copyright-text ">
-              Copyright © 2025 - Rich143 | All Rights Reserved
-            </p>
-          </div>
+          )}
         </div>
       </div>
     </>
