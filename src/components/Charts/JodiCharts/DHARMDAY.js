@@ -5,6 +5,7 @@ import { extractTwoDigitNumbers } from "../../Helpers/MakeJodiChart";
 const ShreeDay = ({ chartData }) => {
   const getcharts = extractTwoDigitNumbers(DHARMDAY);
 
+
   return (
     <div>
       <table className="table fw-bold" border="collapse">
@@ -21,7 +22,7 @@ const ShreeDay = ({ chartData }) => {
           </tr>
         </thead>
         <tbody>
-          {getcharts.map((group, groupIndex) => (
+          {/* {getcharts.map((group, groupIndex) => (
             <tr key={groupIndex}>
               {group.map((item) => (
                 <td>
@@ -41,7 +42,7 @@ const ShreeDay = ({ chartData }) => {
                 </td>
               ))}
             </tr>
-          ))}
+          ))} */}
 
           {chartData &&
             chartData.map((item1) => {

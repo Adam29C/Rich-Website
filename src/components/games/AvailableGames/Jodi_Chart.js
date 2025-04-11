@@ -32,7 +32,7 @@ import MAYANIGHT from "../../Charts/JodiCharts/MAYANIGHT";
 import SUPREMEDAY from "../../Charts/JodiCharts/SUPREMEDAY";
 import SUPREMENIGHT from "../../Charts/JodiCharts/SUPREMENIGHT";
 
-import VEDAMORNING from "../../Charts/JodiCharts/DHARMDAY";
+import VEDAMORNING from "../../Charts/JodiCharts/VEDAMORNING";
 import VEDADAY from "../../Charts/JodiCharts/VEDADAY";
 import VEDANIGHT from "../../Charts/JodiCharts/VEDANIGHT";
 
