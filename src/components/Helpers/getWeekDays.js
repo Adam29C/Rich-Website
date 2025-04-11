@@ -77,3 +77,14 @@ export const dateFormate = (date) => {
   const ccdate = dt.format("Y-m-d");
   return ccdate;
 };
+export const  convertToAmPm=(time24)=> {
+  const [hourStr, minuteStr] = time24.split(':');
+  let hour = parseInt(hourStr);
+  const minute = parseInt(minuteStr);
+
+  const ampm = hour >= 12 ? 'PM' : 'AM';
+  hour = hour % 12;
+  if (hour === 0) hour = 12;
+
+  return `${hour}:${minute.toString().padStart(2, '0')} ${ampm}`;
+}

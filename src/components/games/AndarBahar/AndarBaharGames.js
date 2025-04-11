@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import star from "../../../RichImages/stars.svg";
 import { GET_ALL_JACKPOT_GAME } from "../../service/admin.service";
 import { downloadAPK } from "../../Helpers/DownloadAPK";
+import { convertToAmPm } from "../../Helpers/getWeekDays";
 
 const StartLine = () => {
   const [getData, setgetData] = useState([]);
@@ -346,15 +347,15 @@ const StartLine = () => {
                       <span>
                         Open Bids&nbsp;
                         <strong>
-                          {showData(data?.gameDetails) != undefined &&
-                            showData(data?.gameDetails)?.OBT}
+                          {convertToAmPm(showData(data?.gameDetails) != undefined &&
+                            showData(data?.gameDetails)?.OBT)}
                         </strong>
                       </span>
                       <span>
                         Close Bids&nbsp;
                         <strong>
-                          {showData(data?.gameDetails) != undefined &&
-                            showData(data?.gameDetails)?.CBT}
+                          {convertToAmPm(showData(data?.gameDetails) != undefined &&
+                            showData(data?.gameDetails)?.CBT)}
                         </strong>
                       </span>
                     </div>
