@@ -177,7 +177,10 @@ const Andar_Bahar_Chart = (props) => {
                 ""
               )}
 
-              <div className="d-flex justify-content-center">
+              
+            </div>
+          </div>
+          <div className="d-flex justify-content-center">
                 <button
                  class="download-button" style={{ paddingLeft: "35px",paddingRight: "35px" }}
                  onClick={() => navigate(-1)}
@@ -188,8 +191,6 @@ const Andar_Bahar_Chart = (props) => {
                   <img style={{width:'10px'}} src={back} />
                 </button>
               </div>
-            </div>
-          </div>
         </div>
       </div>
 

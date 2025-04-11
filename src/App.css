@@ -1485,6 +1485,10 @@ th.cc {
 
 td.cc.td-width-13 {
   background: var(--rich-new-color);
+  padding-bottom: 0;
+  position: sticky;
+  left: 0;
+
 }
 thead.tr.th.ch {
   background: var(--rich-new-color);
@@ -1492,6 +1496,10 @@ thead.tr.th.ch {
 th.ch {
   background: var(--rich-new-color);
 }
+
 td.ccccc {
   background: var(--rich-new-color);
+  padding-bottom: 0;
+  position: sticky;
+  left: 0;
 }
