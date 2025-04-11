@@ -5,6 +5,8 @@ import { extractTwoDigitNumbers } from "../../Helpers/MakeJodiChart";
 const ShreeDay = ({ chartData }) => {
   const getcharts = extractTwoDigitNumbers(VEDAMORNING);
 
+  // console.log("getcharts", getcharts);
+
   return (
     <div>
       <table className="table fw-bold" border="collapse">
@@ -16,6 +18,7 @@ const ShreeDay = ({ chartData }) => {
             <th className="ch">THU</th>
             <th className="ch">FRI</th>
             <th className="ch">SAT</th>
+            <th className="ch">SUN</th>
           </tr>
         </thead>
         <tbody>
