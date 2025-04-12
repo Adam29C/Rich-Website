@@ -94,7 +94,7 @@ button {
   color: #ffff;
   border: 3px solid #4aa48c;
   border-ra/dius: 0 50px ;} */
-  .banner-text-section {
+.banner-text-section {
   width: 520px;
 }
 
@@ -227,11 +227,9 @@ button.download-button {
   .download-button {
     width: 90%;
     justify-content: center;
-    
   }
-  .custom-text{
+  .custom-text {
     font-size: 1.2rem;
-
   }
   .button-container {
     top: 4px;
@@ -253,10 +251,11 @@ button.download-button {
   background-color: #218838;
 } */
 
-button.download-button.new-btn {
+a.download-button.new-btn {
   text-decoration: none;
   margin: 5px 12px;
   padding: 6px 30px;
+  color: #fff !important;
 }
 .contact-info {
   font-weight: 500;

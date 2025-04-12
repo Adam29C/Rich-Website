@@ -170,7 +170,7 @@
     font-size: 1.2rem;
   }
 
-  button.download-button.new-btn {
+  a.download-button.new-btn {
     margin: 1px 7px;
     padding: 7px 8px;
     font-size: 17px;
@@ -209,7 +209,7 @@
     font-size: 1.1rem;
   }
 
-  button.download-button.new-btn {
+  a.download-button.new-btn {
     margin: 1px 7px;
     padding: 7px 8px;
     font-size: 15px;
@@ -594,13 +594,15 @@
     font-weight: 600;
   }
 
-  button.download-button.new-btn {
+  a.download-button.new-btn {
     margin: 1px 7px;
     padding: 7px 8px;
     font-size: 15px;
     overflow: visible;
+    color: #fff !important;
   }
 
+  
   .second-parent {
     display: flex;
     align-items: center;
@@ -657,7 +659,6 @@
   .button-container {
     margin-top: 119px;
   }
-  
 }
 
 @media (max-width: 768px) {

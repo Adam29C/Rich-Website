@@ -5,9 +5,32 @@ import stars from "../../../RichImages/stars.svg";
 const GameRateSection = () => {
   const [getData, setgetData] = useState([]);
 
+
+  console.log("getData", getData);
+  
+
   const getResponseData = async () => {
     const res = await GET_ALL_GAMERATES();
-    setgetData(res.data);
+
+    const triplePana = {
+      _id: "677b81a7d31824691abfffe2",
+      gameName: "Triple Pana",
+      gamePrice: 600,
+      modifiedAt: "2025-01-08 13:10:27",
+    };
+
+    const index = res.data.findIndex((item) => item.gameName === "Double Pana");
+    if (index !== -1) {
+      res.data.splice(index + 1, 0, triplePana);
+    }
+
+
+    const uniqueData = res.data.filter((item, index, self) =>
+      index === self.findIndex(t => t.gameName === item.gameName)
+    );
+    setgetData(uniqueData);
+
+    console.log("Game Rates", uniqueData);
   };
   useEffect(() => {
     getResponseData();

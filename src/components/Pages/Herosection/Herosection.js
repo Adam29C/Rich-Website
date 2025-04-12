@@ -51,21 +51,21 @@ const Section2 = () => {
               <br /> Only On Rich143
             </p>
             <div className="second-parent">
-              <button
+              <a
                 href="tel:+919931437143"
                 // className="btn btn-custom me-3"
                 class="download-button new-btn"
               >
                 Call Now &nbsp;
                 <img style={{ height: "18px" }} src={call} />
-              </button>
-              <button
+              </a>
+              <a
                 href={`https://wa.me/+${getData && getData.number}`}
                 class="download-button new-btn "
               >
                 WhatsApp &nbsp;
                 <img style={{ height: "18px" }} src={whatspp} />
-              </button>
+              </a>
             </div>
             <p className="mt-3 contact-info">
               Connect With Phone Call
