@@ -88,7 +88,7 @@ const Andar_Bahar_Chart = (props) => {
               className="game-icons-img"
               style={{ height: "25px" }}
               src={stars}
-              alt="#"
+              alt="https://rich143.com/"
             />
             <h1
               class="mb-0 ms-2 me-2 rich-game-title"
@@ -104,7 +104,7 @@ const Andar_Bahar_Chart = (props) => {
               className="game-icons-img"
               style={{ height: "25px" }}
               src={stars}
-              alt="#"
+              alt="https://rich143.com/"
             />
           </div>
               <p style={{fontWeight:600}}>

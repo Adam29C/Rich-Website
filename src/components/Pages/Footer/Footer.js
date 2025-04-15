@@ -55,7 +55,7 @@ const Footer = () => {
                 <img
                   src={logo}
                   className="img-fluid footer-image float-left"
-                  alt=""
+                  alt="https://rich143.com/"
                 />
               </div>
             </div>
@@ -85,8 +85,8 @@ const Footer = () => {
 
               {isIncluded && (
                 <div className="footer-img-sec">
-                  <img className="img1" src={begameble} alt="" />
-                  <img className="img2" src={gambling} alt="" />
+                  <img className="img1" src={begameble} alt="https://rich143.com/" />
+                  <img className="img2" src={gambling} alt="https://rich143.com/" />
                 </div>
               )}
             </div>

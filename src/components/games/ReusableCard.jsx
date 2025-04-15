@@ -56,7 +56,7 @@ const Section4 = ({ GameData, title, showPana }) => {
               className="game-icons-img"
               // style={{ height: "28px" }}
               src={stars}
-              alt="#"
+              alt="https://rich143.com/"
             />
             <h5
               className="mb-0 ms-2 me-2 rich-game-title"
@@ -68,7 +68,7 @@ const Section4 = ({ GameData, title, showPana }) => {
               className="game-icons-img"
               // style={{ height: "28px" }}
               src={stars}
-              alt="#"
+              alt="https://rich143.com/"
             />
           </div>
           <p className="rich-game-title-text" style={{ fontWeight: 500 }}>

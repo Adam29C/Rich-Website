@@ -30,10 +30,10 @@ const FandQSection = () => {
       <div className="row">
         <div className="">
           <div className="heading-sec m-4 d-flex flex-row text-center justify-content-center align-items-center my-5">
-          <img className="game-icons-img" src={star} alt="#" />   <h1 className="mb-0 ms-2 me-2 rich-game-title">
+          <img className="game-icons-img" src={star} alt="https://rich143.com/" />   <h1 className="mb-0 ms-2 me-2 rich-game-title">
               Frequently Asked Questions
             </h1>
-            <img className="game-icons-img" src={star} alt="#" />
+            <img className="game-icons-img" src={star} alt="https://rich143.com/" />
           </div>
 
           <div className="accordion-container">

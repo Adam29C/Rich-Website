@@ -75,7 +75,7 @@ const Logo = () => {
   return (
     <>
       <Link className="nav-link  active" aria-current="page" to="/">
-        <img className="logo_navbar" src={headerLog} alt="Logo" />
+        <img className="logo_navbar" src={headerLog} alt="https://rich143.com/" />
       </Link>
     </>
   );
@@ -127,7 +127,7 @@ const DownloadButton = () => {
             <button class="download-button test" onClick={download}>
               <span>Download App</span>
               &nbsp;
-              <img className="test_image" src={downloadbutton} alt="Logo" />
+              <img className="test_image" src={downloadbutton} alt="https://rich143.com/" />
             </button>
           </div>
         </div>

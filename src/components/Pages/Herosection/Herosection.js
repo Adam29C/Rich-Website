@@ -103,7 +103,7 @@ const Section2 = () => {
           <img
             className="herosection-images"
             src={activeuser}
-            alt="Alternative Text Here"
+            alt="https://rich143.com/"
           />
           <p>Active User</p>
           <h1>1M +</h1>
@@ -112,7 +112,7 @@ const Section2 = () => {
           <img
             className="herosection-images"
             src={gameicon}
-            alt="Alternative Text Here"
+            alt="https://rich143.com/"
           />
           <p className="">Games</p>
           <h1 className="">25 +</h1>
@@ -121,7 +121,7 @@ const Section2 = () => {
           <img
             className="herosection-images"
             src={supporticon}
-            alt="Alternative Text Here"
+            alt="https://rich143.com/"
           />
           <p>Support</p>
           <h1>24/7</h1>

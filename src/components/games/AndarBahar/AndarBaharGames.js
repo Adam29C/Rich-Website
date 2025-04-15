@@ -52,9 +52,9 @@ const StartLine = () => {
       <div className="available-component">
         <div className="heding-sec heading-sec-custom cust-m text-center">
           <div className="d-flex text-center justify-content-center align-items-center">
-            <img className="game-icons-img" src={star} alt="#" />
+            <img className="game-icons-img" src={star} alt="https://rich143.com/" />
             <h5 className="mb-0 ms-2 me-2 rich-game-title">JACKPOT GAMES</h5>
-            <img className="game-icons-img" src={star} alt="#" />
+            <img className="game-icons-img" src={star} alt="https://rich143.com/" />
           </div>
           <p className="rich-game-title-text">
             Most Trusted Game Available on our Platform
@@ -347,15 +347,15 @@ const StartLine = () => {
                       <span>
                         Open Bids&nbsp;
                         <strong>
-                          {convertToAmPm(showData(data?.gameDetails) != undefined &&
-                            showData(data?.gameDetails)?.OBT)}
+                          {showData(data?.gameDetails) != undefined &&
+                            showData(data?.gameDetails)?.OBT}
                         </strong>
                       </span>
                       <span>
                         Close Bids&nbsp;
                         <strong>
-                          {convertToAmPm(showData(data?.gameDetails) != undefined &&
-                            showData(data?.gameDetails)?.CBT)}
+                          {showData(data?.gameDetails) != undefined &&
+                            showData(data?.gameDetails)?.CBT}
                         </strong>
                       </span>
                     </div>
