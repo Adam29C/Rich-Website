@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.57b4aa3d.css",
-    "main.js": "/static/js/main.c076a7b8.js",
+    "main.js": "/static/js/main.ac92ed38.js",
     "static/media/clickhand.gif": "/static/media/clickhand.f32f801d35732f16d213.gif",
     "static/media/bgfooterimage.png": "/static/media/bgfooterimage.be488ba5a9de37445324.png",
     "static/media/heroimagerich.png": "/static/media/heroimagerich.ad08ef914c98a2a0352f.png",
@@ -9,8 +9,8 @@
     "static/media/gambling-new.svg": "/static/media/gambling-new.201519b40a54a2eb789a8d4e3ec6652c.svg",
     "static/media/logofooter.png": "/static/media/logofooter.4e0b58c9293fcf0ebcab.png",
     "static/media/updatedlogo.svg": "/static/media/updatedlogo.778bb66b8ac72949874f0c8180098037.svg",
-    "static/media/active.svg": "/static/media/active.4238e50b30d3499256e0ec375b53fc4b.svg",
     "index.html": "/index.html",
+    "static/media/active.svg": "/static/media/active.4238e50b30d3499256e0ec375b53fc4b.svg",
     "static/media/support.svg": "/static/media/support.9759fb23430c26bf5eeab59426f61f16.svg",
     "static/media/call.svg": "/static/media/call.c50ceb9b549c0308068b8af47a48cb42.svg",
     "static/media/games.svg": "/static/media/games.eddb4000f9bb05391b0c5291d0dd1e1c.svg",
@@ -22,10 +22,10 @@
     "static/media/downloadbutton.svg": "/static/media/downloadbutton.8bcce216800c59622de511bba70cd42c.svg",
     "static/media/back.svg": "/static/media/back.1ae01ae12611c8e8d3d6d6d7b5a615fa.svg",
     "main.57b4aa3d.css.map": "/static/css/main.57b4aa3d.css.map",
-    "main.c076a7b8.js.map": "/static/js/main.c076a7b8.js.map"
+    "main.ac92ed38.js.map": "/static/js/main.ac92ed38.js.map"
   },
   "entrypoints": [
     "static/css/main.57b4aa3d.css",
-    "static/js/main.c076a7b8.js"
+    "static/js/main.ac92ed38.js"
   ]
 }
