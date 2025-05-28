@@ -26,7 +26,7 @@ import MainBazar from "../../Charts/ShreeJackpot/2PM";
 
 import { GetAllCharts } from "../../Helpers/GetCharts";
 import AllJackpot from "../../Charts/ShreeJackpot/AllJackpot";
-import stars from "../../../RichImages/stars.svg"
+import stars from "../../../RichImages/stars.svg";
 import back from "../../../RichImages/back.svg";
 
 const Andar_Bahar_Chart = (props) => {
@@ -82,32 +82,32 @@ const Andar_Bahar_Chart = (props) => {
                   &nbsp; Chart
                 </strong>
               </h2> */}
-              
+
               <div className="d-flex justify-content-center align-items-center">
-            <img
-              className="game-icons-img"
-              style={{ height: "25px" }}
-              src={stars}
-              alt="https://rich143.com/"
-            />
-            <h1
-              class="mb-0 ms-2 me-2 rich-game-title"
-              style={{ color: "#075358", fontSize: "28px" }}
-            >
-               Jackpot &nbsp;
+                <img
+                  className="game-icons-img"
+                  style={{ height: "25px" }}
+                  src={stars}
+                  alt="https://rich143.com/"
+                />
+                <h1
+                  class="mb-0 ms-2 me-2 rich-game-title"
+                  style={{ color: "#075358", fontSize: "28px" }}
+                >
+                  Jackpot &nbsp;
                   {location.state.title === "allratanjackpot"
                     ? ""
                     : location.state.title}
                   &nbsp; Chart
-            </h1>
-            <img
-              className="game-icons-img"
-              style={{ height: "25px" }}
-              src={stars}
-              alt="https://rich143.com/"
-            />
-          </div>
-              <p style={{fontWeight:600}}>
+                </h1>
+                <img
+                  className="game-icons-img"
+                  style={{ height: "25px" }}
+                  src={stars}
+                  alt="https://rich143.com/"
+                />
+              </div>
+              <p style={{ fontWeight: 600 }}>
                 {location.state.title === "allratanjackpot"
                   ? ""
                   : location.state.title}
@@ -117,11 +117,12 @@ const Andar_Bahar_Chart = (props) => {
             </div>
 
             <button
-            class="download-button" style={{ paddingLeft: "35px",paddingRight: "35px" }}
-            onClick={handleClick}
+              class="download-button"
+              style={{ paddingLeft: "35px", paddingRight: "35px" }}
+              onClick={handleClick}
               id="scroll-down-button"
             >
-               Go To Bottom&nbsp;
+              Go To Bottom&nbsp;
               <svg
                 width="16"
                 height="11"
@@ -176,21 +177,19 @@ const Andar_Bahar_Chart = (props) => {
               ) : (
                 ""
               )}
-
-              
             </div>
           </div>
           <div className="d-flex justify-content-center">
-                <button
-                 class="download-button" style={{ paddingLeft: "35px",paddingRight: "35px" }}
-                 onClick={() => navigate(-1)}
-                  id="scroll-down-button"
-                >
-                  Back
-                  &nbsp;
-                  <img style={{width:'10px'}} src={back} />
-                </button>
-              </div>
+            <button
+              class="download-button"
+              style={{ paddingLeft: "35px", paddingRight: "35px" }}
+              onClick={() => navigate(-1)}
+              id="scroll-down-button"
+            >
+              Back &nbsp;
+              <img style={{ width: "10px" }} src={back} />
+            </button>
+          </div>
         </div>
       </div>
 

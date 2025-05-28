@@ -39,6 +39,9 @@ const Pana_Chart = () => {
 
   const [getData, setgetData] = useState([]);
 
+
+  console.log('getDatagetDatagetData' ,getData);
+  
   const handleClick = () => {
     const targetElement = document.getElementById("scroll-down");
 
